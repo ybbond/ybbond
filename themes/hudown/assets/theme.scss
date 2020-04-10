@@ -1,12 +1,57 @@
 body {
   display: flex;
+  max-width: 600px;
+  margin: 0 auto;
   flex-direction: column;
   font-size: 1.2em;
-  font-family: Courier New;
+  font-family: 'iA Writer Duospace', Courier New;
   line-height: 1.6;
   color: black;
 }
 
 .main {
   flex: 1;
+}
+
+.header {
+  margin-top: 1em;
+  &__menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: auto;
+    justify-content: flex-start;
+    border: 1px solid #333;
+    a {
+      font-size: 1.2em;
+      white-space: nowrap;
+      border-bottom: none;
+      &:hover {
+        color: $main-color;
+      }
+    }
+    &__list {
+      padding: 0;
+      display: flex;
+      flex-grow: 1;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-around;
+      li {
+        padding: 0 1em;
+        display: inline;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0 15px;
+  }
+  .header__menu__list {
+    li {
+      font-size: 0.9em;
+    }
+  }
 }
