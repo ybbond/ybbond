@@ -8,7 +8,7 @@ tags:
 date: 2020-03-27
 ---
 
-The fourth day after I started my subscription with the result of this article, I found the best Writing App and I stick with it. You can read it here [In Search of Good Writing App - Part 2, iVim](http://blog.ybbond.dev/posts/2020-04-01-in-search-of-good-writing-app-part-2/)
+The fourth day after I started my subscription with the result of this article, I found the best Writing App and I stick with it. You can read it here [In Search of Good Writing App - Part 2, iVim](https://blog.ybbond.dev/posts/2020-04-01-in-search-of-good-writing-app-part-2/)
 
 ---
 

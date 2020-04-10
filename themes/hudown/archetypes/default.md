@@ -1,13 +1,15 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
+description = ""
+tags = []
 date = "{{ .Date }}"
 
 [amp]
     elements = []
 
 [author]
-    name = ""
-    homepage = ""
+    name = "Yohanes Bandung Bondowoso"
+    homepage = "https://ybbond.dev"
 
 [image]
     src = ""

@@ -1,18 +1,18 @@
-baseURL = "http://blog.ybbond.dev/"
+baseURL = "https://blog.ybbond.dev"
 languageCode = "en-us"
 title = "YBBond Blog"
 theme = "hudown"
 
 # Menu elements
 [[menu.main]]
-    identifier = "main_page"
+    identifier = "home"
     name = "Home"
-    url = "https://blog.ybbond.dev"
+    url = "/"
     weight = 8
 [[menu.main]]
     identifier = "author"
     name = "My Site"
-    url = "https://ybbond.dev"
+    url = "https://ybbond.dev/"
     weight = 9
 [[menu.main]]
     identifier = "rss"
