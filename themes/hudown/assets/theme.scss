@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  font-family: Courier New;
+  line-height: 1.6;
+  color: black;
+}
+
+.main {
+  flex: 1;
+}

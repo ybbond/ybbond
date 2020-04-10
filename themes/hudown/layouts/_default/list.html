@@ -8,9 +8,9 @@
     {{ end }}
 
     {{ range .Paginator.Pages }}
-      {{ .Render "summary" }}
+      {{- partial "post/summary.html" . -}}
     {{ end }}
-    {{ partial "pagination.html" . }}
+    {{- partial "page/pagination.html" . -}}
   </main>
 {{ partial "sidebar.html" . }}
 {{ end }}

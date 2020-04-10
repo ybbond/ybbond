@@ -2,3 +2,23 @@ baseURL = "http://blog.ybbond.dev/"
 languageCode = "en-us"
 title = "YBBond Blog"
 theme = "hudown"
+
+# Menu elements
+[[menu.main]]
+    identifier = "main_page"
+    name = "Home"
+    url = "https://blog.ybbond.dev"
+    weight = 8
+[[menu.main]]
+    identifier = "author"
+    name = "My Site"
+    url = "https://ybbond.dev"
+    weight = 9
+[[menu.main]]
+    identifier = "rss"
+    name = "RSS"
+    url = "https://blog.ybbond.dev/index.xml"
+    weight = 10
+
+[params]
+    themeColor = "#333333"

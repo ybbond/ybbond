@@ -1,0 +1,12 @@
+[by]
+other = "by"
+[tags]
+other = "Tags"
+[months]
+other = "months"
+[published]
+other = "{{.Day}} {{.Month}} {{.Year}}"
+[next]
+other = "Next"
+[previous]
+other = "Previous"
