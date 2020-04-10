@@ -1,6 +1,7 @@
 ---
 title: Trying bs-json and bs-fetch to Publish My Gist as Blog
 author: Yohanes Bandung Bondowoso
+description: How I spent 4 months to successfully fetch data from GitHub Gist to my blog.
 tags:
   - blog #blog
   - web #web

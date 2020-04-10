@@ -1,21 +1,20 @@
 ---
 title: In Search of Good Writing App - Bear vs Ulysses
 author: Yohanes Bandung Bondowoso
+description: I got my first mechanical bluetooth keyboard. I searched for good writing app.
 tags:
   - blog #blog
   - app #app
 date: 2020-03-27
 ---
 
-The fourth day after I started my subscription with the result of this article, I found the best Writing App and I stick with it. You can read it here [In Search of Good Writing App - Part 2, iVim]
+The fourth day after I started my subscription with the result of this article, I found the best Writing App and I stick with it. You can read it here [In Search of Good Writing App - Part 2, iVim](http://blog.ybbond.dev/posts/2020-04-01-in-search-of-good-writing-app-part-2/)
 
 ---
 
 I just got my new NuType F1 keyboard that I have waited for 4 months from [Kickstarter](https://www.kickstarter.com/projects/nuphy/nutype-revolutionizing-the-laptop-typing-experience).
 
 I was quite surprised when the man from DHL courier service called me. I got the delivery tracking code 3 days before, and didn’t expect the keyboard got delivered from Hong Kong to Jakarta, Indonesia in that short time.
-
----
 
 After I tried the keyboard on My Office’s MacBook Pro (MBP), and tried connecting it to my iPad mini, I feel the need of a good _writing app_ that syncs between my Apple Devices (screw you Bandung, you despised Apple before you got your first Mac!). Previously, I thought my trusty programming text editor — **NeoVim** in **Kitty**, will suffice the need. I can just make a folder in my iCloud folder that contains all my markdown note files. I also thought that I will not tolerate the lack of modal editing in regular writing app.
 
