@@ -6,7 +6,9 @@ other = "Tags"
 other = "months"
 [published]
 other = "{{.Day}} {{.Month}} {{.Year}}"
-[next]
-other = "Next"
-[previous]
-other = "Previous"
+[older]
+other = "Older"
+[newer]
+other = "Newer"
+[nomore]
+other = "No More Post"
