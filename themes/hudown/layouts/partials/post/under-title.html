@@ -1,1 +1,7 @@
-<time>{{ .Date.Format "02.Jan.2006" }}</time>
+<time>{{ .Date.Format "02 Jan 2006" }}</time>
+<span> - </span>
+{{ range .Params.tags }}
+  <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+{{ end }}
+<hr>
+<br>
