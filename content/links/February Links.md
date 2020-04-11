@@ -5,7 +5,6 @@ tags:
   - bookmarks #bookmarks
 date: 2020-03-01
 ---
-# February Links
 
 ## Tech
 
