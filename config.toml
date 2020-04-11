@@ -17,7 +17,7 @@ theme = "hudown"
 [[menu.main]]
     identifier = "rss"
     name = "RSS"
-    url = "https://blog.ybbond.dev/index.xml"
+    url = "/index.xml"
     weight = 10
 
 [params]
