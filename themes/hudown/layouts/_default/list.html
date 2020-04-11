@@ -1,8 +1,7 @@
 {{ define "main" }}
-  <main>
     {{ if or .Title .Content }}
       <div>
-        {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .Title }}<h1 class="post__title">{{ . }}</h1>{{ end }}
         {{ with .Content }}<div>{{ . }}</div>{{ end }}
       </div>
     {{ end }}
@@ -11,6 +10,4 @@
       {{- partial "post/summary.html" . -}}
     {{ end }}
     {{- partial "page/pagination.html" . -}}
-  </main>
-{{ partial "sidebar.html" . }}
 {{ end }}

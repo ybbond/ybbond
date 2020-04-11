@@ -1,3 +1,7 @@
+html {
+	background-color: #e3e0d7;
+}
+
 body {
   display: flex;
   max-width: 600px;
@@ -40,6 +44,39 @@ body {
       li {
         padding: 0 1em;
         display: inline;
+      }
+    }
+  }
+}
+
+.post {
+  &__title {
+    margin-bottom: 1rem;
+  }
+}
+
+.main {
+  min-width: 0;
+  min-height: 80vh;
+  .pagination {
+    border-top: dashed 2px;
+    border-bottom: dashed 2px;
+    margin: 3em auto 2em auto;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    &__item {
+      padding: 0 30px;
+      @media (max-width: 600px) {
+        padding: 0 10px;
+      }
+      &__left {
+        flex: 1;
+        text-align: left;
+      }
+      &__right {
+        flex: 1;
+        text-align: right;
       }
     }
   }
