@@ -6,9 +6,9 @@ body {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-gap: 1em 1em;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   line-height: 1.6;
-  font-family: 'iA Writer Duospace', Courier New;
+  font-family: 'iA Writer Quattro S', Courier New;
   color: $color-text;
 }
 
@@ -40,14 +40,14 @@ blockquote {
   }
   p {
     color: #555;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     font-family: 'iA Writer Quattro S', Arial, Helvetica, sans-serif;
   }
 }
 
 pre, code {
-  font-family: 'iA Writer Mono S', monospace;
-  font-size: 0.9em;
+  font-family: 'iA Writer Duospace', monospace;
+  font-size: 0.9rem;
   background-color: #F1F1F1;
 }
 
@@ -57,7 +57,7 @@ pre, code {
     margin-top: 1.5em;
   }
   & > h1 {
-    margin-top: 2.5em;
+    margin-top: 1.25em;
     margin-bottom: 1rem;
   }
   pre {
@@ -132,7 +132,7 @@ pre, code {
     }
     &__name {
       font-weight: 700;
-      font-size: 1.5em;
+      font-size: 1.5rem;
     }
     &__image {
       border-radius: 100px;
@@ -142,7 +142,7 @@ pre, code {
       text-align: center;
     }
     &__cta {
-      font-size: 1.25em;
+      font-size: 1.25rem;
     }
   }
 }
@@ -157,7 +157,7 @@ pre, code {
     justify-content: flex-start;
     border: 1px solid #333;
     a {
-      font-size: 1.1em;
+      font-size: 1.1rem;
       white-space: nowrap;
       border-bottom: none;
     }
@@ -226,10 +226,12 @@ pre, code {
     display: inline;
   }
 }
+.tagitem {
+  font-family: 'iA Writer Duospace', monospace;
+}
 
 @media (max-width: 1200px) {
   body {
-    font-size: 1.1em;
     grid-template-columns: repeat(14, 1fr);
     grid-gap: 0;
   }
@@ -257,7 +259,7 @@ pre, code {
 
 @media (max-width: 1000px) {
   body {
-    font-size: 1em;
+    font-size: 1rem;
     grid-template-columns: repeat(14, 1fr);
   }
   .main,
@@ -269,16 +271,15 @@ pre, code {
 
 @media (max-width: 850px) {
   body {
-    font-size: 0.9em;
-    grid-template-columns: repeat(16, 1fr);
+    grid-template-columns: repeat(32, 1fr);
   }
   .main,
-  .footer,
-  .header {
-    grid-column: 2 / span 14;
+  .footer {
+    grid-column: 3 / span 28;
   }
   .header {
-  	margin-top: 2em;
+    grid-column: 2 / span 30;
+  	margin-top: 0.75em;
   }
   .main {
   	margin-top: 0;
