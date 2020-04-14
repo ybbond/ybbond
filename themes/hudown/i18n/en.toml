@@ -12,3 +12,5 @@ other = "Older"
 other = "Newer"
 [nomore]
 other = "No More Post"
+[readmore]
+other = "Read more ->"

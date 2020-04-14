@@ -5,11 +5,23 @@
   {{ range .Params.tags }}
     {{- partial "components/tagitem.html" . -}}
   {{ end }}
-  <hr>
-  <div>
+  {{ with .Params.Image.Src }}
+      <amp-img class="summary__image"
+          src="{{ . }}"
+          layout="responsive"
+          width="1280"
+          height="720"
+          object-fit="contain"
+          alt="{{ $.Title }}"></amp-img>
+  {{ end }}
+  <p>
     {{ .Summary }}
     {{ if .Truncated }}
-      <a href="{{ .Permalink }}">Read more...</a>
+      <p>
+        <a href="{{ .Permalink }}">
+          {{ i18n "readmore" }}
+        </a>
+      </p>
     {{ end }}
-  </div>
+  </p>
 </article>
