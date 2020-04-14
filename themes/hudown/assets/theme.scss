@@ -1,31 +1,157 @@
 html {
-	background-color: #e3e0d7;
+	background-color: $color-background;
 }
 
 body {
-  display: flex;
-  max-width: 600px;
-  margin: 0 auto;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-gap: 1em 1em;
   font-size: 1.2em;
-  font-family: 'iA Writer Duospace', Courier New;
   line-height: 1.6;
-  color: black;
+  font-family: 'iA Writer Duospace', Courier New;
+  color: $color-text;
+}
+
+.header, .main, .footer {
+  grid-column: 5 / span 6;
+}
+
+a {
+  &:hover {
+    color: $color-link-hover;
+  }
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 blockquote {
-  font-family: 'iA Writer Quattro S', Arial, Helvetica, sans-serif;
+  margin: inherit auto;
+  margin-left: 0;
+  padding: 1em;
+  border-left: 5px solid $color-green;
+  &:before {
+    display: none;
+  }
+  &:not(:first-of-type) {
+    margin-top: .5em;
+  }
+  p {
+    color: #555;
+    font-size: 0.9em;
+    font-family: 'iA Writer Quattro S', Arial, Helvetica, sans-serif;
+  }
 }
 
-.main {
-  flex: 1;
+pre, code {
+  font-family: 'iA Writer Mono S', monospace;
+  font-size: 0.9em;
+  background-color: #F1F1F1;
+}
+
+.content {
+  width: 100%;
+  & > * {
+    margin-top: 1.5em;
+  }
+  & > h1 {
+    margin-top: 2.5em;
+    margin-bottom: 1rem;
+  }
+  pre {
+    overflow: auto;
+    padding: .5em;
+  }
+  code {
+    padding: 0.1em;
+  }
+  table {
+    display: block;
+    overflow-x: auto;
+    border-collapse: collapse;
+    td, th {
+      border: 1px solid #ddd;
+    }
+    td {
+      padding: .5em 1em;
+    }
+    th {
+      padding: 1em 2em;
+      background-color: #333;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #F1F1F1;
+    }
+    tr:hover {
+      background-color: #ddd;
+    }
+  }
+  .highlight {
+    .chroma {
+      background-color: #F1F1F1;
+    }
+  }
+  .under-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1rem;
+    &__info,
+    &__social-share {
+      align-self: center;
+    }
+  }
+  .ad {
+    display: flex;
+    margin: 1rem auto;
+    align-content: center;
+    width: min-content;
+    height: min-content;
+    min-width: 320px;
+    min-height: 320px;
+    border: 1px solid #333;
+    &__fallback {
+      display: flex;
+      align-items: center;
+      p {
+        margin:auto;
+      }
+    }
+  }
+  .author {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F1F1;
+    padding: 1.5rem;
+    & > *:not(:first-child) {
+      margin-top: 1rem;
+    }
+    &__name {
+      font-weight: 700;
+      font-size: 1.5em;
+    }
+    &__image {
+      border-radius: 100px;
+    }
+    &__bio,
+    &__cta {
+      text-align: center;
+    }
+    &__cta {
+      font-size: 1.25em;
+    }
+  }
 }
 
 .header {
   margin-top: 1em;
   &__menu {
     margin: 0;
-    padding: 0;
+    padding: 10px 0;
     display: flex;
     overflow: auto;
     justify-content: flex-start;
@@ -34,9 +160,6 @@ blockquote {
       font-size: 1.2em;
       white-space: nowrap;
       border-bottom: none;
-      &:hover {
-        color: $main-color;
-      }
     }
     &__list {
       padding: 0;

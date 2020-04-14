@@ -6,6 +6,8 @@ tags:
   - blog #blog
   - app #app
 date: 2020-04-01
+image:
+  src: https://cdn.ybbond.dev/pictures/blog/2020-04-01-in-search-of-good-writing-app-part-2/ia-writer-headline.jpg
 ---
 
 > “Orang emang gak pernah puas!” - Indonesian colloquial sayings
