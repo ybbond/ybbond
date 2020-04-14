@@ -23,3 +23,5 @@ theme = "hudown"
 [params]
     themeColor = "#333333"
     ampElements = ["amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-iframe"]
+    description = "Thoughts, ideas and writings of me, Yohanes Bandung. My other site: https://ybbond.dev/"
+    author = "Yohanes Bandung Bondowoso"

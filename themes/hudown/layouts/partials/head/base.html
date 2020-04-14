@@ -6,8 +6,11 @@
 
 <title>{{ .Title }}</title>
 
-<meta name="description" content="{{if .IsHome}}{{ .Site.Params.Description }}{{else}}{{.Description}}{{end}}" />
-{{ with .Site.Params.author }}
+<meta
+  name="description"
+  content="{{if .IsHome}}{{ .Site.Params.Description }}{{ else if .Params.description }}{{ .Params.description }}{{else}}{{ .Summary }} →{{end}}"
+/>
+{{ with .Site.Params.Author }}
   <meta name="author" content="{{ . }}">
 {{ end }}
 <link rel="canonical" href="{{ .Permalink }}" >
