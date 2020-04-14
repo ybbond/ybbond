@@ -6,9 +6,11 @@
     {{ with .Params.tags }}
       <br>
       <div>
-        <ul id="tags">
+        <ul class="taglist">
           {{ range . }}
-          <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a></li>
+          <li>
+            {{- partial "components/tagitem.html" . -}}
+          </li>
           {{ end }}
         </ul>
       </div>
