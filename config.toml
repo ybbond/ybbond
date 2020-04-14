@@ -22,3 +22,4 @@ theme = "hudown"
 
 [params]
     themeColor = "#333333"
+    ampElements = ["amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-iframe"]
