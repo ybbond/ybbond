@@ -4,16 +4,16 @@ html {
 
 body {
   display: grid;
-  grid-template-columns: repeat(14, 1fr);
+  grid-template-columns: repeat(16, 1fr);
   grid-gap: 1em 1em;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.6;
   font-family: 'iA Writer Duospace', Courier New;
   color: $color-text;
 }
 
 .header, .main, .footer {
-  grid-column: 5 / span 6;
+  grid-column: 5 / span 8;
 }
 
 a {
@@ -157,7 +157,7 @@ pre, code {
     justify-content: flex-start;
     border: 1px solid #333;
     a {
-      font-size: 1.2em;
+      font-size: 1.1em;
       white-space: nowrap;
       border-bottom: none;
     }
@@ -227,13 +227,60 @@ pre, code {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   body {
-    margin: 0 15px;
+    font-size: 1.1em;
+    grid-template-columns: repeat(14, 1fr);
+    grid-gap: 0;
   }
-  .header__menu__list {
-    li {
-      font-size: 0.85em;
-    }
+  .main,
+  .header,
+  .footer {
+    grid-column: 4 / span 8;
+  }
+  .main,
+  .footer {
+    margin: 1em 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  body {
+    grid-template-columns: repeat(16, 1fr);
+  }
+  .main,
+  .header,
+  .footer {
+    grid-column: 4/ span 10;
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 1em;
+    grid-template-columns: repeat(14, 1fr);
+  }
+  .main,
+  .header,
+  .footer {
+    grid-column: 3 / span 10;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    font-size: 0.9em;
+    grid-template-columns: repeat(16, 1fr);
+  }
+  .main,
+  .footer,
+  .header {
+    grid-column: 2 / span 14;
+  }
+  .header {
+  	margin-top: 2em;
+  }
+  .main {
+  	margin-top: 0;
   }
 }
