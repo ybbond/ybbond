@@ -1,4 +1,19 @@
-<footer>
+<p>
+  {{ with .Site.Params.Github }}
+    <a href="https://github.com/{{ . }}">Github</a>
+  {{ end }}
+  {{ with .Site.Params.Twitter }}
+    <a href="https://twitter.com/{{ . }}">Twitter</a>
+  {{ end }}
   {{ $url := "/index.xml" | absURL }}
-  <p>&copy; {{ now.Year }} YBBond - <a  href="{{ $url }}" target="_blank">RSS</a></p>
-</footer>
+  <a href="{{ $url }}" target="_blank">RSS</a>
+</p>
+{{ $url := "/index.xml" | absURL }}
+<p>
+  &copy;{{ now.Year }} {{ .Site.Params.Author }}
+  {{ with .Site.Params.MainSiteURL }} -
+    <a href="{{ . }}">
+      {{ . | replaceRE "^https?://([^/]+).*" "$1" }}
+    </a>
+  {{ end }}
+</p>

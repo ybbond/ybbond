@@ -16,6 +16,10 @@ body {
   grid-column: 5 / span 8;
 }
 
+.footer {
+  margin-bottom: 30px;
+}
+
 a {
   &:hover {
     color: $color-link-hover;

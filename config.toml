@@ -3,6 +3,16 @@ languageCode = "en-us"
 title = "YBBond Blog"
 theme = "hudown"
 
+[params]
+    author = "Yohanes Bandung Bondowoso"
+    description = "Thoughts, ideas and writings of me, Yohanes Bandung. My other site: https://ybbond.dev/"
+    mainSiteURL = "https://ybbond.dev"
+    email = "bandungpenting@gmail.com"
+    twitter = "bandungpenting"
+    github = "ybbond"
+    themeColor = "#333333"
+    ampElements = ["amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-iframe"]
+
 # Menu elements
 [[menu.main]]
     identifier = "home"
@@ -19,9 +29,3 @@ theme = "hudown"
     name = "RSS"
     url = "/index.xml"
     weight = 10
-
-[params]
-    themeColor = "#333333"
-    ampElements = ["amp-analytics", "amp-social-share", "amp-install-serviceworker", "amp-iframe"]
-    description = "Thoughts, ideas and writings of me, Yohanes Bandung. My other site: https://ybbond.dev/"
-    author = "Yohanes Bandung Bondowoso"
