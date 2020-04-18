@@ -3,6 +3,12 @@ languageCode = "en-us"
 title = "YBBond Blog"
 theme = "hudown"
 
+[markup]
+  [markup.goldmark.renderer]
+    hardWraps = true
+    unsafe = true
+    xhtml = true
+
 [params]
     author = "Yohanes Bandung Bondowoso"
     description = "Thoughts, ideas and writings of me, Yohanes Bandung. My other site: https://ybbond.dev/"
