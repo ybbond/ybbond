@@ -1,5 +1,5 @@
 html {
-	background-color: $color-background;
+  background-color: $color-background;
 }
 
 body {
@@ -24,6 +24,10 @@ a {
   &:hover {
     color: $color-red;
   }
+}
+
+.headline-hash {
+  font-size: 0.8em;
 }
 
 img {
@@ -285,9 +289,9 @@ mark {
   }
   .header {
     grid-column: 2 / span 30;
-  	margin-top: 0.75em;
+    margin-top: 0.75em;
   }
   .main {
-  	margin-top: 0;
+    margin-top: 0;
   }
 }
