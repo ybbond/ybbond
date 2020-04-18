@@ -3,10 +3,9 @@ title: Migrating My Blog to Hugo
 author: Yohanes Bandung Bondowoso
 description: I originally planned to make my own MarkDown parser and use gist as my blog CMS. After researched a bit between static site generator, I choose Hugo.
 tags:
-  - blog #blog
-  - web #web
-date: 2020-04-15
-draft: true
+  - Blogs #blogs
+  - Web Development #web_development
+date: 2020-04-15T01:59:34
 ---
 
 In the start of 2020, I planned to expand my [personal page](https://ybbond.dev/) to not only contain my "CV", but also use it as my blog. That webpage is created with ReactJS, and my original idea was to make a new page that fetch data from GitHub Gist, then parse the MarkDown file to HTML file[^1]. I also planned (and I will not drop this one, for the sake of learning) to make that webpage server rendered.
@@ -17,7 +16,9 @@ After 20% progress of making MarkDown to HTML parser, I got tired. Instead of re
 
 Other options I found was **Jekyll**, **Hugo**, **nanoc** and **Gatsby**. I tried Gatsby for work and side projects, and the two others just doesn't fit my needs.
 
-So here it is! My blog now made with Hugo!
+My blog now made with Hugo! Hugo supports awesome markdown parser with GoLang's library `Goldmark`. Now here is the demo I copied from Hugo example website.
+
+---
 
 ## Headings
 

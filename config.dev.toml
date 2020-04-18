@@ -34,3 +34,11 @@ theme = "hudown"
     name = "RSS"
     url = "/index.xml"
     weight = 10
+
+[caches.images]
+    dir = "/Users/yohanesbandung/Documents/ybbond-hugo/resources.nosync/_gen"
+    maxAge = -1
+
+[caches.assets]
+    dir = "/Users/yohanesbandung/Documents/ybbond-hugo/resources.nosync/_gen"
+    maxAge = -1

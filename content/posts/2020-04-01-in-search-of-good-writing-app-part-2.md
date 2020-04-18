@@ -3,9 +3,10 @@ title: In Search of Good Writing App - Part 2, iA Writer vs iVim
 author: Yohanes Bandung Bondowoso
 description: A week with Bear, I tried other writing tool for my iPad.
 tags:
-  - blog #blog
-  - app #app
-date: 2020-04-01
+  - Blogs #blogs
+  - Apps #apps
+  - Apple Apps #apple_apps
+date: 2020-04-01T18:22:31
 image:
   src: https://cdn.ybbond.dev/pictures/blog/2020-04-01-in-search-of-good-writing-app-part-2/ia-writer-headline.jpg
 ---
