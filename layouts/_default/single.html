@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <article class="content">
+    <h1>{{ .Title }}</h1>
+    {{ partial "components/headline-hash.html" .Content }}
+    {{ $date := .Date.Format "02 January 2006" }}
+    {{ with .Params.tags }}
+      <br>
+      <br>
+      <p>Published on <time>{{ $date }}</time>, for story like this:</p>
+      <div>
+        <ul class="taglist">
+          {{ range . }}
+          <li>
+            {{- partial "components/tagitem.html" . -}}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  </article>
+{{ end }}

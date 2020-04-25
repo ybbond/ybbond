@@ -1,0 +1,19 @@
+{{ $url := "/index.xml" | absURL }}
+<div class="footer__nav">
+  <p class="footer__nav__left">
+    <a href={{ .Site.BaseURL }}> << Back to Home</a>
+  </p>
+  <p class="footer__nav__right">
+		<a href="https://github.com/{{ .Site.Params.Github }}">GitHub</a>
+		<a href="https://twitter.com/{{ .Site.Params.Twitter }}">Twitter</a>
+		<a href={{ "index.xml" | absURL }}>RSS</a>
+  </p>
+</div>
+<p class="footer__copyright">
+  &copy;{{ now.Year }} {{ .Site.Params.Author }}
+  {{ with .Site.BaseURL }} -
+    <a href="{{ . }}">
+      {{ . | replaceRE "^https?://([^/]+).*" "$1" }}
+    </a>
+  {{ end }}
+</p>

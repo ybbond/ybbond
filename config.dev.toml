@@ -1,0 +1,40 @@
+baseURL = "https://ybbond.dev"
+languageCode = "en-us"
+title = "YBBond"
+
+[params]
+  author = "Yohanes Bandung Bondowoso"
+  description = "Thoughts, ideas and writings of me, Yohanes Bandung. My other site: https://ybbond.dev/"
+  mainSiteURL = "https://ybbond.dev"
+  email = "bandungpenting@gmail.com"
+  twitter = "bandungpenting"
+  github = "ybbond"
+
+[markup.goldmark.renderer]
+    hardWraps = true
+    unsafe = true
+    xhtml = true
+
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 8
+[[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv"
+    weight = 9
+[[menu.main]]
+    identifier = "author"
+    name = "My Site"
+    url = "https://ybbond.dev/"
+    weight = 10
+
+[caches.images]
+  dir = "/Users/yohanesbandung/projects/bandung/ybbond-hugo/resources.nosync/_gen"
+  maxAge = -1
+
+[caches.assets]
+  dir = "/Users/yohanesbandung/projects/bandung/ybbond-hugo/resources.nosync/_gen"
+  maxAge = -1

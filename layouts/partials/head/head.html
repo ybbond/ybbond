@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="dns-prefetch" href="//cdn.ybbond.dev">
+
+<link data-hint="Site" title="Site" href="https://ybbond.dev/" rel="me">
+<link data-hint="Twitter" title="Twitter" href="https://twitter.com/bandungpenting" rel="me">
+<link data-hint="GitHub" title="GitHub" href="https://github.com/ybbond" rel="me">
+
+<title>Blog :: {{ .Site.Params.Author }}</title>
+
+<meta
+  name="description"
+  content="{{if .IsHome}}{{ .Site.Params.Description }}{{ else if .Params.description }}{{ .Params.description }}{{else}}{{ .Summary }} →{{end}}"
+/>
+{{ with .Site.Params.Author }}
+  <meta name="author" content="{{ . }}">
+{{ end }}
+
+<style amp-custom>
+  {{ with resources.Get "styles.scss" | resources.ToCSS | resources.Minify }}
+      {{ .Content | safeCSS }}
+  {{ end }}
+</style>
+
+<link rel="canonical" href="{{ .Permalink }}" >
+<link rel="sitemap" href="{{ "sitemap.xml" | absURL }}" type="application/xml" />

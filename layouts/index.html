@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<article>
+  {{ .Content }}
+
+  <hr>
+
+  <h2>Blog</h2>
+  {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
+    <p>
+      <time>{{ .Date.Format "02 Jan 2006" }}</time> - 
+      <span>{{ .Title }} <a href={{ .Permalink }}>>></a></span>
+    </p>
+  {{ end }}
+  {{ $postURL := "/posts" | absURL }}
+  <p>More Blogs <a href={{ $postURL }}>>></a></p>
+
+  <hr>
+
+  <h2>Notes:</h2>
+  {{ range first 5 (where .Site.RegularPages "Type" "notes") }}
+    <p>{{ .Content }}</p>
+  {{ end }}
+  {{ $notesURL := "/notes" | absURL }}
+  <p>More Notes <a href={{ $notesURL }}>>></a></p>
+
+</article>
+
+{{ end }}
