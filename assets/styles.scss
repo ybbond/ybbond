@@ -2,15 +2,42 @@
 @import "fonts";
 @import "content";
 
+@mixin themify($themes: $themes) {
+  @each $theme, $map in $themes {
+
+    .theme-#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), '#{$key}');
+        $theme-map: map-merge($theme-map, ($key: $value)) !global;
+      }
+
+      @content;
+      $theme-map: null !global;
+    }
+
+  }
+}
+
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+
 html {
-  background-color: $color-background;
-  color: $color-text;
+  @include themify($themes) {
+    background-color: themed('color-background');
+    color: themed('color-text');
+  }
   font-family: $font-text;
   line-height: 1.6;
   font-size: 16px;
 }
 
 body {
+  @include themify($themes) {
+    background-color: themed('color-background');
+    color: themed('color-text');
+  }
   max-width: 600px;
   margin: 0 auto;
 }
@@ -29,7 +56,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $color-green;
+  @include themify($themes) {
+    color: themed('color-green');
+  }
   font-family: $font-mono;
 }
 
@@ -43,12 +72,14 @@ h1, h2, h3 {
 
 a {
   text-decoration: none;
-  color: $color-blue;
-  &:hover {
-    color: $color-red;
-  }
-  .link-white {
-    color: $color-text;
+  @include themify($themes) {
+    color: themed('color-blue');
+    &:hover {
+      color: themed('color-red');
+    }
+    .link-white {
+      color: themed('color-text');
+    }
   }
   &.button {
     display: inline-block;     
@@ -56,7 +87,9 @@ a {
     z-index: 1;     
     padding: 0.3em 0.7em;
     &:hover {
-      background-color: #303030;
+      @include themify($themes) {
+        background-color: themed('color-background-hover');
+      }
     }
     &:first-child:not(.header__menu__list__item) {
       margin-left: -0.5em;
@@ -73,14 +106,19 @@ blockquote {
   margin: inherit auto;
   margin-left: 0;
   padding: 0 1em;
-  border-left: 2px solid $color-red;
+  border-left: 2px solid;
+  @include themify($themes) {
+    border-color: themed('color-red');
+  }
   p {
     font-size: 0.9em;
   }
 }
 
 time {
-  color: $color-red;
+  @include themify($themes) {
+    color: themed('color-red');
+  }
   font-family: $font-mono;
 }
 
@@ -106,13 +144,37 @@ time {
       display: flex;
       flex-grow: 1;
       flex-wrap: nowrap;
+      @media (max-width: 599px) {
+        justify-content: space-between;
+      }
       &__item {
         &:first-child {
           margin-left: 0;
         }
-        margin: 0 10px;
+        margin: 0 5px;
         border-style: solid;
         border-width: 1px;
+      }
+      &__toggler {
+        &__off {
+          display: none;
+        }
+        font-size: 1.75em;
+        padding: 0 0.3em;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        @media (min-width: 600px) {
+          margin-left: 20px;
+        }
+        &:hover {
+          @include themify($themes) {
+            background-color: themed('color-background-hover');
+          }
+        }
       }
     }
   }
