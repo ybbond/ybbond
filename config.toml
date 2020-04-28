@@ -21,12 +21,12 @@ title = "YBBond"
 [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "https://ybbond.dev"
+    url = "/"
     weight = 8
 [[menu.main]]
     identifier = "cv"
     name = "CV"
-    url = "https://ybbond.dev/cv"
+    url = "/cv"
     weight = 9
 [[menu.main]]
     identifier = "author"
