@@ -53,3 +53,20 @@
     }
   }
 }
+
+.notes {
+  & > p {
+    margin-top: 5px;
+  }
+  margin-bottom: 2em;
+  @media (max-width: 599px) {
+    &__title {
+      margin: 10px 0 0;
+      &__separator {
+        display: none;
+      }
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

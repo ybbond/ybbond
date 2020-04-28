@@ -21,18 +21,11 @@
   <hr>
 
   <h2>Notes:</h2>
-  {{ range first 5 (where .Site.RegularPages "Type" "notes") }}
-    {{ $dateformat := .Date.Format "2006-01-02" }}
-    {{ $idslug := (print $dateformat "-" .Title) | urlize }}
-    <h4 id={{ $idslug }}>
-      <time>{{ .Date.Format "02 Jan 2006" }}</time>
-       {{ with .Title}}
-         - {{ . }}
-       {{ end }}
-      <a href="/notes/#{{ $idslug }}">#</a>
-    </h4>
-    <p>{{ .Content }}</p>
-  {{ end }}
+  <div class="listing">
+    {{ range first 5 (where .Site.RegularPages "Type" "notes") }}
+      {{ partial "post/notes-item.html" . }}
+    {{ end }}
+  </div>
   {{ $notesURL := "/notes" | absURL }}
   <p class="main__more"><a href={{ $notesURL }} class="button">More Notes ⤳</a></p>
 

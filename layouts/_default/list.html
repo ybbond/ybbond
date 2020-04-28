@@ -8,16 +8,7 @@
 
   {{ if  eq .Type "notes" }}
     {{ range (where .Site.RegularPages "Type" "notes") }}
-    {{ $dateformat := .Date.Format "2006-01-02" }}
-    {{ $idslug := (print $dateformat "-" .Title) | urlize }}
-    <h4 id={{ $idslug }}>
-      <time>{{ .Date.Format "02 Jan 2006" }}</time>
-      {{ with .Title}}
-        - {{ . }}
-      {{ end }}
-      <a href="#{{ $idslug }}">#</a>
-    </h4>
-    <p>{{ .Content }}</p>
+      {{ partial "post/notes-item.html" . }}
     {{ end }}
   {{ else }}
     {{ range .Paginator.Pages }}
