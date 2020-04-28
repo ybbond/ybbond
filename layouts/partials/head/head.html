@@ -4,10 +4,11 @@
 
 <link rel="dns-prefetch" href="//cdn.ybbond.dev">
 
-<link data-hint="Twitter" title="Twitter" href="https://twitter.com/bandungpenting" rel="me">
-<link data-hint="GitHub" title="GitHub" href="https://github.com/ybbond" rel="me">
+<link data-hint="Twitter" title="Twitter" href="https://twitter.com/{{ .Site.Params.Twitter }}" rel="me">
+<link data-hint="GitHub" title="GitHub" href="https://github.com/{{ .Site.Params.Github }}" rel="me">
+<link data-hint="Email" title="Email" href="mailto:{{ .Site.Params.Email }}" rel="me">
 
-<title>Blog :: {{ .Site.Params.Author }}</title>
+<title>{{ with .Page.Title }}{{ . }} ::{{ end }} {{ .Site.Params.Author }}</title>
 
 <meta
   name="description"

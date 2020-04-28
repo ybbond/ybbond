@@ -1,4 +1,5 @@
 ---
+title: Hardware and Software I Use
 menu: cv
 description: CV
 ---

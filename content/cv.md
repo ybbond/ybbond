@@ -1,4 +1,5 @@
 ---
+title: My CV
 menu: cv
 description: CV
 ---
