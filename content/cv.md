@@ -23,3 +23,7 @@ description: CV
 - everywhere: ybbond or bandungpenting
 - bandungpenting@gmail.com
 - Github, Instagram, Twitter
+
+<br>
+<br>
+See you sooner :D

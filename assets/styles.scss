@@ -42,6 +42,10 @@ body {
   margin: 0 auto;
 }
 
+hr {
+  margin: 40px auto !important;
+}
+
 @media (max-width: 599px) {
   html {
     font-size: 15px;
@@ -182,7 +186,8 @@ time {
 
 .main {
   &__more {
-    padding: 1em 0;
+    padding: 1em 0 0;
+    margin-bottom: 0;
     text-align: right;
   }
 }
@@ -226,7 +231,9 @@ time {
 }
 
 .footer {
-  margin-top: 40px;
+  &__separator {
+    margin: 40px auto 20px !important;
+  }
   &__nav {
     display: flex;
     flex-direction: row;
@@ -262,8 +269,5 @@ time {
         display: none;
       }
     }
-  }
-  @media (max-width: 599px) {
-    margin-top: 20px
   }
 }

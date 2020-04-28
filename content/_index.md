@@ -13,4 +13,3 @@ I try to learn from everyone, and everything.
 <br />
 
 ૮ ・ﻌ・ა
-<br />
