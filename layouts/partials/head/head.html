@@ -24,5 +24,9 @@
   {{ end }}
 </style>
 
+<script type="application/javascript" src="../darkToggler.js"></script>
+
 <link rel="canonical" href="{{ .Permalink }}" >
 <link rel="sitemap" href="{{ "sitemap.xml" | absURL }}" type="application/xml" />
+
+{{ partial "head/og-metas.html" . }}

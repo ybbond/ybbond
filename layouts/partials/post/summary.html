@@ -1,0 +1,33 @@
+<article class="summary">
+  <a href="{{ .Permalink }}"><h2 class="summary__title">{{ .Title }}</h2></a>
+  <time>{{ .Date.Format "02 Jan 2006" }}</time>
+  <span> - </span>
+  {{ range .Params.tags }}
+    {{- partial "components/tagitem.html" . -}}
+  {{ end }}
+<!--   {{ with .Params.Image.Src }}
+      <amp-img class="summary__image"
+          src="{{ . }}"
+          layout="responsive"
+          width="1280"
+          height="720"
+          object-fit="contain"
+          alt="{{ $.Title }}"></amp-img>
+  {{ end }}
+ -->
+ {{ $hell := .Type }}
+  {{ if .Params.Description }}
+    <p> {{ .Params.Description }} </p>
+      {{ else }}
+    <p>
+      {{ .Summary }}
+      {{ if .Truncated }}
+        <p>
+          <a href="{{ .Permalink }}">
+            Read more ⤳
+          </a>
+        </p>
+      {{ end }}
+    </p>
+  {{ end }}
+</article>

@@ -1,4 +1,8 @@
+@import "fonts";
+@import "variables";
+
 .content {
+  font-family: $font-text;
   width: 100%;
   pre {
     overflow: auto;
@@ -6,7 +10,7 @@
   }
   code {
     padding: 0.1em;
-    font-family: 'iA Writer Duospace', monospace;
+    font-family: $font-mono;
     font-size: 0.9em;
   }
   table {
@@ -22,13 +26,30 @@
     th {
       padding: 1em 2em;
       background-color: #333;
-      color: white;
+      color: $color-text;
     }
     tr:nth-child(even) {
-      background-color: #F1F1F1;
+      background-color: #333;
     }
     tr:hover {
-      background-color: #ddd;
+      background-color: #303030;
+    }
+  }
+  ul {
+    padding: 0;
+    li {
+      position: relative;
+      list-style: none;
+      padding-left: 20px;
+      margin-bottom: 10px;
+      &:before {
+        display: inline-block;
+        content: "- ";
+        position: absolute;
+        width: 20px;
+        color: $color-red;
+        left: 0;
+      }
     }
   }
 }

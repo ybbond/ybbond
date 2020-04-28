@@ -1,11 +1,19 @@
 {{ define "main" }}
   {{ if or .Title .Content }}
     <div>
-      {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+      {{ with .Title }}<h2>{{ . }}</h2>{{ end }}
       {{ with .Content }}<div>{{ . }}</div>{{ end }}
     </div>
   {{ end }}
 
-  {{ range .Paginator.Pages }}
+  {{ if  eq .Type "notes" }}
+    {{ range (where .Site.RegularPages "Type" "notes") }}
+      <p>{{ .Content }}</p>
+    {{ end }}
+  {{ else }}
+    {{ range .Paginator.Pages }}
+      {{ partial "post/summary.html" . }}
+    {{ end }}
+    {{ partial "post/pagination.html" . }}
   {{ end }}
 {{ end }}

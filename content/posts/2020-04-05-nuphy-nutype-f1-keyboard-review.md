@@ -2,7 +2,7 @@
 title: NuPhy NuType F1 Keyboard Review
 author: Yohanes Bandung Bondowoso
 tags:
-  - review #review
+  - Review #review
 date: 2020-04-05T18:23:12
 ---
 

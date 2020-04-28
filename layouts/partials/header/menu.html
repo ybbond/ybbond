@@ -1,8 +1,7 @@
-<ul class="header__menu__list">
+<div class="header__menu__list">
   {{ $baseURL := .Site.BaseURL }}
   {{ range .Site.Menus.main }}
     {{ $url := trim .URL "/" | absURL }}
-    <li>
       <a
         href={{ $url }}
         {{ with .Page }}
@@ -11,9 +10,10 @@
           target="_blank"
           rel="nofollow noopener noreferrer"
         {{ end }}
+        role="button"
+        class="header__menu__list__item button"
       >
         {{ .Pre }}<span>{{ .Name }}</span>
       </a>
-    </li>
   {{ end }}
-</ul>
+</div>

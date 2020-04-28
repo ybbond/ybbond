@@ -2,7 +2,6 @@
 menu: home
 ---
 Currently work as Frontend Engineer of kumparan.com in Jakarta, Indonesia. Building it with React, React Native for Android and iOS.
-<br />
 
 Eager to learn.
 
@@ -14,3 +13,4 @@ I try to learn from everyone, and everything.
 <br />
 
 ૮ ・ﻌ・ა
+<br />

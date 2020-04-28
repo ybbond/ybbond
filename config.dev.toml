@@ -2,6 +2,9 @@ baseURL = "https://ybbond.dev"
 languageCode = "en-us"
 title = "YBBond"
 
+[permalinks]
+  posts = "/:year/:month/:title/"
+
 [params]
   author = "Yohanes Bandung Bondowoso"
   description = "Thoughts, ideas and writings of me, Yohanes Bandung. My other site: https://ybbond.dev/"

@@ -1,29 +1,47 @@
-@import "colors";
+@import "variables";
 @import "fonts";
 @import "content";
 
 html {
   background-color: $color-background;
   color: $color-text;
-  font-family: 'iA Writer Quattro S', Arial, Helvetica, sans-serif;
-  font-size: 1.1rem;
+  font-family: $font-text;
   line-height: 1.6;
 }
 
 body {
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: $color-green;
-  font-family: 'iA Writer Duospace', monospace;
+  font-family: $font-mono;
 }
 
 a {
+  text-decoration: none;
   color: $color-blue;
   &:hover {
     color: $color-red;
+  }
+  .link-white {
+    color: $color-text;
+  }
+  &.full-width {
+    width: 100%;
+  }
+  &.button {
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 0.3em 0.7em;
+    &:hover {
+      background-color: #303030;
+    }
+    &:first-child:not(.header__menu__list__item) {
+      margin-left: -0.5em;
+    }
   }
 }
 
@@ -39,58 +57,67 @@ blockquote {
 
 time {
   color: $color-red;
-}
-
-ul {
-  padding: 0;
-  li {
-    position: relative;
-    list-style: none;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    &:before {
-      display: inline-block;
-      content: "- ";
-      position: absolute;
-      width: 20px;
-      color: $color-red;
-      left: 0;
-    }
-  }
+  font-family: $font-mono;
 }
 
 .header {
   margin-top: 1em;
   &__menu {
-    margin: 0;
-    padding: 0 0 10px;
+    margin: 0 0 10px;
     display: flex;
     overflow: auto;
     justify-content: flex-start;
     &__list {
-      & > *:first-child {
-        padding: 0 1.4em 0 0;
-        &:before {
-          content: "";
-        }
-      }
-      & > *:not(:first-child) {
-        padding-left: 0;
-        &:before {
-          padding-right: 1em;
-          content: " :: ";
-          position: relative;
-          color: $color-text;
-        }
-      }
       padding: 0;
+      margin: 0;
       display: flex;
       flex-grow: 1;
       flex-wrap: nowrap;
-      li {
-        padding: 0 1em;
-        display: inline;
+      &__item {
+        &:first-child {
+          margin-left: 0;
+        }
+        margin: 0 10px;
+        border-style: solid;
+        border-width: 1px;
       }
+    }
+  }
+}
+
+.main {
+  &__more {
+    padding: 1em 0;
+    text-align: right;
+  }
+}
+
+.summary {
+  &:not(&:first-child)
+  &__links {
+    padding-left: 2em;
+  }
+}
+
+.pagination {
+  border-top: dashed 2px;
+  border-bottom: dashed 2px;
+  margin: 3em auto 2em auto;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-around;
+  &__item {
+    padding: 0 30px;
+    @media (max-width: 600px) {
+      padding: 0 10px;
+    }
+    &__left {
+      flex: 1;
+      text-align: left;
+    }
+    &__right {
+      flex: 1;
+      text-align: right;
     }
   }
 }
@@ -98,9 +125,9 @@ ul {
 .taglist {
   margin: 0;
   padding: 0;
-  li {
-    display: inline;
-  }
+}
+.tagitem {
+  font-family: $font-mono;
 }
 
 .footer {

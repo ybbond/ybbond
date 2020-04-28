@@ -8,12 +8,14 @@
   <h2>Blog</h2>
   {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
     <p>
-      <time>{{ .Date.Format "02 Jan 2006" }}</time> - 
-      <span>{{ .Title }} <a href={{ .Permalink }}>>></a></span>
+      <a href={{ .Permalink }} class="button full-width">
+        <time>{{ .Date.Format "02 Jan 2006" }}</time> - 
+        <span class="link-white">{{ .Title }}</span> »
+      </a>
     </p>
   {{ end }}
   {{ $postURL := "/posts" | absURL }}
-  <p>More Blogs <a href={{ $postURL }}>>></a></p>
+  <p class="main__more"><a href={{ $postURL }} class="button">More Blogs ⤳</a></p>
 
   <hr>
 
@@ -22,7 +24,7 @@
     <p>{{ .Content }}</p>
   {{ end }}
   {{ $notesURL := "/notes" | absURL }}
-  <p>More Notes <a href={{ $notesURL }}>>></a></p>
+  <p class="main__more"><a href={{ $notesURL }} class="button">More Notes ⤳</a></p>
 
 </article>
 

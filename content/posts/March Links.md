@@ -4,6 +4,7 @@ author: Yohanes Bandung Bondowoso
 tags:
   - Bookmarks #bookmarks
 date: 2020-04-01T00:00:01
+type: links
 ---
 
 ## Tech

@@ -6,16 +6,12 @@
     {{ with .Params.tags }}
       <br>
       <br>
-      <p>Published on <time>{{ $date }}</time>, for story like this:</p>
-      <div>
-        <ul class="taglist">
-          {{ range . }}
-          <li>
-            {{- partial "components/tagitem.html" . -}}
-          </li>
-          {{ end }}
-        </ul>
-      </div>
+      <p>Published on <time>{{ $date }}</time>, for stories like this:</p>
+      <p class="taglist">
+        {{ range . }}
+          {{- partial "components/tagitem.html" . -}}
+        {{ end }}
+      </p>
     {{ end }}
   </article>
 {{ end }}
