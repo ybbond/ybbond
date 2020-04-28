@@ -12,7 +12,8 @@ title = "YBBond"
   email = "bandungpenting@gmail.com"
   twitter = "bandungpenting"
   github = "ybbond"
-  
+  microblog = "ybbond"
+
 [markup.goldmark.renderer]
     hardWraps = true
     unsafe = true
