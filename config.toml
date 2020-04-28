@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "YBBond"
 
 [permalinks]
-  posts = "/posts/:year:month:title/"
+  posts = "/posts/:year/:month/:title/"
 
 [params]
   author = "Yohanes Bandung Bondowoso"
