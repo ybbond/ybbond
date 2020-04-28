@@ -1,21 +1,24 @@
 {{ define "main" }}
 
-<article>
-  {{ .Content }}
+  <article>
+    {{ .Content }}
+  </article>
 
   <hr>
 
   <h2>Blog Posts:</h2>
-  {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
-    <p>
-      <a href={{ .Permalink }} class="button full-width">
-        <time>{{ .Date.Format "02 Jan 2006" }}</time>
-        <br>
-        <span class="link-white">{{ .Title }}</span> »
-      </a>
-    </p>
-  {{ end }}
-  {{ $postURL := "/posts" | absURL }}
+  <div class="listing">
+    {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
+      <p>
+        <a href={{ .Permalink }} class="button full-width">
+          <time>{{ .Date.Format "02 Jan 2006" }}</time>
+          <br>
+          <span class="link-white">{{ .Title }}</span> »
+        </a>
+      </p>
+    {{ end }}
+    {{ $postURL := "/posts" | absURL }}
+  </div>
   <p class="main__more"><a href={{ $postURL }} class="button">More Blogs ⤳</a></p>
 
   <hr>
@@ -29,6 +32,5 @@
   {{ $notesURL := "/notes" | absURL }}
   <p class="main__more"><a href={{ $notesURL }} class="button">More Notes ⤳</a></p>
 
-</article>
 
 {{ end }}

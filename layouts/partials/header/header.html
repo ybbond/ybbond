@@ -1,4 +1,21 @@
-<h1 class="header__title">Yohanes Bandung Bondowoso <span class="dark-toggler"></span></h1>
+{{ if .IsHome }}
+  <h1 class="header__title">Yohanes Bandung Bondowoso<span class="dark-toggler"></span></h1>
+{{ else }}
+  <h2 class="header__title">Yohanes Bandung Bondowoso</h2>
+{{ end }}
 <nav class="header__menu">
-  {{ partial "header/menu.html" . }}
+  <div class="header__menu__list">
+    {{ $baseURL := .Site.BaseURL }}
+    {{ range .Site.Menus.main }}
+      {{ $url := trim .URL "/" | absURL }}
+        <a
+          href={{ $url }}
+          data-rel="prefetch"
+          role="button"
+          class="header__menu__list__item button"
+        >
+          {{ .Pre }}<span>{{ .Name }}</span>
+        </a>
+    {{ end }}
+  </div>
 </nav>

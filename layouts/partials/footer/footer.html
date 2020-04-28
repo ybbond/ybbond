@@ -14,10 +14,10 @@
   </p>
 </div>
 <p class="footer__copyright">
-  &copy;{{ now.Year }} {{ .Site.Params.Author }}
-  {{ with .Site.BaseURL }} -
-    <a href="{{ . }}">
+  <span class="footer__copyright__year">&copy;{{ now.Year }} {{ .Site.Params.Author }}</span>
+  {{ with .Site.BaseURL }} <span class="footer__copyright__separator">-</span>
+    <span class="footer__copyright__site"><a href="{{ . }}">
       {{ . | replaceRE "^https?://([^/]+).*" "$1" }}
-    </a>
+    </a></span>
   {{ end }}
 </p>
