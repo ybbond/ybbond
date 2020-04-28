@@ -1,6 +1,24 @@
 {{ define "main" }}
-  {{ range .Paginator.Pages }}
-    {{- partial "post/summary.html" . -}}
-  {{ end }}
-  {{ partial "page/pagination.html" . }}
+
+  <article>
+    {{ .Content }}
+  </article>
+
+  <h2>My Blog</h2>
+    <ul>
+      {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
+        {{- partial "post/minilist.html" . -}}
+      {{ end }}
+    </ul>
+
+    {{ $postURL := "/posts" | absURL }}
+    <div><a href="{{ $postURL }}">Read More >></a></div>
+
+  <h2>Notes</h2>
+    {{ range first 5 (where .Site.RegularPages "Type" "notes") }}
+      {{- partial "post/notes-list.html" . -}}
+    {{ end }}
+    {{ $notesURL := "/notes" | absURL }}
+    <div><a href="{{ $notesURL }}">Moar Notes >></a></div>
+
 {{ end }}

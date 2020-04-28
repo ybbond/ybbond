@@ -25,12 +25,12 @@ theme = "hudown"
     url = "/"
     weight = 8
 [[menu.main]]
+    identifier = "Uses"
+    name = "Uses"
+    url = "/uses"
+    weight = 9
+[[menu.main]]
     identifier = "author"
     name = "My Site"
     url = "https://ybbond.dev/"
-    weight = 9
-[[menu.main]]
-    identifier = "rss"
-    name = "RSS"
-    url = "/index.xml"
     weight = 10

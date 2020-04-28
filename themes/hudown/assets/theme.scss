@@ -1,5 +1,5 @@
 html {
-  background-color: $color-background;
+  background-color: $color-background-dark;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   font-size: 1.1rem;
   line-height: 1.6;
   font-family: 'iA Writer Quattro S', Arial, Helvetica, sans-serif;
-  color: $color-black;
+  color: $color-background;
 }
 
 .header, .main, .footer {
@@ -20,7 +20,13 @@ body {
   margin-bottom: 30px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'iA Writer Duospace', monospace;
+  color: $color-green;
+}
+
 a {
+  color: $color-blue;
   &:hover {
     color: $color-red;
   }
@@ -47,14 +53,9 @@ blockquote {
     margin-top: .5em;
   }
   p {
-    color: #555;
+    color: #999;
     font-size: 0.9rem;
   }
-}
-
-pre, code {
-  font-family: 'iA Writer Duospace', monospace;
-  font-size: 0.9rem;
 }
 
 mark {
@@ -76,6 +77,10 @@ mark {
   }
   code {
     padding: 0.1em;
+  }
+  pre, code {
+    font-family: 'iA Writer Duospace', monospace;
+    font-size: 0.9rem;
   }
   table {
     display: block;
@@ -165,7 +170,6 @@ mark {
     display: flex;
     overflow: auto;
     justify-content: flex-start;
-    border: 1px solid $color-black;
     a {
       font-size: 1.1rem;
       white-space: nowrap;

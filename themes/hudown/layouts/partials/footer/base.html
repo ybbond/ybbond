@@ -8,7 +8,6 @@
   {{ $url := "/index.xml" | absURL }}
   <a href="{{ $url }}" target="_blank">RSS</a>
 </p>
-{{ $url := "/index.xml" | absURL }}
 <p>
   &copy;{{ now.Year }} {{ .Site.Params.Author }}
   {{ with .Site.Params.MainSiteURL }} -
