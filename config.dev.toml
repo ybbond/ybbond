@@ -29,9 +29,9 @@ title = "YBBond"
     url = "/cv"
     weight = 9
 [[menu.main]]
-    identifier = "author"
-    name = "My Site"
-    url = "https://ybbond.dev/"
+    identifier = "uses"
+    name = "Uses"
+    url = "/uses"
     weight = 10
 
 [caches.images]

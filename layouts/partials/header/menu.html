@@ -4,12 +4,7 @@
     {{ $url := trim .URL "/" | absURL }}
       <a
         href={{ $url }}
-        {{ with .Page }}
-          data-rel="prefetch"
-        {{ else }}
-          target="_blank"
-          rel="nofollow noopener noreferrer"
-        {{ end }}
+        data-rel="prefetch"
         role="button"
         class="header__menu__list__item button"
       >
