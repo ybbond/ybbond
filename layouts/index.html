@@ -5,11 +5,12 @@
 
   <hr>
 
-  <h2>Blog</h2>
+  <h2>Blog Posts:</h2>
   {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
     <p>
       <a href={{ .Permalink }} class="button full-width">
-        <time>{{ .Date.Format "02 Jan 2006" }}</time> - 
+        <time>{{ .Date.Format "02 Jan 2006" }}</time>
+        <br>
         <span class="link-white">{{ .Title }}</span> »
       </a>
     </p>
@@ -21,6 +22,15 @@
 
   <h2>Notes:</h2>
   {{ range first 5 (where .Site.RegularPages "Type" "notes") }}
+    {{ $dateformat := .Date.Format "2006-01-02" }}
+    {{ $idslug := (print $dateformat "-" .Title) | urlize }}
+    <h4 id={{ $idslug }}>
+      <time>{{ .Date.Format "02 Jan 2006" }}</time>
+       {{ with .Title}}
+         - {{ . }}
+       {{ end }}
+      <a href="/notes/#{{ $idslug }}">#</a>
+    </h4>
     <p>{{ .Content }}</p>
   {{ end }}
   {{ $notesURL := "/notes" | absURL }}
