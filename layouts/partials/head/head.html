@@ -2,8 +2,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<link rel="dns-prefetch" href="//cdn.ybbond.dev" />
-
 <link data-hint="Twitter" title="Twitter" href="https://twitter.com/{{ .Site.Params.Twitter }}" rel="me" />
 <link data-hint="GitHub" title="GitHub" href="https://github.com/{{ .Site.Params.Github }}" rel="me" />
 <link data-hint="Micro.Blog" title="Micro.Blog" href="https://micro.blog/ybbond" rel="me" />
@@ -36,6 +34,7 @@
 </style>
 
 <script type="application/javascript" src="{{ .Site.BaseURL }}darkToggler.js"></script>
+<script type="application/javascript" src="{{ .Site.BaseURL }}lazyImage.js"></script>
 
 <link rel="canonical" href="{{ .Permalink }}" />
 <link rel="sitemap" href="{{ "sitemap.xml" | absURL }}" type="application/xml" />

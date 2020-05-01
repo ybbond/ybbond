@@ -1,0 +1,30 @@
+{{ $filename := .Destination | safeURL }}
+{{ $original := .Page.Resources.GetMatch (printf "*%s" $filename) }}
+{{ $text := .Text }}
+
+{{ if eq $original nil }}
+    {{ errorf "cannot find file: %s" $filename }}
+{{ end}}
+
+{{ if ne $original.ResourceType "image" }}
+   {{ errorf "file %s is not an image" $filename }}
+{{ end }}
+
+{{ $thumb := ($original.Resize (printf "%dx %s" $original.Width "q3")).RelPermalink }}
+
+<figure>
+    <center>
+    <img
+        style="max-width: 100%; height: auto;"
+        src="{{ $thumb }}"
+        width="{{ $original.Width }}"
+        height="{{ $original.Height }}"
+        alt="{{ default $text "image" }}"
+        data-src="{{$original.RelPermalink}}"
+        class="lazy"
+    />
+    {{with $text }}
+    <figcaption>{{ . }}</figcaption>
+    {{end}}
+    </center>
+</figure>
