@@ -10,7 +10,11 @@
 <link data-hint="Email" title="Email" href="mailto:{{ .Site.Params.Email }}" rel="me" />
 <link data-hint="Mastodon" title="Mastodon" href="https://indieweb.social/@ybbond" rel="me" />
 
-<link type="application/rss+xml" title="RSS" href="/index.xml" rel="alternate" />
+
+{{ with .OutputFormats.Get "rss" }}
+    {{ $rssTitle := printf "%s RSS" $.Site.Title }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $rssTitle | safeHTML }}
+{{ end }}
 
 <link href="https://micro.blog/indieauth/auth" rel="authorization_endpoint" />
 <link href="https://micro.blog/indieauth/token" rel="token_endpoint" />
