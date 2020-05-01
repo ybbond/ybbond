@@ -9,9 +9,11 @@ tags:
 
 A few minutes ago, I opened twitter and scrolled the timeline. 
 
-[[twitter link/ image]]
+{{< tweet 1254492579275526145 >}}
 
-I `laughed when I read that tweet`. It brings back so much memories of my previous workplace.
+I laughed when I read that tweet. It brings back so much memories of my previous workplace. He mentioned the wrong account tho[^1].
+
+[^1]: My current twitter is [@bandungpenting](https://twitter.com/bandungpenting). I created that because my former account got banned because I made it when I was in junior high school 🤪
 
 Positioning the sidebar to the right reduces distraction when I toggle it. If the sidebar is on the left, the text shifts around whenever the sidebar is toggled on or off. Readjusting my eyes for the moved text creates disturbance to my logical thinking. "Why are you not just leave the sidebar open?", you might be asking. I want to keep the screen real estate wide.
 

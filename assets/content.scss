@@ -23,8 +23,10 @@
     padding: 0.1em;
     font-family: $font-mono;
     font-size: 0.9em;
+  }
+  :not(pre) > code {
     @include themify($themes) {
-     background-color: themed('color-background-hover');
+      background-color: themed('color-background-hover');
     }
   }
   table {
@@ -32,23 +34,26 @@
     overflow-x: auto;
     border-collapse: collapse;
     td, th {
-      border: 1px solid #ddd;
+      border: 1px solid;
+      @include themify($themes) {
+        border-color: themed('color-text');
+      }
     }
     td {
       padding: 0.5em 1em;
     }
     th {
       padding: 1em 2em;
-      background-color: #333;
       @include themify($themes) {
+        background-color: themed('color-background-hover');
         color: themed('color-text');
       }
     }
     tr:nth-child(even) {
-      background-color: #333;
-    }
-    tr:hover {
-      background-color: #303030;
+      @include themify($themes) {
+        background-color: themed('color-background-hover');
+        color: themed('color-text');
+      }
     }
   }
   ul {
