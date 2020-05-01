@@ -1,4 +1,6 @@
 {{ define "main" }}
+  {{ $postURL := "/posts" | absURL }}
+  {{ $notesURL := "/notes" | absURL }}
 
   <article>
     {{ .Content }}
@@ -6,9 +8,9 @@
 
   <hr>
 
-  <h2>Blog Posts:</h2>
-  <div class="listing">
-    {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
+  <a href={{ $postURL }}><h2>Blog Posts:</h2></a>
+  <div href={{ $postURL }} class="listing">
+    {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
       <a href={{ .Permalink }} class="button full-width listing__post">
         <h3 class="listing__post__title">
           {{ .Title }}
@@ -19,21 +21,20 @@
         {{ with .Description }}
           <p class="link-white listing__post__description">{{ . }}</p>
         {{ end }}
+        <p class="listing__post__description">Read More »</p>
       </a>
     {{ end }}
-    {{ $postURL := "/posts" | absURL }}
   </div>
   <p class="main__more"><a href={{ $postURL }} class="button">More Blogs ⤳</a></p>
 
   <hr>
 
-  <h2>Notes:</h2>
+  <a href={{ $notesURL }}><h2>Notes:</h2></a>
   <div class="listing">
     {{ range first 5 (where .Site.RegularPages "Type" "notes") }}
       {{ partial "post/notes-item.html" . }}
     {{ end }}
   </div>
-  {{ $notesURL := "/notes" | absURL }}
   <p class="main__more"><a href={{ $notesURL }} class="button">More Notes ⤳</a></p>
 
 

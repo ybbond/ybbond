@@ -5,17 +5,27 @@
   @return map-get($theme-map, $key);
 }
 
-.content {
+.content, .notes  {
   font-family: $font-text;
   width: 100%;
   pre {
     overflow: auto;
     padding: 0.5em;
   }
+  a {
+    &:hover {
+      @include themify($themes) {
+       background-color: themed('color-background-hover');
+      }
+    }
+  }
   code {
     padding: 0.1em;
     font-family: $font-mono;
     font-size: 0.9em;
+    @include themify($themes) {
+     background-color: themed('color-background-hover');
+    }
   }
   table {
     display: block;

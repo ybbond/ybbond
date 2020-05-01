@@ -2,6 +2,7 @@
 title: Why I Positioned Sidebar to the Right
 author: Yohanes Bandung Bondowoso
 date: 2020-04-27T04:57:12
+description: My past employer mentioned me on twitter. He tweeted about how I positioned the sidebar of my text editor to the right.
 tags:
   - Web Development #web_development
 ---
