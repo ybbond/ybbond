@@ -1,5 +1,5 @@
 {{ $dateformat := .Date.Format "2006-01-02 15:04" }}
-{{ $idslug := (print $dateformat "-") | urlize }}
+{{ $idslug := (print "date-" $dateformat "-") | urlize }}
 <div class="notes">
   <p class="notes__title" id={{ $idslug }}>
     <span>
