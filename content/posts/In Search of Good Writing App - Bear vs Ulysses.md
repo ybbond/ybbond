@@ -3,7 +3,6 @@ title: In Search of Good Writing App - Bear vs Ulysses
 author: Yohanes Bandung Bondowoso
 description: I got my first mechanical bluetooth keyboard. I searched for good writing app.
 tags:
-  - Blogs #blogs
   - Apps #apps
   - Apple Apps #apple_apps
 date: 2020-03-27T21:01:33
