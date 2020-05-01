@@ -1,14 +1,14 @@
 {{ $dateformat := .Date.Format "2006-01-02 15:04" }}
 {{ $idslug := (print $dateformat "-") | urlize }}
 <div class="notes">
-  <h4 class="notes__title" id={{ $idslug }}>
+  <p class="notes__title" id={{ $idslug }}>
     <span>
       <time class="notes__title__date">
         {{ .Date.Format "02 Jan 2006" }}
       </time>
         {{ if .Title }}
         {{ else }}
-          <a href="#{{ $idslug }}">#</a></span>
+          <a href="/notes/#{{ $idslug }}">#</a></span>
         {{ end }}
     </span>
     {{ with .Title}}
@@ -17,6 +17,6 @@
     {{ with .Title}}
       <span class="notes__title__title">{{ . }} <a href="#{{ $idslug }}">#</a></span>
     {{ end }}
-  </h4>
+  </p>
   {{ .Content }}
 </div>

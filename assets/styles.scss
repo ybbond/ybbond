@@ -2,27 +2,6 @@
 @import "fonts";
 @import "content";
 
-@mixin themify($themes: $themes) {
-  @each $theme, $map in $themes {
-
-    .theme-#{$theme} & {
-      $theme-map: () !global;
-      @each $key, $submap in $map {
-        $value: map-get(map-get($themes, $theme), '#{$key}');
-        $theme-map: map-merge($theme-map, ($key: $value)) !global;
-      }
-
-      @content;
-      $theme-map: null !global;
-    }
-
-  }
-}
-
-@function themed($key) {
-  @return map-get($theme-map, $key);
-}
-
 html {
   @include themify($themes) {
     background-color: themed('color-background');
@@ -95,7 +74,7 @@ a {
         background-color: themed('color-background-hover');
       }
     }
-    &:first-child:not(.header__menu__list__item) {
+    &:first-child:not(.header__menu__list__item .listing_post) {
       margin-left: -0.5em;
     }
   }
@@ -127,7 +106,17 @@ time {
 }
 
 .listing {
-  margin-left: 0.5em;
+  &__post {
+    padding-bottom: 1.3em !important;
+    &__title {
+      margin-top: 0.7em;
+      margin-bottom: 0;
+    }
+    &__description {
+      margin: 0;
+      margin-top: 0.8em;
+    }
+  }
 }
 
 .header {

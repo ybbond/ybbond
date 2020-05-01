@@ -9,13 +9,17 @@
   <h2>Blog Posts:</h2>
   <div class="listing">
     {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
-      <p>
-        <a href={{ .Permalink }} class="button full-width">
-          <time>{{ .Date.Format "02 Jan 2006" }}</time>
-          <br>
-          <span class="link-white">{{ .Title }}</span> »
-        </a>
-      </p>
+      <a href={{ .Permalink }} class="button full-width listing__post">
+        <h3 class="listing__post__title">
+          {{ .Title }}
+        </h3>
+        <time class="listing__post__date">
+          {{ .Date.Format "02 Jan 2006" }}
+        </time>
+        {{ with .Description }}
+          <p class="link-white listing__post__description">{{ . }}</p>
+        {{ end }}
+      </a>
     {{ end }}
     {{ $postURL := "/posts" | absURL }}
   </div>

@@ -1,95 +1,84 @@
 @import "fonts";
 @import "variables";
 
-@mixin themify($themes: $themes) {
-  @each $theme, $map in $themes {
-
-    .theme-#{$theme} & {
-      $theme-map: () !global;
-      @each $key, $submap in $map {
-        $value: map-get(map-get($themes, $theme), '#{$key}');
-        $theme-map: map-merge($theme-map, ($key: $value)) !global;
-      }
-
-      @content;
-      $theme-map: null !global;
-    }
-
-  }
-}
-
 @function themed($key) {
   @return map-get($theme-map, $key);
 }
 
 .content {
-  @include themify($themes) {
-    font-family: $font-text;
-    width: 100%;
-    pre {
-      overflow: auto;
-      padding: 0.5em;
+  font-family: $font-text;
+  width: 100%;
+  pre {
+    overflow: auto;
+    padding: 0.5em;
+  }
+  code {
+    padding: 0.1em;
+    font-family: $font-mono;
+    font-size: 0.9em;
+  }
+  table {
+    display: block;
+    overflow-x: auto;
+    border-collapse: collapse;
+    td, th {
+      border: 1px solid #ddd;
     }
-    code {
-      padding: 0.1em;
-      font-family: $font-mono;
-      font-size: 0.9em;
+    td {
+      padding: 0.5em 1em;
     }
-    table {
-      display: block;
-      overflow-x: auto;
-      border-collapse: collapse;
-      td, th {
-        border: 1px solid #ddd;
-      }
-      td {
-        padding: 0.5em 1em;
-      }
-      th {
-        padding: 1em 2em;
-        background-color: #333;
+    th {
+      padding: 1em 2em;
+      background-color: #333;
+      @include themify($themes) {
         color: themed('color-text');
       }
-      tr:nth-child(even) {
-        background-color: #333;
-      }
-      tr:hover {
-        background-color: #303030;
-      }
     }
-    ul {
-      padding: 0;
-      li {
-        position: relative;
-        list-style: none;
-        padding-left: 20px;
-        margin-bottom: 10px;
-        &:before {
-          display: inline-block;
-          content: "- ";
-          position: absolute;
-          width: 20px;
+    tr:nth-child(even) {
+      background-color: #333;
+    }
+    tr:hover {
+      background-color: #303030;
+    }
+  }
+  ul {
+    padding: 0;
+    li {
+      position: relative;
+      list-style: none;
+      padding-left: 20px;
+      margin-bottom: 10px;
+      &:before {
+        display: inline-block;
+        content: "- ";
+        position: absolute;
+        width: 20px;
+        @include themify($themes) {
           color: themed('color-red');
-          left: 0;
         }
+        left: 0;
       }
     }
   }
-
-  .notes {
-    & > p {
-      margin-top: 5px;
-    }
-    margin-bottom: 2em;
-    @media (max-width: 599px) {
-      &__title {
-        margin: 10px 0 0;
-        &__separator {
-          display: none;
-        }
-        display: flex;
-        flex-direction: column;
+}
+.notes {
+  & > p {
+    margin: 0;
+    margin-top: 0.7em;
+  }
+  &__title {
+    margin: 0;
+  }
+  padding: 0 0.7em;
+  margin-bottom: 2em;
+  @media (max-width: 599px) {
+    &__title {
+      margin: 10px 0 0;
+      &__separator {
+        display: none;
       }
+      display: flex;
+      flex-direction: column;
     }
   }
 }
