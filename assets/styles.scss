@@ -22,7 +22,7 @@ body {
 }
 
 hr {
-  margin: 40px auto !important;
+  margin: 40px auto;
 }
 
 @media (max-width: 599px) {
@@ -64,19 +64,14 @@ a {
       color: themed('color-text');
     }
   }
+  &:hover {
+    @include themify($themes) {
+      background-color: themed('color-background-hover');
+    }
+  }
   &.button {
     display: inline-block;     
-    position: relative;    
-    z-index: 1;     
     padding: 0.3em 0.7em;
-    &:hover {
-      @include themify($themes) {
-        background-color: themed('color-background-hover');
-      }
-    }
-    &:first-child:not(.header__menu__list__item .listing_post) {
-      margin-left: -0.5em;
-    }
   }
   &.full-width {
     width: calc(100% - 1.4em);
@@ -107,7 +102,11 @@ time {
 
 .listing {
   &__post {
-    padding-bottom: 1.3em !important;
+    display: inline-block;
+    padding: 0.3em 0.7em 1.3em 0.7em;
+    @media (max-width: 600px) {
+      padding: 0.3em 0 1.3em 0;
+    }
     &__title {
       margin-top: 0.7em;
       margin-bottom: 0;
@@ -181,13 +180,6 @@ time {
   }
 }
 
-.summary {
-  &:not(&:first-child)
-  &__links {
-    padding-left: 2em;
-  }
-}
-
 .pagination {
   border-top: dashed 2px;
   border-bottom: dashed 2px;
@@ -221,7 +213,7 @@ time {
 
 .footer {
   &__separator {
-    margin: 40px auto 20px !important;
+    margin: 40px auto 20px;
   }
   &__nav {
     display: flex;

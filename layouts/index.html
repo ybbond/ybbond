@@ -11,7 +11,7 @@
   <a href={{ $postURL }}><h2>Blog Posts:</h2></a>
   <div href={{ $postURL }} class="listing">
     {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
-      <a href={{ .Permalink }} class="button full-width listing__post">
+      <a href={{ .Permalink }} class="area full-width listing__post">
         <h3 class="listing__post__title">
           {{ .Title }}
         </h3>

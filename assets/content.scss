@@ -84,7 +84,9 @@
   &__title {
     margin: 0;
   }
-  padding: 0 0.7em;
+  @media (min-width: 600px) {
+    padding: 0 0.7em;
+  }
   margin-bottom: 2em;
   @media (max-width: 599px) {
     &__title {
