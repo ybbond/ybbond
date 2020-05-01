@@ -7,7 +7,7 @@ date: 2020-04-01T00:00:01
 type: links
 ---
 
-## Tech
+### Tech
 
 📓 [A Type of Programming WIP Book about Haskell](https://atypeofprogramming.com/)
 
@@ -15,7 +15,7 @@ type: links
 
 🆅 [iVim setup](https://www.reddit.com/r/vim/comments/9ki5g8/ivim_ios_howtos/)
 
-## Knowledge
+### Knowledge
 
 🗣 [Using Parts of Speech to Improve Your Writing Style - William Strunk Jr.](https://ia.net/writer/support/writing-tips/parts-of-speech)
 

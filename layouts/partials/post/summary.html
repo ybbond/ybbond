@@ -18,16 +18,12 @@
  {{ $hell := .Type }}
   {{ if .Params.Description }}
     <p> {{ .Params.Description }} </p>
-      {{ else }}
+    <a href="{{ .Permalink }}">
+      <p>Read More »</p>
+    </a>
+  {{ else }}
     <p>
-      {{ .Summary }}
-      {{ if .Truncated }}
-        <p>
-          <a href="{{ .Permalink }}">
-            Read more ⤳
-          </a>
-        </p>
-      {{ end }}
+      {{ .Content }}
     </p>
   {{ end }}
 </article>

@@ -33,16 +33,16 @@ hr {
     padding: 0 10px;
     margin: 0;
   }
-  hr {
-    width: 90%;
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   @include themify($themes) {
     color: themed('color-green');
   }
-  font-family: $font-mono;
+  font-family: $font-text;
+  a {
+    font-family: $font-mono;
+  }
 }
 
 h1 {
@@ -74,9 +74,11 @@ a {
     padding: 0.3em 0.7em;
   }
   &.full-width {
-    width: calc(100% - 1.4em);
     margin: 0;
     align-self: center;
+    @media (min-width: 600px) {
+      width: calc(100% - 1.4em);
+    }
   }
 }
 
@@ -177,6 +179,16 @@ time {
     padding: 1em 0 0;
     margin-bottom: 0;
     text-align: right;
+  }
+}
+
+.summary {
+  margin: 0 0 5.5em 0;
+  p {
+    margin: 0em 0 0.4em;
+  }
+  &__title {
+    margin-bottom: 0;
   }
 }
 
