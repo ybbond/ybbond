@@ -5,10 +5,10 @@ description: CV
 ---
 ## Quests
 
-- <time>2014</time><br>Design Intern @X-Graphic
-- <time>2016 - 2018</time><br>Quality Assurance @Touchten Games
-- <time>2018 - 2019</time><br>Frontend Engineer @Vospay
-- <time>2019 -</time><br>Frontend Engineer @kumparan
+- <time>2014</time><br>Design Intern [@X-Graphic](https://www.xg.co.id/)
+- <time>2016 - 2018</time><br>Quality Assurance [@Touchten Games](https://www.touchten.com/)
+- <time>2018 - 2019</time><br>Frontend Engineer [@Vospay](https://vospay.id/)
+- <time>2019 -</time><br>Frontend Engineer [@kumparan](https://kumparan.com/)
 
 ## Good to Know
 

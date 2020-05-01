@@ -5,7 +5,6 @@ tags:
   - Bookmarks #bookmarks
 date: 2020-05-01T00:00:01
 type: links
-draft: true
 ---
 
 An interesting [posts](https://yihui.org/en/2018/02/career-crisis/) by Yihui Xie, maintainer of TinyTex, and its [follow-up](https://yihui.org/en/2018/02/procrastination-techniques/) that leads me to this naughty website:
