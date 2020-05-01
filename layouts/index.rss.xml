@@ -3,7 +3,9 @@
   {{ $pctx = .Site }}
 {{- end -}}
 {{- $pages := slice -}}
-{{- if or $.IsHome $.IsSection -}}
+{{- if or $.IsHome -}}
+  {{- $pages = (where $pctx.RegularPages "Section" "posts") }}
+{{- else if $.IsSection -}}
   {{- $pages = $pctx.RegularPages -}}
 {{- else -}}
   {{- $pages = $pctx.Pages -}}
