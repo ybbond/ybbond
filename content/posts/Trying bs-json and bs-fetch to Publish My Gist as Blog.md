@@ -7,13 +7,14 @@ tags:
 date: 2020-03-03T01:47:12
 ---
 
-#### disclaimer: this is not a tutorial
+**disclaimer: this is not a tutorial**
 
 I read an interesting article (from a website that features a great function to see its articles' revisions) about using GitHub Gist as a Blogging CMS. Here is [the post](https://bit.ly/2UForoW).
 
 Back then, my website was written in ReasonReact, and back then, I thought that implementing my own blog by fetching my Gist is a nice way to learn `bs-fetch` and `bs-json`.
 
 > tldr; the result can be seen here [reason.ybbond.dev/blog](https://reason.ybbond.dev/blog)
+
 ## Fun Moment
 Implementing `bs-fetch` was the easier of both, because I follow the example of HackerNews built with ReasonReact.
 
@@ -23,7 +24,7 @@ So, here the story goes...
 
 When I first writing the code for parsing the return JSON value to valid ReasonML record, I was in a bit of a hurry. I wrote the kickstarting code in a cafe while my friend is ordering something. I encountered an error that I fixed easily. What a pity that I forgot what that error was. More of a pity is if I remember I encountered that error, I will not stuck for so long.
 
-GitHub Gist endpoint gives verbose information about the gists, one of them is the type of the file. The return value store the file type as a value with object key `type`. ReasonML doesn't want its record key as string `type`, because it is a reserved keyword. So I made the key as `type_`. Error gone.
+GitHub Gist endpoint gives verbose information about the gists, one of them is the type of the file's programming language. The return value store the file type as a value with object key `type`. ReasonML doesn't want its record key as string `type`, because it is a reserved keyword. So I made the key as `type_`. Error gone.
 
 Then I stopped writing code for that time, and I forget the progress that I've made.
 
@@ -31,7 +32,11 @@ Not so long, I return to continue the progress. After coding for several LoCs an
 
 I try to log the parsed value part-by-part, try to reread the code up-and-down, but cannot find the culprit of the bug.
 
+## Solution!
+
 After 3 months or so, I tried to rewrite the code, side-by-side. The old code on the left, the new code on the right, and when I reached to the position of `type_` key, I realized that I am a stupid.
+
+The record value expects `type_` key, while I forgot to parse the Gist's return value as `type_`. 😿	
 
 Okay, I got bored writing this. Straight to the **conclusion** then!!
 

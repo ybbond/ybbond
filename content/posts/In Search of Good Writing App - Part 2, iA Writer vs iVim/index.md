@@ -18,7 +18,7 @@ Part 2 of my previous post: [In Search of Good Writing App - Bear vs Ulysses](/p
 
 ---
 
-In the previous post, I compared [Ulysses](https://ulysses.app/) and [Bear](https://bear.app). I ended up subscribing to Bear. Bear itself is a good writing app, with nice clean interface design, great synchronization between MacOS and iOS (or iPadOS) platform, with a _just right_ MarkDown implementation.
+In the previous post, I compared [Ulysses](https://ulysses.app/) and [Bear](https://bear.app). I ended up subscribing to Bear. Bear itself is a good writing app, with nice clean interface design, great synchronization between MacOS and iOS (or iPadOS) platform, and _just right_ MarkDown implementation.
 
 I feel satisfied with my three days of Bear usage. The subscription model does not bother me, but I found several aspect to reconsider:
 
@@ -26,7 +26,7 @@ I feel satisfied with my three days of Bear usage. The subscription model does n
 One thing I like from Ulysses is file versioning similar to MacOS's _Time Machine_. Bear lacks that feature, changes I made will replace the previous version of the file in iCloud. The only way to access file history in Bear is through undo. Yep, plain old undo.
 
 ### File Storage
-Bear store my notes in its own enclosed library. I have no option to store my notes in external folder. This issue makes me think about the continuity of this subscription. Other writer also stated [this issue](https://joseperez.fm/2019/goodbye-bear-hello-ia-writer/), and his post gave me the idea to check **iA Writer**.
+Bear stores my notes in its own enclosed library. I have no option to store my notes in external folder. This issue makes me think about the continuity of this subscription. Other writer also stated [this issue](https://joseperez.fm/2019/goodbye-bear-hello-ia-writer/), and his post gave me the idea to check **iA Writer**.
 
 ### Modal Editing
 I came from modal editing world. The lack of **Vim** keybinding annoys me. This aspect is of my very own opinion.
@@ -35,7 +35,7 @@ Thus came other candidates
 
 ## iA Writer
 
-I installed the trial version on Mac. The main takeaway is iA Writer give the writer full control of its edited file. It uses iCloud to sync between devices. Mac version also has file versioning similar to _Time Machine_. iA Writer also supports opening external folder, enabling me to edit markdown file from my GitHub Gist.
+I installed the trial version on Mac. The main takeaway is iA Writer gives the writer full control of its edited file. It uses iCloud to sync between devices. Mac version also has file versioning similar to _Time Machine_. iA Writer also supports opening external folder, enabling me to edit markdown file from my GitHub Gist.
 
 ![I tried iA Writer trial on Mac, with its syntax highlighting on](ia-writer-headline.png)
 
@@ -54,7 +54,7 @@ That is Goyo plugin on Vim. Then I searched for Vim in iPadOS. I found it.
 
 I thought Vim app in iOS will be limiting and can only edit the files in the app's bundle file. I found iVim can edit file from other source. It also supports vimrc and plugins too! [This posts](https://www.reddit.com/r/vim/comments/9ki5g8/ivim_ios_howtos/) helps me a lot.
 
-I configured my iVim as a Zen Writing Tool_. I installed `Goyo`, `vim-markdown`, and Tim Pope's essential shortcut plugins that have been accompanying my typing journey for 2 years. The result is satisfying:
+I configured my iVim as a _Zen Writing Tool_. I installed `Goyo`, `vim-markdown`, and Tim Pope's essential shortcut plugins that have been accompanying my typing journey for 2 years. The result is satisfying:
 
 I use all of Bear, iA Writer (on Mac) and iVim for a while, eliminated Bear because of its low I mentioned above, and feel that the lack of preview makes iVim lacky. I read from reddit and other "this app vs. that app" posts that iA Writer for iOS is a worth buy. I decided to try purchasing iA Writer for iOS. 
 
