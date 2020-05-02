@@ -37,7 +37,7 @@ Thus came other candidates
 
 I installed the trial version on Mac. The main takeaway is iA Writer give the writer full control of its edited file. It uses iCloud to sync between devices. Mac version also has file versioning similar to _Time Machine_. iA Writer also supports opening external folder, enabling me to edit markdown file from my GitHub Gist.
 
-![iA Writer with its unique syntax highlighting](ia-writer-headline.jpg)
+![I tried iA Writer trial on Mac, with its syntax highlighting on](ia-writer-headline.png)
 
 The app supports _focus mode_, which consists of _typewriter mode_ similar to Ulysses' and [syntax highlighting](https://ia.net/topics/ia5_writer_features/syntax-highlight) that unique to iA Writer. The latter feature sounds unnecessary to me, because I thought highlighting non-code text will distracts me more than it helps me. I tried writing with _syntax highlighting_ on, and I realized it helps choosing good words and/or 'refactoring' the written text. The app's website has good [blog posts](https://ia.net/writer/support/writing-tips/parts-of-speech) that give tips to write well.
 
@@ -50,7 +50,7 @@ That is Goyo plugin on Vim. Then I searched for Vim in iPadOS. I found it.
 ## iVim
 
 
-![Image of the keyboard](ivim.jpg)
+![iVim with Goyo plugin on](ivim.jpg)
 
 I thought Vim app in iOS will be limiting and can only edit the files in the app's bundle file. I found iVim can edit file from other source. It also supports vimrc and plugins too! [This posts](https://www.reddit.com/r/vim/comments/9ki5g8/ivim_ios_howtos/) helps me a lot.
 

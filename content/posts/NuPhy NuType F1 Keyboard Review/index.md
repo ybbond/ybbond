@@ -17,6 +17,8 @@ My first Mechanical Keyboard is Ducky One Mini 60%, a gift from my colleagues wh
 
 I haven't tested bringing it with me anywhere as this is a "Stay At Home" era. Nevertheless, I often bring it with my iPad to any part of my house with no hassle.
 
+![Using it with iPad](nutype-under-ipad.jpg)
+
 Included with the package is the keyboard case, that magnetically sticks to its bottom and the flap folds to cover the entire large side of the keyboard. The foldable flaps can also be shaped as my iPad's stand. I like the case very much, the material feels like _alcantara_ and it looks premium.
 
 The finish of the keyboard is not as good as the case though. The black color feels plastic-y, and the orange color in the bottom does not satisfy my flavor.
@@ -28,6 +30,8 @@ The keyboard provides more than 5 RGB backlight variations. I am to lazy to coun
 ## Functionality
 
 NuType F1 supports 3 separate bluetooth connections, I tested switching between MacBook, iPad and Phone with very little delay.
+
+![Using it with MacBook](nutype-on-mac.jpg)
 
 Speaking of delay, it is a bit hit and miss. Most of the time, and in most of the part of my house, the bluetooth connection is good and I don't experience any typing delay. Sometimes, I experience a frustrating delay. I don't know if it is when I open a heavy programming app and my laptop has difficulties keeping the bluetooth connection stable. The bluetooth connection also showing problems in one part of my house that the wall is made from steel. That so, I don't know whether it is the device or the keyboard. I have no other bluetooth connected device to test, save for PS4 DualShock 4 controller and a Logitech bluetooth mouse with dongle.
 
