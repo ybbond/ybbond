@@ -1,0 +1,10 @@
+<meta name="twitter:card" content="{{ cond (or (isset .Params.Twitter "image") (isset .Params.Image "src")) "summary_large_image" "summary"}}">
+{{ $titleHome := (printf "%s :: %s" .Site.Title .Site.Params.Author) }}
+{{ $titleRest := (printf "%s :: %s" .Title  .Site.Title ) }}
+{{ $defaultDesc := cond (isset .Site "description") .Description (printf "%s by %s" .Site.Params.Description .Site.Params.Author) }}
+<meta name="twitter:title" content="{{ cond .IsHome $titleHome $titleRest }}">
+<meta name="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:description" content="{{ cond .IsHome .Site.Params.Description (.Params.Twitter.Description | default $defaultDesc) }}">
+<meta name="twitter:image" content="{{ .Params.Twitter.Image | default (printf "%s%s" .Permalink .Params.Image.Src) | default "logo.png" | absURL }}">
+<meta name="twitter:site" content="@{{ .Params.Twitter.Site | default .Site.Params.twitter }}">
+<meta name="twitter:creator" content="@{{ .Params.Twitter.Site | default .Site.Params.twitter }}">

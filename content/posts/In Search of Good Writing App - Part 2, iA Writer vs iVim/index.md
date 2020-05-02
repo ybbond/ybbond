@@ -7,7 +7,7 @@ tags:
   - Apple Apps #apple_apps
 date: 2020-04-01T18:22:31
 image:
-  src: https://cdn.ybbond.dev/pictures/blog/2020-04-01-in-search-of-good-writing-app-part-2/ia-writer-headline.jpg
+  src: ia-writer-headline.jpg
 ---
 
 > “Orang emang gak pernah puas!” - Indonesian colloquial sayings

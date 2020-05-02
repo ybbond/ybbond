@@ -4,6 +4,8 @@ author: Yohanes Bandung Bondowoso
 tags:
   - Review #review
 description: I backed a project for mechanical keyboard on Kickstarter early 2020. Last week, it arrived to my home.
+image:
+  src: nutype-under-ipad.jpg
 date: 2020-04-05T18:23:12
 ---
 
