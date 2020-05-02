@@ -14,7 +14,7 @@ image:
 >
 > “People are never satisfied” - Paulo Coelho’s almost literal translation
 
-Part 2 of my previous post: [In Search of Good Writing App - Bear vs Ulysses](/posts/2020/03/in-search-of-good-writing-app-bear-vs-ulysses/)
+Part 2 of my previous post: [In Search of Good Writing App - Bear vs Ulysses](/posts/2020-03-in-search-of-good-writing-app-bear-vs-ulysses/)
 
 ---
 
