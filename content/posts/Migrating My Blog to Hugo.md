@@ -15,7 +15,9 @@ After 20% progress of making MarkDown to HTML parser, I got tired. Instead of re
 
 Other options I found was **Jekyll**, **Hugo**, **nanoc** and **Gatsby**. I tried Gatsby for work and side projects, and the two others just doesn't fit my needs.
 
-One of the thing I like is that it parse MarkDown automatically.
+## So I tried Hugo!
+
+The main feature I like is that it parses MarkDown automatically. It also generates [RSS](https://ybbond.dev/index.xml) for each page.
 
 It supports the flavor of MarkDown that parses footnotes! I **love footnotes**[^2]!
 
