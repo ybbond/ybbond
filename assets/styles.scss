@@ -23,6 +23,9 @@ body {
 
 hr {
   margin: 40px auto;
+  @include themify($themes) {
+    border: solid 1px themed('color-border');
+  }
 }
 
 @media (max-width: 599px) {
@@ -255,7 +258,7 @@ time {
     }
   }
   &__copyright {
-    margin: 10px 0 40px;
+    margin: 10px 0 2em;
     font-size: 0.8em;
     text-align: center;
     @media (max-width: 599px) {
@@ -266,5 +269,36 @@ time {
         display: none;
       }
     }
+  }
+}
+
+.h-card {
+  max-width: 25em;
+  display: flex;
+  font-size: 0.8em;
+  margin: 0 auto 2em;
+  padding: 1.5em;
+  position: relative;
+  @include themify($themes) {
+    border: solid 2px themed('color-border');
+  }
+  &__description {
+    top: -0.9em;
+    left: 1em;
+    padding: 0 0.5em;
+    position: absolute;
+    @include themify($themes) {
+      background-color: themed('color-background');
+    }
+    & > p {
+      margin: 0;
+    }
+  }
+  &__info {
+    margin-left: 2em;
+  }
+  img {
+    width: 5em;
+    height: 5em;
   }
 }

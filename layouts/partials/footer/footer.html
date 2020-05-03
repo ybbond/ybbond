@@ -20,9 +20,20 @@
   {{ with .Site.BaseURL }}
     <span class="footer__copyright__separator">-</span>
     <span class="footer__copyright__site">
-      <a href="{{ . }}" class="button">
+      <a href="{{ . }}">
         {{ . | replaceRE "^https?://([^/]+).*" "$1" }}
       </a>
     </span>
   {{ end }}
 </p>
+<div class="h-card">
+  <div class="h-card__description"><p>My <a>h-card</a></p></div>
+  <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
+  <div class="h-card__info">
+    <a class="p-name u-url" href={{ .Site.BaseURL }}>{{ substr .Site.Params.Author 0 20 }}</a>
+    <br>
+    <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+    <br>
+    <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
+  </div>
+</div>
