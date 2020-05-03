@@ -7,7 +7,15 @@
       <br>
       <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
       <br>
+      <a rel="syndication" class="u-syndication" href={{ .Permalink }}>{{ .Title }}</a>
+      <br>
       <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
+      <br>
+      {{ with .Params.tags }}
+        {{ range . }}
+          <a class="p-category" href={{ (printf  "tags/%s" .) | urlize | absURL }}>{{ . }}</a>
+        {{ end }}
+      {{ end }}
     </div>
     <div class="e-content">
       {{ partial "components/headline-hash.html" .Content }}
