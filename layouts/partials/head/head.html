@@ -2,29 +2,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<link data-hint="Twitter" title="Twitter" href="https://twitter.com/{{ .Site.Params.Twitter }}" rel="me" />
-<link data-hint="GitHub" title="GitHub" href="https://github.com/{{ .Site.Params.Github }}" rel="me" />
-<link data-hint="Micro.Blog" title="Micro.Blog" href="https://micro.blog/ybbond" rel="me" />
-<link data-hint="Email" title="Email" href="mailto:{{ .Site.Params.Email }}" rel="me" />
-<link data-hint="Mastodon" title="Mastodon" href="https://indieweb.social/@ybbond" rel="me" />
-
-
-{{ with .OutputFormats.Get "rss" }}
-    {{ $rssTitle := printf "%s RSS" $.Site.Title }}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $rssTitle | safeHTML }}
-{{ end }}
-
-<link rel="openid.delegate" href="https://ybbond.dev/" />
-<link rel="openid.server" href="https://openid.indieauth.com/openid" />
-
 <title>{{ with or (.Page.Title) (.Site.Title) }}{{ . }} ::{{ end }} {{ .Site.Params.Author }}</title>
-
 <meta
   name="description"
   content="{{if .IsHome}}{{ .Site.Params.Description }}{{ else if .Params.description }}{{ .Params.description }}{{else}}{{ .Summary }} →{{end}}"
 />
 {{ with .Site.Params.Author }}
   <meta name="author" content="{{ . }}">
+{{ end }}
+
+{{ with .OutputFormats.Get "rss" }}
+    {{ $rssTitle := printf "%s RSS" $.Site.Title }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $rssTitle | safeHTML }}
 {{ end }}
 
 <style amp-custom>
@@ -41,3 +30,4 @@
 
 {{ partial "head/og-metas.html" . }}
 {{ partial "head/twitter-card-metas.html" . }}
+{{ partial "head/auth-links.html" . }}
