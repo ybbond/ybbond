@@ -1,22 +1,25 @@
 {{ $dateformat := .Date.Format "2006-01-02 15:04" }}
 {{ $idslug := (print "date-" $dateformat "-") | urlize }}
-<div class="notes">
+<div class="notes h-entry">
+  <p class="p-author" rel="author">{{ .Site.Params.Author }}</p>
   <p class="notes__title" id={{ $idslug }}>
     <span>
-      <time class="notes__title__date">
+      <time class="notes__title__date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
         {{ .Date.Format "02 Jan 2006" }}
       </time>
         {{ if .Title }}
         {{ else }}
-          <a href="/notes/#{{ $idslug }}">#</a></span>
+          <a class="u-url" href="/notes/#{{ $idslug }}">#</a></span>
         {{ end }}
     </span>
     {{ with .Title}}
       <span class="notes__title__separator"> - </span>
     {{ end }}
     {{ with .Title}}
-      <span class="notes__title__title">{{ . }} <a href="#{{ $idslug }}">#</a></span>
+      <span class="notes__title__title">{{ . }} <a class="u-url" href="#{{ $idslug }}">#</a></span>
     {{ end }}
   </p>
-  {{ .Content }}
+  <div class="e-content p-name">
+    {{ .Content }}
+  </div>
 </div>

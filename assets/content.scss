@@ -9,6 +9,10 @@
   font-family: $font-text;
   width: 100%;
 
+  .p-author {
+    display: none;
+  }
+
   pre {
     overflow: auto;
     padding: 0.5em;
@@ -100,9 +104,13 @@
   }
 }
 .notes {
-  & > p {
+  & > div, & > p {
     margin: 0;
     margin-top: 0.7em;
+    & > p {
+      margin: 0;
+      margin-top: 0.7em;
+    }
   }
   &__title {
     margin: 0;

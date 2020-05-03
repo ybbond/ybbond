@@ -8,11 +8,11 @@
     {{ end }}
   </p>
   <p class="footer__nav__right">
-		<a class="button" href="https://github.com/{{ .Site.Params.Github }}" rel="me">GitHub</a>
-		<a class="button" href="https://twitter.com/{{ .Site.Params.Twitter }}" rel="me">Twitter</a>
+    <a class="button" href="https://github.com/{{ .Site.Params.Github }}" rel="me">GitHub</a>
+    <a class="button" href="https://twitter.com/{{ .Site.Params.Twitter }}" rel="me">Twitter</a>
     <a class="button" href="https://micro.blog/{{ .Site.Params.Microblog }}" rel="me">Micro.blog</a>
     <a class="button" href="https://indieweb.social/@ybbond" rel="me">Mastodon</a>
-		<a class="button" href={{ "index.xml" | absURL }}>RSS</a>
+    <a class="button" href={{ "index.xml" | absURL }}>RSS</a>
   </p>
 </div>
 
@@ -26,7 +26,7 @@
   <div class="hcard__description"><p>My <a>h-card</a></p></div>
 <div id="h-card" class="h-card">
   <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
-  <a class="p-name u-url u-uid p-author" href={{ .Site.Params.MainSiteURL }} rel="me">{{ substr .Site.Params.Author 0 20 }}.</a>
+  <a class="p-name u-url u-uid" href={{ .Site.Params.MainSiteURL }} rel="me">{{ substr .Site.Params.Author 0 20 }}.</a>
   <br>
   <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
   <br>

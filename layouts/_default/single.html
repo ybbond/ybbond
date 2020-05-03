@@ -1,6 +1,7 @@
 {{ define "main" }}
   <article class="content h-entry">
     <h1 class="p-name">{{ .Title }}</h1>
+    <p class="p-author" rel="author">{{ .Site.Params.Author }}</p>
     <div class="e-content">
       {{ partial "components/headline-hash.html" .Content }}
     </div>

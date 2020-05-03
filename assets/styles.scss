@@ -63,7 +63,7 @@ a {
     &:hover {
       color: themed('color-red');
     }
-    &.link-white {
+    &.link-white, .link-white {
       color: themed('color-text');
     }
   }
