@@ -63,7 +63,7 @@ a {
     &:hover {
       color: themed('color-red');
     }
-    .link-white {
+    &.link-white {
       color: themed('color-text');
     }
   }
@@ -304,10 +304,10 @@ time {
         height: 5em;
       }
       & > a {
-        padding-left: 6.5em;
+        margin-left: 6.5em;
       }
       & > .p-locality {
-        padding-left: 6.5em;
+        margin-left: 6.5em;
       }
     }
   }

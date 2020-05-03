@@ -1,12 +1,13 @@
 {{ define "main" }}
-  <article class="content">
-    <h1>{{ .Title }}</h1>
-    {{ partial "components/headline-hash.html" .Content }}
-    {{ $date := .Date.Format "02 January 2006" }}
+  <article class="content h-entry">
+    <h1 class="p-name">{{ .Title }}</h1>
+    <div class="e-content">
+      {{ partial "components/headline-hash.html" .Content }}
+    </div>
+    <br>
+    <br>
+    <p><a class="u-url link-white" href={{ .Permalink }}>Published</a> on <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">{{ .Date.Format "02 January 2006" }}</time>, for stories like this:</p>
     {{ with .Params.tags }}
-      <br>
-      <br>
-      <p>Published on <time>{{ $date }}</time>, for stories like this:</p>
       <p class="taglist">
         {{ range . }}
           {{- partial "components/tagitem.html" . -}}
