@@ -14,8 +14,8 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $rssTitle | safeHTML }}
 {{ end }}
 
-<link href="https://micro.blog/indieauth/auth" rel="authorization_endpoint" />
-<link href="https://micro.blog/indieauth/token" rel="token_endpoint" />
+<link rel="openid.delegate" href="https://ybbond.dev/" />
+<link rel="openid.server" href="https://openid.indieauth.com/openid" />
 
 <title>{{ with or (.Page.Title) (.Site.Title) }}{{ . }} ::{{ end }} {{ .Site.Params.Author }}</title>
 
