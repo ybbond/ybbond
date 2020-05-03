@@ -1,7 +1,7 @@
 {{ $dateformat := .Date.Format "2006-01-02 15:04" }}
 {{ $idslug := (print "date-" $dateformat "-") | urlize }}
 <div class="notes h-entry">
-  <p class="p-author" rel="author">{{ .Site.Params.Author }}</p>
+  <p class="p-author h-card" rel="author">{{ .Site.Params.Author }}</p>
   <p class="notes__title" id={{ $idslug }}>
     <span>
       <time class="notes__title__date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
