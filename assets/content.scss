@@ -8,10 +8,12 @@
 .content, .notes  {
   font-family: $font-text;
   width: 100%;
+
   pre {
     overflow: auto;
     padding: 0.5em;
   }
+
   a {
     &:hover {
       @include themify($themes) {
@@ -19,16 +21,19 @@
       }
     }
   }
+
   code {
     padding: 0.1em;
     font-family: $font-mono;
     font-size: 0.9em;
   }
+
   :not(pre) > code {
     @include themify($themes) {
       background-color: themed('color-background-hover');
     }
   }
+
   table {
     display: block;
     overflow-x: auto;
@@ -56,6 +61,7 @@
       }
     }
   }
+
   ul {
     padding: 0;
     li {
@@ -67,17 +73,27 @@
         display: inline-block;
         content: "- ";
         position: absolute;
+        z-index: 1;
         width: 20px;
         @include themify($themes) {
           color: themed('color-red');
         }
         left: 0;
       }
+      input {
+        margin-left: -20px;
+        position: absolute;
+        z-index: 2;
+        top: 3.9px;
+        margin-right: 0;
+      }
     }
   }
+
   figcaption {
     font-size: 0.8em;
   }
+
   twitter-widget {
     margin-left: auto;
     margin-right: auto;
