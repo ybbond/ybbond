@@ -1,7 +1,14 @@
 {{ $dateformat := .Date.Format "2006-01-02 15:04" }}
 {{ $idslug := (print "date-" $dateformat "-") | urlize }}
 <div class="notes h-entry">
-  <p class="p-author h-card" rel="author">{{ .Site.Params.Author }}</p>
+  <div id="h-card" class="hcard">
+    <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
+    <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
+    <br>
+    <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+    <br>
+    <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
+  </div>
   <p class="notes__title" id={{ $idslug }}>
     <span>
       <time class="notes__title__date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">

@@ -1,7 +1,14 @@
 {{ define "main" }}
   <article class="content h-entry">
     <h1 class="p-name">{{ .Title }}</h1>
-    <p class="p-author h-card" rel="author">{{ .Site.Params.Author }}</p>
+    <div id="h-card" class="hcard">
+      <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
+      <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
+      <br>
+      <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+      <br>
+      <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
+    </div>
     <div class="e-content">
       {{ partial "components/headline-hash.html" .Content }}
     </div>
