@@ -16,18 +16,18 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $rssTitle | safeHTML }}
 {{ end }}
 
+<script type="application/javascript" src="{{ .Site.BaseURL }}darkToggler.js" async="true"></script>
+<script type="application/javascript" src="{{ .Site.BaseURL }}lazyImage.js" async="true"></script>
+
 <style amp-custom>
   {{ with resources.Get "styles.scss" | resources.ToCSS | resources.Minify }}
       {{ .Content | safeCSS }}
   {{ end }}
 </style>
 
-<script type="application/javascript" src="{{ .Site.BaseURL }}darkToggler.js"></script>
-<script type="application/javascript" src="{{ .Site.BaseURL }}lazyImage.js"></script>
-
 <link rel="canonical" href="{{ .Permalink }}" />
 <link rel="sitemap" href="{{ "sitemap.xml" | absURL }}" type="application/xml" />
 
+{{ partial "head/auth-links.html" . }}
 {{ partial "head/og-metas.html" . }}
 {{ partial "head/twitter-card-metas.html" . }}
-{{ partial "head/auth-links.html" . }}
