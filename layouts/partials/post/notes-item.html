@@ -20,7 +20,7 @@
       </time>
         {{ if .Title }}
         {{ else }}
-          <a class="u-url" href="/notes/#{{ $idslug }}">#</a></span>
+          <a class="u-url" href="/notes/#{{ $idslug }}">#</a> <a href={{ .Permalink }}>»</a>
         {{ end }}
     </span>
     {{ with .Title}}
