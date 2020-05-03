@@ -275,9 +275,8 @@ time {
     }
   }
 
-  .h-card {
+  .hcard {
     max-width: 25em;
-    display: flex;
     font-size: 0.8em;
     margin: 2em auto 2.2em;
     padding: 1.5em;
@@ -297,12 +296,19 @@ time {
         margin: 0;
       }
     }
-    &__info {
-      margin-left: 2em;
-    }
-    img {
-      width: 5em;
-      height: 5em;
+    .h-card {
+      position: relative;
+      img {
+        position: absolute;
+        width: 5em;
+        height: 5em;
+      }
+      & > a {
+        padding-left: 6.5em;
+      }
+      & > .p-locality {
+        padding-left: 6.5em;
+      }
     }
   }
 

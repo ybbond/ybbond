@@ -22,16 +22,16 @@
   <a href="https://xn--sr8hvo.ws/%F0%9F%8E%B8%F0%9F%8D%8D%F0%9F%95%97/next">→</a>
 </center>
 
+<div class="hcard">
+  <div class="hcard__description"><p>My <a>h-card</a></p></div>
 <div id="h-card" class="h-card">
-  <div class="h-card__description"><p>My <a>h-card</a></p></div>
   <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
-  <div class="h-card__info">
-    <a class="p-name u-url" href={{ .Site.BaseURL }}>{{ substr .Site.Params.Author 0 20 }}</a>
-    <br>
-    <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
-    <br>
-    <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
-  </div>
+  <a class="p-name u-url u-uid" href={{ .Site.Params.MainSiteURL }} rel="me">{{ substr .Site.Params.Author 0 20 }}.</a>
+  <br>
+  <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+  <br>
+  <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
+</div>
 </div>
 
 <p class="footer__copyright">
