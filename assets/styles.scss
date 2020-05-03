@@ -230,12 +230,22 @@ time {
   &__separator {
     margin: 40px auto 20px;
   }
+
   &__nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 2em;
+    & > p {
+      margin: 0;
+    }
     &__left {
       text-align: left;
+      @media (min-width: 600px) {
+        &__back {
+          margin-left: -0.7em;
+        }
+      }
     }
     &__right {
       text-align: right;
@@ -257,48 +267,55 @@ time {
       }
     }
   }
+
+  .web-ring {
+    margin: 0.7em 0;
+    a {
+      cursor: pointer;
+    }
+  }
+
+  .h-card {
+    max-width: 25em;
+    display: flex;
+    font-size: 0.8em;
+    margin: 2em auto 2.2em;
+    padding: 1.5em;
+    position: relative;
+    @include themify($themes) {
+      border: solid 2px themed('color-border');
+    }
+    &__description {
+      top: -0.9em;
+      left: 1em;
+      padding: 0 0.5em;
+      position: absolute;
+      @include themify($themes) {
+        background-color: themed('color-background');
+      }
+      & > p {
+        margin: 0;
+      }
+    }
+    &__info {
+      margin-left: 2em;
+    }
+    img {
+      width: 5em;
+      height: 5em;
+    }
+  }
+
   &__copyright {
-    margin: 10px 0 2em;
+    margin: 0.7em 0 3em;
     font-size: 0.8em;
     text-align: center;
     @media (max-width: 599px) {
       display: flex;
       flex-direction: column;
-      margin-top: 0;
       &__separator {
         display: none;
       }
     }
-  }
-}
-
-.h-card {
-  max-width: 25em;
-  display: flex;
-  font-size: 0.8em;
-  margin: 0 auto 2em;
-  padding: 1.5em;
-  position: relative;
-  @include themify($themes) {
-    border: solid 2px themed('color-border');
-  }
-  &__description {
-    top: -0.9em;
-    left: 1em;
-    padding: 0 0.5em;
-    position: absolute;
-    @include themify($themes) {
-      background-color: themed('color-background');
-    }
-    & > p {
-      margin: 0;
-    }
-  }
-  &__info {
-    margin-left: 2em;
-  }
-  img {
-    width: 5em;
-    height: 5em;
   }
 }

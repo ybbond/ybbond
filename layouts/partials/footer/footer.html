@@ -2,7 +2,7 @@
 <div class="footer__nav">
   <p class="footer__nav__left">
     {{ if not .IsHome }}
-      <a class="button" href={{ .Site.BaseURL }}>
+      <a class="button footer__nav__left__back" href={{ .Site.BaseURL }}>
         « Back to Home
       </a>
     {{ end }}
@@ -15,6 +15,25 @@
 		<a class="button" href={{ "index.xml" | absURL }}>RSS</a>
   </p>
 </div>
+
+<center class="web-ring">
+<a href="https://xn--sr8hvo.ws/%F0%9F%8E%B8%F0%9F%8D%8D%F0%9F%95%97/previous">←</a>
+  An IndieWeb Webring 🕸💍
+  <a href="https://xn--sr8hvo.ws/%F0%9F%8E%B8%F0%9F%8D%8D%F0%9F%95%97/next">→</a>
+</center>
+
+<div id="h-card" class="h-card">
+  <div class="h-card__description"><p>My <a>h-card</a></p></div>
+  <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
+  <div class="h-card__info">
+    <a class="p-name u-url" href={{ .Site.BaseURL }}>{{ substr .Site.Params.Author 0 20 }}</a>
+    <br>
+    <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+    <br>
+    <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
+  </div>
+</div>
+
 <p class="footer__copyright">
   <span class="footer__copyright__year">&copy;{{ now.Year }} {{ .Site.Params.Author }}</span>
   {{ with .Site.BaseURL }}
@@ -26,14 +45,5 @@
     </span>
   {{ end }}
 </p>
-<div class="h-card">
-  <div class="h-card__description"><p>My <a>h-card</a></p></div>
-  <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
-  <div class="h-card__info">
-    <a class="p-name u-url" href={{ .Site.BaseURL }}>{{ substr .Site.Params.Author 0 20 }}</a>
-    <br>
-    <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
-    <br>
-    <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
-  </div>
-</div>
+
+
