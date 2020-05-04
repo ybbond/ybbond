@@ -103,6 +103,9 @@ time {
     color: themed('color-red');
   }
   font-family: $font-mono;
+  &[title] {
+    cursor: help;
+  }
 }
 
 .listing {

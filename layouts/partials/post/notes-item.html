@@ -15,7 +15,7 @@
   </div>
   <p class="notes__title" id={{ $idslug }}>
     <span>
-      <time class="notes__title__date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
+      <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7" class="notes__title__date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
         {{ .Date.Format "02 Jan 2006" }}
       </time>
         {{ if .Title }}

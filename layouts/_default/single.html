@@ -27,7 +27,7 @@
       </div>
       <br>
       <br>
-      <p {{ if eq .Type "page" }}class="hcard"{{ end }}><a class="u-url link-white" href={{ .Permalink }}>Published</a> on <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">{{ .Date.Format "02 January 2006" }}</time>, for stories like this:</p>
+      <p {{ if eq .Type "page" }}class="hcard"{{ end }}><a class="u-url link-white" href={{ .Permalink }}>Published</a> on <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7" class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">{{ .Date.Format "02 January 2006" }}</time>, for stories like this:</p>
       {{ with .Params.tags }}
         <p class="taglist">
           {{ range . }}
