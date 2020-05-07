@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ybbond
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ybbond.dev
+  * I am ybbond (https://keybase.io/ybbond) on keybase.
+  * I have a public key ASC_0o8GrbCU4gG-w5ejjtvgMfm_TEhp6PT5xIaf3BsIygo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120bfd28f06adb094e201bec397a38edbe031f9bf4c4869e8f4f9c4869fdc1b08ca0a",
+      "host": "keybase.io",
+      "kid": "0120bfd28f06adb094e201bec397a38edbe031f9bf4c4869e8f4f9c4869fdc1b08ca0a",
+      "uid": "c9bcf231ce6903969d34778a1014f419",
+      "username": "ybbond"
+    },
+    "merkle_root": {
+      "ctime": 1588870031,
+      "hash": "846d686c647e53d7d76da3edb433a1c874c075ca7405ef63b0434f422aabe8fa750ba5c0e80dccc41f54cbb9ecb0a4589e8447a0ea1012acf216a510d272125a",
+      "hash_meta": "172ba423ed7b0981054ea8281a3edf1f1b87e33a6a0ce87aead18f5ac6d04eb4",
+      "seqno": 16196240
+    },
+    "service": {
+      "entropy": "PvpnKjarhTtwEqUwSnpPy3Xl",
+      "hostname": "ybbond.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1588870090,
+  "expire_in": 504576000,
+  "prev": "8b3f0ebefc2ae06e7fd0952a4f43ed8e906d58b3c64d0ac936d56c936635b38e",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgv9KPBq2wlOIBvsOXo47b4DH5v0xIaej0+cSGn9wbCMoKp3BheWxvYWTESpcCBsQgiz8Ovvwq4G5/0JUqT0PtjpBtWLPGTQrJNtVsk2Y1s47EILofN4njsHmZrFFjVhvrVfMOKxObz6C749C6+ImLGa2CAgHCo3NpZ8RAdahhyOC6/vRgwKR1wCI30GsHRL7WGi5St/GYogu4SIZETIfUcR1agy0I3PM9QclQPy36TSJTtz7h51oPkoq2DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII0sllIqgleJWsUNyHIvvlfEmQk+Hnh/VnuBQSDAICHUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ybbond
+
+==================================================================
