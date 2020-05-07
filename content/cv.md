@@ -4,7 +4,13 @@ menu: cv
 description: CV
 ---
 
-You may contact me through hi@ybbond.dev,<br>or through any of my social medias listed in the [footer down below](#down).
+You can contact me through hi@ybbond.dev,<br>or through any of my social medias in my [keybase](https://keybase.io/ybbond) or listed in the [footer down below](#down).
+
+You can use this PGP key for encrypted message:
+
+```html
+6417 3FDD 8623 2AA4 996E 39E8 9F54 5B8A 8C3D FF8F
+```
 
 ## Quests
 
