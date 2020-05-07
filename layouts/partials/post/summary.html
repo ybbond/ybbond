@@ -22,8 +22,6 @@
       <p>Read More »</p>
     </a>
   {{ else }}
-    <p>
-      {{ .Content }}
-    </p>
+    {{ partial "components/summary-seo.html" .Content }}
   {{ end }}
 </article>

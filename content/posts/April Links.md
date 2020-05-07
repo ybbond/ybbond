@@ -11,13 +11,13 @@ An interesting [posts](https://yihui.org/en/2018/02/career-crisis/) by Yihui Xie
 
 🐒 [Corrupt a file - Corrupt file online, deliver on time!](https://corrupt-a-file.net/)
 
-### Tech
+## Tech
 
 👠 [vime/README.md at master · vime-js/vime · GitHub](https://github.com/vime-js/vime/blob/master/README.md)
 
 🛂 [Password Strengh - xkcd #936](https://xkcd.com/936/)
 
-### Blog
+## Blog
 
 📰 [Ask HackerNews: What is your blog](https://news.ycombinator.com/item?id=22800136)
 
