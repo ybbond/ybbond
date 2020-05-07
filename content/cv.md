@@ -21,7 +21,7 @@ description: CV
 ## Find Me
 
 - everywhere: ybbond or bandungpenting
-- bandungpenting@gmail.com
+- hi@ybbond.dev
 - Github, Instagram, Twitter
 
 <br>
