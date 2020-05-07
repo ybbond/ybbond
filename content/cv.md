@@ -1,14 +1,28 @@
 ---
-title: My CV
+title: 
 menu: cv
 description: CV
 ---
+
+You may contact me through hi@ybbond.dev,<br>or through any of my social medias listed in the [footer down below](#down).
+
 ## Quests
 
-- <time>2014</time><br>Design Intern [@X-Graphic](https://www.xg.co.id/)
-- <time>2016 - 2018</time><br>Quality Assurance [@Touchten Games](https://www.touchten.com/)
-- <time>2018 - 2019</time><br>Frontend Engineer [@Vospay](https://vospay.id/)
-- <time>2019 -</time><br>Frontend Engineer [@kumparan](https://kumparan.com/)
+- <time>2014</time><br>**Design Intern** [@X-Graphic](https://www.xg.co.id/)
+Design operator interacting directly with customer,
+translating their abstract ideas to ready-to-print material.
+`Adobe Illustrator` & `Photoshop`, `Sketch`.
+- <time>2016 - 2018</time><br>**Quality Assurance** [@Touchten Games](https://www.touchten.com/)
+Testing games manually or with automation.
+I check the performance, fun factor, and framework reliability.
+- <time>2018 - 2019</time><br>**Frontend Engineer** [@Vospay](https://vospay.id/)
+Created the landing page and maintaining the dashboard.
+I single-handedly created the native app with `Expo`.
+I do a lil bit of design too.
+`React Native Web`, `TypeScript`.
+- <time>2019 -</time><br>**Frontend Engineer** [@kumparan](https://kumparan.com/)
+My current job. I like it here.
+`React`, `React Native`, `JavaScript`, `Apollo GraphQL`.
 
 ## Good to Know
 
@@ -18,12 +32,6 @@ description: CV
 - Loves moshing at indie band gigs
 - from Jakarta, Indonesia
 
-## Find Me
-
-- everywhere: ybbond or bandungpenting
-- hi@ybbond.dev
-- Github, Instagram, Twitter
-
 <br>
 <br>
-See you sooner :D
+<span id="down">See you sooner :D</span>
