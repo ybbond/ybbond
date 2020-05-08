@@ -130,6 +130,8 @@
 }
 
 .notes {
+  margin-bottom: 2em;
+
   & > div, & > p {
     margin: 0;
     margin-top: 0.7em;
@@ -138,15 +140,17 @@
       margin-top: 0.7em;
     }
   }
+
   &__title {
     margin: 0;
   }
+
   @media (min-width: 600px) {
     .listing > & {
       padding: 0 0.7em;
     }
   }
-  margin-bottom: 2em;
+
   @media (max-width: 599px) {
     &__title {
       margin: 10px 0 0;
