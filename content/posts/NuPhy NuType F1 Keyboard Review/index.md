@@ -2,7 +2,7 @@
 title: NuPhy NuType F1 Keyboard Review
 author: Yohanes Bandung Bondowoso
 tags:
-  - Review #review
+  - review #review
 description: I backed a project for mechanical keyboard on Kickstarter early 2020. Last week, it arrived to my home.
 image:
   src: nutype-under-ipad.jpg

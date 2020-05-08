@@ -3,7 +3,8 @@ title: Migrating My Blog to Hugo
 author: Yohanes Bandung Bondowoso
 description: I originally planned to make my own Markdown parser and use gist as my blog CMS. After researched a bit between static site generator, I choose Hugo.
 tags:
-  - Web Development #web_development
+  - webdev #webdev
+  - meta #meta
 date: 2020-04-15T01:59:34
 ---
 

@@ -2,7 +2,7 @@
 title: Interesting Links I Found on February, 2020
 author: Yohanes Bandung Bondowoso
 tags:
-  - Bookmarks #bookmarks
+  - bookmarks #bookmarks
 date: 2020-03-01T00:00:01
 type: links
 ---
