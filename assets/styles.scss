@@ -21,6 +21,10 @@ body {
   margin: 0 auto;
 }
 
+[hidden] {
+  display: none;
+}
+
 hr {
   margin: 40px auto;
   @include themify($themes) {
@@ -35,12 +39,6 @@ hr {
   body {
     padding: 0 1em;
     margin: 0;
-  }
-}
-
-.h-entry, .h-feed {
-  .hcard {
-    display: none;
   }
 }
 

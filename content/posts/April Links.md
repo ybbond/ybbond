@@ -7,11 +7,11 @@ date: 2020-05-01T00:00:01
 type: bookmarks
 ---
 
-An interesting [posts](https://yihui.org/en/2018/02/career-crisis/) by Yihui Xie, maintainer of TinyTex, and its [follow-up](https://yihui.org/en/2018/02/procrastination-techniques/) that leads me to this naughty website:
-
-🐒 [Corrupt a file - Corrupt file online, deliver on time!](https://corrupt-a-file.net/)
 
 ## Tech
+
+🌏 [IndieWeb](https://indieweb.org/)
+Led me to `IndieWebify` this site.
 
 👠 [vime/README.md at master · vime-js/vime · GitHub](https://github.com/vime-js/vime/blob/master/README.md)
 
@@ -23,4 +23,9 @@ An interesting [posts](https://yihui.org/en/2018/02/career-crisis/) by Yihui Xie
 
 🧮 [Analyzing HN Reader's Personal Blogs Part 1 - Danny Salzman, by Danny Salzman](https://www.dannysalzman.com/2020/04/08/analyzing-hn-readers-personal-blogs)
 
-🌑 [RIP John Conway - XKCD](https://xkcd.com/2293/)
+🌑 [RIP John Conway - xkcd #2293](https://xkcd.com/2293/)
+
+## Knowledge
+
+An interesting [post](https://yihui.org/en/2018/02/career-crisis/) by Yihui Xie, maintainer of TinyTex, and its [follow-up](https://yihui.org/en/2018/02/procrastination-techniques/) that leads me to this naughty website:
+🐒 [Corrupt a file - Corrupt file online, deliver on time!](https://corrupt-a-file.net/)

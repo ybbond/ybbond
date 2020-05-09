@@ -1,7 +1,14 @@
 <article class="summary h-entry">
-  <a href="{{ .Permalink }}" class="u-url">
+  {{ $permalink := .Permalink }}
+  {{ $title := .Title }}
+  {{ with .Params.Image.Src }}
+    {{ $filename := . | safeURL }}
+    {{ $original := printf "%s/%s" $permalink $filename }}
+    <img class="u-photo" hidden="" src={{ $original }} alt="Illustration of {{ $title }}" />
+  {{ end }}
+  <a href="{{ $permalink }}" class="u-url">
     <h2 class="summary__title p-name">
-      {{ .Title }}
+      {{ $title }}
     </h2>
   </a>
   <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7">
@@ -24,10 +31,12 @@
  {{ $hell := .Type }}
   {{ if .Params.Description }}
     <p> {{ .Params.Description }} </p>
-    <a href="{{ .Permalink }}">
+    <a href="{{ $permalink }}">
       <p>Read More »</p>
     </a>
   {{ else }}
-    {{ partial "components/summary-seo.html" .Content }}
+    <div class="summary__content">
+      {{ partial "components/summary-seo.html" .Content }}
+    </div>
   {{ end }}
 </article>

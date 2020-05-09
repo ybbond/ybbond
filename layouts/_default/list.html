@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="h-feed">
-    <div id="h-card" class="hcard">
+    <div id="h-card" class="hcard" hidden="">
     <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
     <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
     <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
@@ -15,10 +15,11 @@
   {{ $selflink := .Permalink }}
   {{ if or .Title .Content }}
     <div class="list__header">
+      {{ $isTag := eq .Type "tags" }}
       {{ with .Title }}
         <a href={{ $selflink }} class="u-url">
           <h1 class="p-name">
-              {{ . }}
+              {{ cond $isTag "Tag «" nil}}{{ . }}{{ cond $isTag "»" nil}}
           </h1>
         </a>
       {{ end }}

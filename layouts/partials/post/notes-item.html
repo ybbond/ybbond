@@ -1,8 +1,14 @@
 {{ $dateformat := .Date.Format "2006-01-02 15:04" }}
 {{ $idslug := (print "date-" $dateformat "-") | urlize }}
 <div class="notes h-entry" id={{ $idslug }}>
-  <div id="h-card" class="hcard">
-    <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
+  <div id="h-card" class="hcard" hidden="">
+    {{ $permalink := .Permalink }}
+    {{ $title := .Title }}
+    {{ with .Params.Image.Src }}
+      {{ $filename := . | safeURL }}
+      {{ $original := printf "%s/%s" $permalink $filename }}
+      <img class="u-photo" hidden="" src={{ $original }} alt="Illustration of {{ $title }}" />
+    {{ end }}
     <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
     <br>
     <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>

@@ -5,7 +5,7 @@
   @return map-get($theme-map, $key);
 }
 
-.content, .notes, .summary {
+.content, .notes, .summary__content {
   font-family: $font-text;
   width: 100%;
 
@@ -122,15 +122,15 @@
       span {
         position: relative;
         &:before {
+          right: 0.6em;
+          top: -0.2em;
           display: inline-block;
-          content: "– ";
+          content: "–";
           position: absolute;
           z-index: 1;
-          width: 20px;
           @include themify($themes) {
             color: themed('color-red');
           }
-          left: -1.2em;
         }
       }
       input {
