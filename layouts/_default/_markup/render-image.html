@@ -14,15 +14,17 @@
 
 <figure>
     <center>
-    <img
-        style="max-width: 100%; height: auto;"
-        src="{{ $thumb }}"
-        width="{{ $original.Width }}"
-        height="{{ $original.Height }}"
-        alt="{{ default $text "image" }}"
-        data-src="{{$original.RelPermalink}}"
-        class="lazy"
-    />
+    <a href={{ $original.RelPermalink }} class="button">
+      <img
+          style="max-width: 100%; height: auto;"
+          src="{{ $thumb }}"
+          width="{{ $original.Width }}"
+          height="{{ $original.Height }}"
+          alt="{{ default $text "image" }}"
+          data-src="{{$original.RelPermalink}}"
+          class="lazy"
+      />
+    </a>
     {{with $text }}
     <figcaption>{{ . }}</figcaption>
     {{end}}

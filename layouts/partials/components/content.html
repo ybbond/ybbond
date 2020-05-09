@@ -2,5 +2,6 @@
 {{ $h2_hash := $add_hash_after | replaceRE "(<h2 id=\"([^\"]+)\">)(.+)(</h2>)" "${1}<a class=\"before-hash h2\" href=\"#${2}\">##</a> ${3} ${4}" }} 
 {{ $h3_hash := $h2_hash | replaceRE "(<h3 id=\"([^\"]+)\">)(.+)(</h3>)" "${1}<a class=\"before-hash h3\" href=\"#${2}\">###</a> ${3} ${4}" }} 
 {{ $h4_hash := $h3_hash | replaceRE "(<h4 id=\"([^\"]+)\">)(.+)(</h4>)" "${1}<a class=\"before-hash h4\" href=\"#${2}\">####</a> ${3} ${4}" }} 
-{{ $checkbox_non_disabled := $h3_hash | replaceRE "disabled=\"\" type=\"checkbox" "type=\"checkbox" }}
+{{ $list_span := $h4_hash | replaceRE "<li>" "<li><span></span>" }}
+{{ $checkbox_non_disabled := $list_span | replaceRE "disabled=\"\" type=\"checkbox" "type=\"checkbox" }}
 {{ $checkbox_non_disabled | safeHTML }}
