@@ -6,6 +6,7 @@ description: CV
 ## Platform
 
 - Macbook Pro 2018 13" (Office)
+- Macbook White Unibody mid 2010 (Experiments) [notes](/notes/#date-2020-05-08-0412)
 - Low End PC with Manjaro Linux XFCE (Home)
 - iPad Mini 5
 

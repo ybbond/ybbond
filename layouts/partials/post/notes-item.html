@@ -6,7 +6,7 @@
     {{ $title := .Title }}
     {{ with .Params.Image.Src }}
       {{ $filename := . | safeURL }}
-      {{ $original := printf "%s/%s" $permalink $filename }}
+      {{ $original := printf "%s%s" $permalink $filename }}
       <img class="u-photo" hidden="" src={{ $original }} alt="Illustration of {{ $title }}" />
     {{ end }}
     <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>

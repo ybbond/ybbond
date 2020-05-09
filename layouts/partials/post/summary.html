@@ -3,7 +3,7 @@
   {{ $title := .Title }}
   {{ with .Params.Image.Src }}
     {{ $filename := . | safeURL }}
-    {{ $original := printf "%s/%s" $permalink $filename }}
+    {{ $original := printf "%s%s" $permalink $filename }}
     <img class="u-photo" hidden="" src={{ $original }} alt="Illustration of {{ $title }}" />
   {{ end }}
   <a href="{{ $permalink }}" class="u-url">
