@@ -5,13 +5,9 @@
   @return map-get($theme-map, $key);
 }
 
-.content, .notes  {
+.content, .notes, .summary {
   font-family: $font-text;
   width: 100%;
-
-  .hcard {
-    display: none;
-  }
 
   .headline-hash {
     padding: 0 0.2em;

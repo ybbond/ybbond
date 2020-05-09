@@ -1,6 +1,12 @@
-<article class="summary">
-  <a href="{{ .Permalink }}"><h2 class="summary__title">{{ .Title }}</h2></a>
-  <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7">{{ .Date.Format "02 Jan 2006" }}</time>
+<article class="summary h-entry">
+  <a href="{{ .Permalink }}" class="u-url">
+    <h2 class="summary__title p-name">
+      {{ .Title }}
+    </h2>
+  </a>
+  <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7">
+    {{ .Date.Format "02 Jan 2006" }}
+  </time>
   <span> - </span>
   {{ range .Params.tags }}
     {{- partial "components/tagitem.html" . -}}

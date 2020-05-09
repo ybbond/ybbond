@@ -1,7 +1,7 @@
 <nav class="pagination">
   {{ if gt .Paginator.TotalPages 1 }}
     {{ if .Paginator.HasNext }}
-      <a class="button pagination__item__left" role="button" href="{{ trim .Paginator.Next.URL "/" | absLangURL }}" data-rel="prefetch">
+      <a class="button pagination__item__left" role="button" href="{{ trim .Paginator.Next.URL "/" | absLangURL }}" data-rel="prefetch" rel="next">
         < Older
       </a>
     {{ else }}
@@ -9,7 +9,7 @@
     {{ end }}
     <span class="pagination__item">*</span>
     {{ if .Paginator.HasPrev }}
-      <a class="button pagination__item__right" role="button" href="{{ trim .Paginator.Prev.URL "/" | absLangURL }}" data-rel="prefetch">
+      <a class="button pagination__item__right" role="button" href="{{ trim .Paginator.Prev.URL "/" | absLangURL }}" data-rel="prefetch" rel="prev">
         Newer >
       </a>
     {{ else }}

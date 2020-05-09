@@ -1,9 +1,30 @@
 {{ define "main" }}
+  <div class="h-feed">
+    <div id="h-card" class="hcard">
+    <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
+    <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
+    <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+    <a rel="syndication" class="u-syndication" href={{ .Permalink }}>{{ .Title }}</a>
+    <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
+    {{ with .Params.tags }}
+      {{ range . }}
+        <a class="p-category" href={{ (printf  "tags/%s" .) | urlize | absURL }}>{{ . }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ $selflink := .Permalink }}
   {{ if or .Title .Content }}
-    <div>
-      {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+    <div class="list__header">
+      {{ with .Title }}
+        <a href={{ $selflink }} class="u-url">
+          <h1 class="p-name">
+              {{ . }}
+          </h1>
+        </a>
+      {{ end }}
       {{ with .Content }}<div>{{ . }}</div>{{ end }}
     </div>
+    <hr>
   {{ end }}
 
   {{ if  eq .Type "notes" }}
@@ -16,4 +37,5 @@
     {{ end }}
     {{ partial "post/pagination.html" . }}
   {{ end }}
+</div>
 {{ end }}
