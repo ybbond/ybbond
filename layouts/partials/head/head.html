@@ -19,7 +19,7 @@
 <script type="application/javascript" src="{{ .Site.BaseURL }}darkToggler.js" async="true"></script>
 <script type="application/javascript" src="{{ .Site.BaseURL }}lazyImage.js" async="true"></script>
 
-<style amp-custom>
+<style>
   {{ with resources.Get "styles.scss" | resources.ToCSS | resources.Minify }}
       {{ .Content | safeCSS }}
   {{ end }}

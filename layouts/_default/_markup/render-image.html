@@ -1,32 +1,66 @@
-{{ $filename := .Destination | safeURL }}
-{{ $original := .Page.Resources.GetMatch (printf "*%s" $filename) }}
-{{ $text := .Text }}
+{{ $image := (.Page.Resources.GetMatch  .Destination) }}
+{{ $alt := .Text }}
+{{ $placeholder := ($image.Resize "48x q20") | images.Filter (images.GaussianBlur 6) }}
+{{ $src := $image }}
+{{ $src_set := ""}}
 
-{{ if eq $original nil }}
-    {{ errorf "cannot find file: %s" $filename }}
-{{ end}}
+{{ $src_set = (print $image.RelPermalink " " $image.Width "w") }}
+{{ $src := $image }}
 
-{{ if ne $original.ResourceType "image" }}
-   {{ errorf "file %s is not an image" $filename }}
+{{ if ge $image.Width "500"}}
+{{ $x_small := $image.Resize "500x" }}
+{{ $src_set = (print $src_set ", "  $x_small.RelPermalink " 500w") }}
 {{ end }}
 
-{{ $thumb := ($original.Resize (printf "%dx %s" $original.Width "q3")).RelPermalink }}
+{{ if ge $image.Width "800"}}
+{{ $small := $image.Resize "800x" }}
+{{ $src_set = (print $src_set ", " $small.RelPermalink " 800w") }}
+{{ end }}
 
-<figure>
+{{ if ge $image.Width "1200"}}
+{{ $medium := $image.Resize "1200x" }}
+{{ $src_set = (print $src_set ", " $medium.RelPermalink " 1200w") }}
+{{ end }}
+
+{{ if gt $image.Width "1500"}}
+{{ $large := $image.Resize "1500x" }}
+{{ $src_set = (print $src_set ", " $large.RelPermalink " 1500w") }}
+{{ end }}
+
+{{ $border_class := "image-border" }}
+
+
+<noscript>
+  <style>
+    figure.lazy {
+      display: none;
+    }
+  </style>
+  <figure class="{{ $border_class }}">
     <center>
-    <a href={{ $original.RelPermalink }} class="button">
-      <img
+      <a href='{{ $image.RelPermalink }}'>
+        <img
+          src="{{ $src.RelPermalink }}"
           style="max-width: 100%; height: auto;"
-          src="{{ $thumb }}"
-          width="{{ $original.Width }}"
-          height="{{ $original.Height }}"
-          alt="{{ default $text "image" }}"
-          data-src="{{$original.RelPermalink}}"
-          class="lazy"
-      />
-    </a>
-    {{with $text }}
-    <figcaption>{{ . }}</figcaption>
-    {{end}}
+        />
+      </a>
+      <figcaption>
+        <em>{{ .Text }}</em>
+      </figcaption>
     </center>
+  </figure>
+</noscript>
+
+<figure class="{{ $border_class }} lazy">
+  <center>
+    <a href='{{ $image.RelPermalink }}'>
+      <img class="lazyload" data-sizes="auto" src="{{ $src.RelPermalink }}"
+        style="max-width: 100%; height: auto;"
+        srcset="data:image/jpeg;base64,{{ $placeholder.Content | base64Encode }}" data-src="{{ $src.RelPermalink }}"
+        data-srcset="{{ $src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $alt }}" />
+    </a>
+    <figcaption>
+      <em>{{ .Text }}</em>
+    </figcaption>
+  </center>
 </figure>
