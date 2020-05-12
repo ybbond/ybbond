@@ -9,7 +9,7 @@ You can contact me through hi@ybbond.dev,<br>or through any of my social medias 
 You can use this PGP key for encrypted message:
 
 ```html
-6417 3FDD 8623 2AA4 996E 39E8 9F54 5B8A 8C3D FF8F
+56DA ADB1 5246 1C80 6792 DBAB 8477 3B93 9886 81A0
 ```
 
 ## Quests
