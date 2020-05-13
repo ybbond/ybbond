@@ -6,7 +6,8 @@ description: CV
 
 You can contact me through hi@ybbond.dev,<br>or through any of my social medias in my [keybase](https://keybase.io/ybbond) or listed in the [footer down below](#down).
 
-You can use this PGP key for encrypted message:
+Here is a PGP Key if you prefer encrypted communication.
+You can also get it in [txt format](/ybbond-public.txt) or [asc format](/ybbond-public.asc).
 
 ```html
 56DA ADB1 5246 1C80 6792 DBAB 8477 3B93 9886 81A0
