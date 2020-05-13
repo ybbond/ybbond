@@ -6,9 +6,10 @@ description: CV
 
 You can contact me through hi@ybbond.dev,<br>or through any of my social medias in my [keybase](https://keybase.io/ybbond) or listed in the [footer down below](#down).
 
-Here is a PGP Key if you prefer encrypted communication.
-You can also get it in [txt format](/ybbond-public.txt) or [asc format](/ybbond-public.asc).
+If you prefer encrypted communication, you can get
+my PGP key in [txt format](/ybbond-public.txt) or [asc format](/ybbond-public.asc).
 
+The fingerprint is:
 ```html
 56DA ADB1 5246 1C80 6792 DBAB 8477 3B93 9886 81A0
 ```

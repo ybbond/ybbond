@@ -11,7 +11,7 @@ date: 2020-04-05T18:23:12
 
 I backed a project in [Kickstarter](https://www.kickstarter.com/projects/nuphy/nutype-revolutionizing-the-laptop-typing-experience) in January 2020. The project planned to create Bluetooth Mechanical keyboard that can be placed on top of Macbook's keyboard. I backed as an **Early Bird** backer, it costs me $89 and _Jenius_ charged me Rp980263. The waiting was interesting and then became worrying when the Covid-19 outbreak happened. I received the keyboard in late March, the DHL guy delivered it to my house and my father sprayed the package with disinfectant immediately.
  
-I enjoyed and genuinely happy that I have my first bluetooth mechanical keyboard. If you read my [previous](https://ybbond.dev/blog/in-search-of-good-writing-app) blog [posts](https://ybbond.dev/blog/in-search-of-good-writing-app), you'd know that I have utilized this keyboard to write blog posts and journal on my iPad.
+I enjoyed and genuinely happy that I have my first bluetooth mechanical keyboard. If you read my [previous](/posts/2020-03-in-search-of-good-writing-app-bear-vs-ulysses/) blog [posts](/posts/2020-04-in-search-of-good-writing-app-part-2-ia-writer-vs-ivim/), you'd know that I have utilized this keyboard to write blog posts and journal on my iPad.
 
 ## Aesthetic and Build
 
