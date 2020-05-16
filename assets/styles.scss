@@ -32,6 +32,29 @@ hr {
   }
 }
 
+code {
+  padding: 0.1em;
+  font-family: $font-mono;
+  font-size: 0.9em;
+  @include themify($themes) {
+    background-color: themed('color-background-hover');
+  }
+  &.language-bash {
+    &:before {
+      content: "$ ";
+    }
+  }
+}
+
+div.highlight > pre {
+  @include themify($themes) {
+    background-color: themed('color-background-hover') !important;
+  }
+  overflow: auto;
+  padding: 0.5em;
+}
+
+
 @media (max-width: 599px) {
   html {
     font-size: 15px;

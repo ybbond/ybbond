@@ -30,7 +30,7 @@
  -->
  {{ $hell := .Type }}
   {{ if .Params.Description }}
-    <p> {{ .Params.Description }} </p>
+    <p> {{ .Params.Description | safeHTML }} </p>
     <a href="{{ $permalink }}">
       <p>Read More »</p>
     </a>

@@ -19,7 +19,7 @@
           {{ .Date.Format "02 Jan 2006" }}
         </time>
         {{ with .Description }}
-          <p class="link-white listing__post__description">{{ . }}</p>
+          <p class="link-white listing__post__description">{{ . | safeHTML }}</p>
         {{ end }}
         <p class="listing__post__description">Read More »</p>
       </a>

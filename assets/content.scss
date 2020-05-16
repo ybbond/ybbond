@@ -31,11 +31,6 @@
     }
   }
 
-  pre {
-    overflow: auto;
-    padding: 0.5em;
-  }
-
   a {
     &:hover {
       outline-style: solid;
@@ -44,23 +39,6 @@
         outline-color: themed('color-background-hover');
         background-color: themed('color-background-hover');
       }
-    }
-  }
-
-  code {
-    padding: 0.1em;
-    font-family: $font-mono;
-    font-size: 0.9em;
-    &.language-bash {
-      &:before {
-        content: "$ ";
-      }
-    }
-  }
-
-  :not(pre) > code {
-    @include themify($themes) {
-      background-color: themed('color-background-hover');
     }
   }
 
