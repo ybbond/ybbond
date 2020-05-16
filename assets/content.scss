@@ -51,6 +51,11 @@
     padding: 0.1em;
     font-family: $font-mono;
     font-size: 0.9em;
+    &.language-bash {
+      &:before {
+        content: "$ ";
+      }
+    }
   }
 
   :not(pre) > code {
@@ -90,9 +95,11 @@
   ol {
     margin: 1.5em 0;
     padding: 0;
-    list-style: none;
-    counter-reset: my-awesome-counter;
-    li {
+    counter-reset: my-awesome-counter, foot-note-counter;
+    :not([role="doc-endnote"]) {
+      list-style: none;
+    }
+    li:not([role="doc-endnote"]) {
       counter-increment: my-awesome-counter;
       list-style-position: outside;
       margin-bottom: 0.2em;
@@ -101,7 +108,7 @@
         &:before {
           position: absolute;
           right: 0.5em;
-          top: 0.25em;
+          top: 0.1em;
           content: counter(my-awesome-counter)'.';
           font-size: 0.8em;
           @include themify($themes) {
@@ -109,6 +116,9 @@
           }
         }
       }
+    }
+    li[role="doc-endnote"] {
+      counter-increment: foot-note-counter;
     }
   }
 

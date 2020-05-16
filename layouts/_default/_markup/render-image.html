@@ -60,7 +60,7 @@
         data-srcset="{{ $src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $alt }}" />
     </a>
     <figcaption>
-      <em>{{ .Text }}</em>
+      <em>{{ .Text | safeHTML }}</em>
     </figcaption>
   </center>
 </figure>
