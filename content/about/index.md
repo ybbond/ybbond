@@ -1,8 +1,12 @@
 ---
-title: 
-menu: cv
-description: CV
+title: About
+menu: about
+description: "Hi, my name is Yohanes Bandung Bondowoso"
 ---
+
+People call me **Bandung**.
+
+![photo by Soraya Azizah](bandung-mosh-on-tarintih.jpg)
 
 You can contact me through hi@ybbond.dev,<br>or through any of my social medias in my [keybase](https://keybase.io/ybbond) or listed in the [footer down below](#down).
 
@@ -32,13 +36,13 @@ I do a lil bit of design too.
 My current job. I like it here.
 `React`, `React Native`, `JavaScript`, `Apollo GraphQL`.
 
-## Good to Know
+## Trivial
 
 - Studied CS in Binus, never finish
 - Drinks coffee
-- Vim user
+- (Neo)Vim user
 - Loves moshing at indie band gigs
-- from Jakarta, Indonesia
+- from [Jakarta, Indonesia](https://www.openstreetmap.org/relation/6362934#map=11/-6.1767/106.8290)
 
 <br>
 <br>

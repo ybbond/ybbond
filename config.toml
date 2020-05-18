@@ -25,9 +25,9 @@ title = "YBBond"
     url = "/"
     weight = 8
 [[menu.main]]
-    identifier = "cv"
-    name = "CV"
-    url = "/cv"
+    identifier = "about"
+    name = "About"
+    url = "/about"
     weight = 9
 [[menu.main]]
     identifier = "uses"
