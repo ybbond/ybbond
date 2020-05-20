@@ -1,11 +1,14 @@
 ---
 title: Report 2020-05-09 2
 author: Yohanes Bandung Bondowoso
-description: "Non scheduled basic reports of my site's size and performance."
+description: "Non scheduled basic reports of my site's size and performance.
+Notable change: <strong>added microsub property to tags</strong>"
 tags:
   - report #report
 date: 2020-05-09T20:01:37+0700
 ID: 1589893549
+image:
+  src: home.png
 private: true
 ---
 

@@ -1,25 +1,25 @@
 ---
-title: Report 2020-05-19
+title: Report 2020-05-20
 author: Yohanes Bandung Bondowoso
 description: "Non scheduled basic reports of my site's size and performance.
-Notable change: <strong>the styling css used globally</strong>"
+Notable change: <strong>added analytics by <a href='https://stats.ybbond.dev'>GoatCounter</a></strong>"
 tags:
   - report #report
-date: 2020-05-19T19:33:19+0700
-ID: 1589891599
+date: 2020-05-20T13:18:37+0700
+ID: 1589955517
 image:
   src: home.png
 private: true
 ---
 
 **Last commit:**
-[1217e9431db212a8099a6c3e50ed4146087dec2f](https://git.ybbond.dev/ybbond/index.html#1217e9431db212a8099a6c3e50ed4146087dec2f)
+[e51ae5d1733d6b8960ac34b6ba91cd174da55a75](https://git.ybbond.dev/ybbond/index.html#e51ae5d1733d6b8960ac34b6ba91cd174da55a75)
 
 **Commit title:**
-style: change blue in light mode, and fix codeblock background
+feature: added GoatCounter. init, only header script
 
 **Commit date:**
-Tue, 19 May 2020 14:32:06 +0700
+Tue, 19 May 2020 21:05:26 +0700
 
 
 ## Homepage

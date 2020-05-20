@@ -6,6 +6,8 @@ tags:
   - report #report
 date: 2020-05-09T18:09:32+0700
 ID: 1589893527
+image:
+  src: home.png
 private: true
 ---
 
