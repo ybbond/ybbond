@@ -73,11 +73,9 @@
   ol {
     margin: 1.5em 0;
     padding: 0;
-    counter-reset: my-awesome-counter, foot-note-counter;
-    :not([role="doc-endnote"]) {
-      list-style: none;
-    }
-    li:not([role="doc-endnote"]) {
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    li {
       counter-increment: my-awesome-counter;
       list-style-position: outside;
       margin-bottom: 0.2em;
@@ -94,9 +92,6 @@
           }
         }
       }
-    }
-    li[role="doc-endnote"] {
-      counter-increment: foot-note-counter;
     }
   }
 
@@ -185,4 +180,8 @@
       outline-offset: 0.5em;
     }
   }
+}
+
+.content__hr {
+  margin: 4em 0 0;
 }

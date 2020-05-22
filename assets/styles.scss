@@ -267,14 +267,14 @@ time {
 
 .footer {
   &__separator {
-    margin: 40px auto 20px;
+    margin: 0 auto 1.4em;
   }
 
   &__nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     & > p {
       margin: 0;
     }
@@ -307,17 +307,14 @@ time {
     }
   }
 
-  .web-ring {
-    margin: 0.7em 0;
-    a {
-      cursor: pointer;
-    }
+  &__analytic {
+    font-size: 0.8em;
   }
 
   .hcard {
     max-width: 25em;
     font-size: 0.8em;
-    margin: 2em auto 2.2em;
+    margin: 2em auto 0.5em;
     padding: 1.5em;
     position: relative;
     @include themify($themes) {
@@ -351,16 +348,22 @@ time {
     }
   }
 
-  &__copyright {
-    margin: 0.7em 0 3em;
+  .web-ring {
     font-size: 0.8em;
-    text-align: center;
-    @media (max-width: 599px) {
-      display: flex;
-      flex-direction: column;
-      &__separator {
-        display: none;
-      }
-    }
+    margin: 0 0 1.8em;
+  }
+
+  &__copyright {
+    margin: 0.7em 0 1em;
+    font-size: 0.8em;
+  }
+}
+
+.footnotes {
+  hr {
+    margin-bottom: 0.2em;
+  }
+  &__text {
+    margin: 0;
   }
 }

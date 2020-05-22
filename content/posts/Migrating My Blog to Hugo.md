@@ -64,6 +64,7 @@ The default features from hugo itself already awesome, but my goal for this site
 - [ ] Simple script to view footnotes on hover
 - [ ] Anonymous tracker (I always wonder whether anybody read my blog or not 🧐)
 
+> **Update:** I have implemented GoatCounter analytics. Read [my post](/posts/2020-05-socmed-and-goatcounter/) about it.
 
 
 I am genuinely happy for using Hugo. I might keep using this for a while, before I'll have an itch to try other static site  generators 😄

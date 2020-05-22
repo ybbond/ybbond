@@ -26,7 +26,7 @@
       </time>
         {{ if .Title }}
         {{ else }}
-          <a class="u-url" href="/notes/#{{ $idslug }}">#</a> <a href={{ .Permalink }}>»</a>
+          <a data-goatcounter-click="cl-note-hash" class="u-url" href="/notes/#{{ $idslug }}">#</a> <a data-goatcounter-click="cl-note-full" href={{ .Permalink }}>»</a>
         {{ end }}
     </span>
     {{ with .Title}}

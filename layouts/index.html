@@ -8,10 +8,13 @@
 
   <hr>
 
-  <a href={{ $postURL }}><h2>Blog Posts:</h2></a>
+  <a data-goatcounter-click="cl-posts-title" href={{ $postURL }}><h2>Blog Posts:</h2></a>
   <div href={{ $postURL }} class="listing">
     {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
-      <a href={{ .Permalink }} class="area full-width listing__post">
+      <a
+        href={{ .Permalink }}
+        class="area full-width listing__post"
+      >
         <h3 class="listing__post__title">
           {{ .Title }}
         </h3>
@@ -25,17 +28,17 @@
       </a>
     {{ end }}
   </div>
-  <p class="main__more"><a href={{ $postURL }} class="button">More Blogs ⤳</a></p>
+  <p class="main__more"><a data-goatcounter-click="cl-posts-more" href={{ $postURL }} class="button">More Blogs ⤳</a></p>
 
   <hr>
 
-  <a href={{ $notesURL }}><h2>Notes:</h2></a>
+  <a data-goatcounter-click="cl-notes-title" href={{ $notesURL }}><h2>Notes:</h2></a>
   <div class="listing">
     {{ range first 5 (where .Site.RegularPages "Type" "notes") }}
       {{ partial "post/notes-item.html" . }}
     {{ end }}
   </div>
-  <p class="main__more"><a href={{ $notesURL }} class="button">More Notes ⤳</a></p>
+  <p class="main__more"><a data-goatcounter-click="cl-notes-more" href={{ $notesURL }} class="button">More Notes ⤳</a></p>
 
 
 {{ end }}

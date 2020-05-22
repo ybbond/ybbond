@@ -1,4 +1,12 @@
 <a href="{{ .Destination | safeURL }}"
-    {{ with .Title}} title="{{ . }}"{{ end }}
-    {{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}
-    >{{ .Text | safeHTML }}</a>
+    {{ with .Title}}
+      title="{{ . }}"
+    {{ end }}
+    data-goatcounter-click="{{ .Text }}"
+    {{ if strings.HasPrefix .Destination "http" }}
+      target="_blank"
+      rel="noreferrer noopener"
+    {{ else }}
+      data-rel="prefetch"
+    {{ end }}
+>{{ .Text | safeHTML }}</a>
