@@ -1,6 +1,6 @@
 ---
-title: On Social Media and GoatCounter, The Web Analytics I Use
-slug: socmed-and-goatcounter
+title: About The Web Analytics I Use
+slug: about-goatcounter
 author: Yohanes Bandung Bondowoso
 description: I implemented a good, privacy-respecting web analytics for this website since May the 20th. It is called GoatCounter. I try to explain and reason about it.
 tags:
@@ -10,7 +10,7 @@ date: 2020-05-23T00:47:36+0700
 ID: 1590169657
 ---
 
-I like to develop website. I also like to write blogs, poems, post mortem, thoughts, tutorial, anything. I enjoy doing those things that even if I can't publish (some of) them, I've got more experience and I feel good.
+I like to develop website. I also like to write blogs, poems, post mortem, thoughts, tutorial, anything. I enjoy doing those things that even if I cannot publish (some of) them, I've got more experience and I feel good.
 
 But.
 
@@ -24,11 +24,11 @@ For the response system, I found [WebMention](https://webmention.io/), which lea
 
 [GoatCounter](https://www.goatcounter.com/) is web analytics by Martin Tournoij or [arp242](https://www.arp242.net/goatcounter.html). It is lightweight, it is easy to implement, and it **respects users' privacy**. See its privacy policy [here](https://www.goatcounter.com/privacy).
 
-One embarassing thing is that I follow Martin's RSS Feed for so long, but I didn't read about his latest project. Before GoatCounter I tried [StatCounter](https://statcounter.com), then opted-out shortly because I think the settings page is clumsy.
+One embarassing thing is that I follow Martin's RSS Feed for so long, but I didn't read about his latest project. Before GoatCounter, I tried [StatCounter](https://statcounter.com) and opted-out shortly because I think the settings page is clumsy. I searched for another good alternatives that results none. Just last monday I see Martin published a new post about GoatCounter update. I decided to check it and that day, I tried GoatCounter.
 
 You can see my instance of GoatCounter on [stats.ybbond.dev](https://stats.ybbond.dev/)!
 
-I made it open for everyone and made obvious statement down in the footer, because I think however small the data I take from user visits, the users should be able to know about it.
+I made it open for everyone and set obvious statement down in the footer, because I think however small the data I take from user visits, the users should be able to know about it.
 
 
 
