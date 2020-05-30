@@ -1,0 +1,8 @@
+{{ $href := .Anchor | safeURL }}
+{{ $hashrepeat := "#" | strings.Repeat .Level }}
+<h{{ .Level }} id="{{ $href }}">
+  <a class="before-hash h{{ .Level }}" href="#{{ $href }}">
+    {{ $hashrepeat }}
+  </a>{{ .Text | safeHTML }} 
+  <a class="headline-hash" href="#{{ $href }}">#</a>
+</h{{ .Level }}>
