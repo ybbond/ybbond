@@ -9,11 +9,14 @@ html {
   }
   font-family: $font-text;
   letter-spacing: -0.02rem;
-  line-height: 1.6;
+  line-height: 1.5;
   font-size: 16px;
 }
 
 @media (max-width: 599px) {
+  html {
+    font-size: 15px;
+  }
   body {
     padding: 0 1.5em;
     margin: 0;
@@ -44,6 +47,14 @@ pre {
   }
 }
 
+hr {
+  border: 0;
+  height: 0;
+  @include themify($themes) {
+    border-top: 1px solid themed('color-text');
+  }
+}
+
 code {
   padding: 0.1rem;
   font-family: $font-mono;
@@ -68,6 +79,10 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+h1:not(.header__title) {
+  font-size: 2.2rem;
+}
+
 a {
   text-decoration: none;
   @include themify($themes) {
@@ -76,12 +91,15 @@ a {
       color: themed('color-text');
     }
   }
-  &:hover {
+  &#active {
+    cursor: default;
+  }
+  &:hover, &#active {
     @include themify($themes) {
       background-color: themed('color-background-hover');
       color: themed('color-red');
     }
-    &:not(.no-outline) {
+    &:not(.no-outline):not(.footnote-ref) {
       outline-style: solid;
       outline-width: 0.3rem;
       @include themify($themes) {
@@ -92,7 +110,10 @@ a {
   }
   &.button {
     display: inline-block;
-    padding: 0.3em 0.7em;
+    padding: 0.3rem 0.7rem;
+    @media(max-width: 360px) {
+      padding: 0.3rem;
+    }
   }
 }
 
@@ -105,7 +126,7 @@ blockquote {
     border-color: themed('color-red');
   }
   p {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
 }
 
@@ -123,7 +144,7 @@ time {
   &__post {
     width: 100%;
     display: inline-block;
-    padding: 0.7rem 0;
+    padding: 0.5rem 0 0.7rem;
     @media (max-width: 599px) {
       padding: 0.3em 0 1.3em 0;
     }
@@ -146,13 +167,19 @@ time {
   }
   @media (max-width: 599px) {
     &__title {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
+      margin: 1rem 0;
     }
   }
+  @media (max-width: 360px) {
+    &__title {
+      font-size: 1.2em;
+    }
+  }
+
   &__menu {
     margin: 0 0 10px;
     display: flex;
-    overflow: auto;
     justify-content: flex-start;
     &__list {
       padding: 0;
@@ -167,15 +194,23 @@ time {
         &:first-child {
           margin-left: 0;
         }
-        margin: 0 5px;
+        margin: 0 0.4rem;
         border-style: solid;
         border-width: 1px;
+        @media (max-width: 599px) {
+          margin: 0 0.1rem;
+          font-size: 0.9rem;
+        }
+        @media (max-width: 360px) {
+          font-size: 0.8rem;
+        }
       }
+
       &__toggler {
         &__off {
           display: none;
         }
-        font-size: 1.75em;
+        font-size: 1.5rem;
         padding: 0 0.3em;
         background-color: transparent;
         background-repeat: no-repeat;
@@ -222,6 +257,7 @@ time {
   }
   &__center {
     flex: 1;
+    text-align: center;
   }
   &__right {
     text-align: right;
@@ -248,16 +284,16 @@ time {
     }
     &__left {
       text-align: left;
-      @media (min-width: 600px) {
-        &__back {
-          margin-left: -0.7em;
-        }
-      }
     }
     &__right {
       text-align: right;
+      a {
+        padding: 0 0.2rem;
+        margin: 0 0.2rem;
+      }
     }
     @media (max-width: 599px) {
+      font-size: 0.9rem;
       display: flex;
       flex-direction: column;
       &__left {
@@ -269,7 +305,15 @@ time {
         text-align: center;
         margin-top: 0;
         a {
-          padding-bottom: 0.5em;
+          line-height: 2rem;
+        }
+      }
+    }
+    @media (max-width: 400px) {
+      &__right {
+        a {
+          padding: 0 0.15rem;
+          margin: 0 0.15rem;
         }
       }
     }
@@ -333,5 +377,13 @@ time {
   }
   &__text {
     margin: 0;
+  }
+}
+.footnote-ref {
+  &:before {
+    content: '[';
+  }
+  &:after {
+    content: ']';
   }
 }

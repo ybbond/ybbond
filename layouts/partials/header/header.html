@@ -6,17 +6,20 @@
 <nav class="header__menu">
   <div class="header__menu__list">
     <span>
-      {{ $baseURL := .Site.BaseURL }}
       {{ range .Site.Menus.main }}
         {{ $url := trim .URL "/" | absURL }}
-          <a
+        <a
+          data-rel="prefetch"
+          role="button"
+          class="header__menu__list__item button no-outline"
+          {{ if eq $.RelPermalink (print .URL "/") }}
+            id="active"
+          {{ else }}
             href={{ $url }}
-            data-rel="prefetch"
-            role="button"
-            class="header__menu__list__item button no-outline"
-          >
-            {{ .Pre }}<span>{{ .Name }}</span>
-          </a>
+          {{ end }}
+        >
+          {{ .Pre }}<span>{{ .Name }}</span>
+        </a>
       {{ end }}
     </span>
     <button

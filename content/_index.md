@@ -1,15 +1,7 @@
 ---
 menu: home
 ---
-Currently work as Frontend Engineer of kumparan.com in Jakarta, Indonesia. Building it with React, React Native for Android and iOS.
-
-Eager to learn.
-
-Hardships.
-
-I cannot say that I am humble, but I learn from experience that each individuals, their own excellences.
-
-I try to learn from everyone, and everything.
-<br />
-
-૮ ・ﻌ・ა
+Hi! I'm **Bandung**, welcome to my site!
+This site contains my blog [posts](/posts/), my often random [notes](/notes/), "snapshot" [report](/reports/) of this site's size.
+Here is the RSS for [post](/index.xml) and here is for [notes](/notes/index.xml).
+Web analytics that I use respects your privacy, see it [here](https://stats.ybbond.dev/ "Link to stats.ybbond.dev").

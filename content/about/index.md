@@ -4,19 +4,14 @@ menu: about
 description: "Hi, my name is Yohanes Bandung Bondowoso"
 ---
 
-People call me **Bandung**.
+People call me **Bandung**. ૮ ・ﻌ・ა
 
 ![photo by Soraya Azizah](bandung-mosh-on-tarintih.jpg)
 
-You can contact me through hi@ybbond.dev,<br>or through any of my social medias in my [keybase](https://keybase.io/ybbond) or listed in the [footer down below](#down).
+Currently work as **Frontend Engineer** of [kumparan.com](https://kumparan.com) in Jakarta, Indonesia. Building it with `ReactJS` and `React Native` for Web, Android and iOS.
 
-If you prefer encrypted communication, you can get
-my PGP key in [txt format](/ybbond-public.txt) or [asc format](/ybbond-public.asc).
+Eager to learn. Hardships. I cannot say that I am humble, but I learn from experience that each individuals, their own excellences. I try to learn from everyone, and everything.
 
-The fingerprint is:
-```html
-56DA ADB1 5246 1C80 6792 DBAB 8477 3B93 9886 81A0
-```
 
 ## Quests
 
@@ -34,7 +29,7 @@ I do a lil bit of design too.
 `React Native Web`, `TypeScript`.
 - <time>2019 -</time><br>**Frontend Engineer** [@kumparan](https://kumparan.com/)
 My current job. I like it here.
-`React`, `React Native`, `JavaScript`, `Apollo GraphQL`.
+`ReactJS`, `React Native`, `JavaScript`, `Apollo GraphQL`.
 
 ## Trivial
 

@@ -38,7 +38,7 @@
   </style>
   <figure class="{{ $border_class }}">
     <center>
-      <a href='{{ $image.RelPermalink }}'>
+      <a class="no-outline" href='{{ $image.RelPermalink }}'>
         <img
           src="{{ $src.RelPermalink }}"
           style="max-width: 100%; height: auto;"
@@ -53,7 +53,7 @@
 
 <figure class="{{ $border_class }} lazy">
   <center>
-    <a href='{{ $image.RelPermalink }}'>
+    <a class="no-outline" href='{{ $image.RelPermalink }}'>
       <img class="lazyload" data-sizes="auto" src="{{ $src.RelPermalink }}"
         style="max-width: 100%; height: auto;"
         srcset="data:image/jpeg;base64,{{ $placeholder.Content | base64Encode }}" data-src="{{ $src.RelPermalink }}"

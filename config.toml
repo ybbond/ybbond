@@ -30,7 +30,12 @@ title = "YBBond"
     url = "/about"
     weight = 9
 [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 10
+[[menu.main]]
     identifier = "uses"
     name = "Uses"
     url = "/uses"
-    weight = 10
+    weight = 11

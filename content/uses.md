@@ -24,7 +24,6 @@ Some others satisfy my hobbies.
 - Roland FP-30
 - Guitars. Many of them.
 
----
 
 ## Software
 
