@@ -5,7 +5,7 @@
   @return map-get($theme-map, $key);
 }
 
-.content, .notes, .summary__content {
+.content, .notes {
   font-family: $font-text;
   width: 100%;
 
@@ -150,12 +150,6 @@
 
   &__title {
     margin: 0;
-  }
-
-  @media (min-width: 600px) {
-    .listing > & {
-      padding: 0 0.7em;
-    }
   }
 
   @media (max-width: 599px) {

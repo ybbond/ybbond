@@ -1,23 +1,23 @@
 {{ define "main" }}
   <div class="h-feed">
     <div id="h-card" class="hcard" hidden="">
-    <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
-    <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
-    <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
-    <a rel="syndication" class="u-syndication" href={{ .Permalink }}>{{ .Title }}</a>
-    <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
-    {{ with .Params.tags }}
-      {{ range . }}
-        <a class="p-category" href={{ (printf  "tags/%s" .) | urlize | absURL }}>{{ . }}</a>
+      <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
+      <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
+      <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+      <a rel="syndication" class="u-syndication" href={{ .Permalink }}>{{ .Title }}</a>
+      <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
+      {{ with .Params.tags }}
+        {{ range . }}
+          <a class="p-category" href={{ (printf  "tags/%s" .) | urlize | absURL }}>{{ . }}</a>
+        {{ end }}
       {{ end }}
-    {{ end }}
-  </div>
+    </div>
   {{ $selflink := .Permalink }}
   {{ if or .Title .Content }}
     <div class="list__header">
       {{ $isTag := eq .Type "tags" }}
       {{ with .Title }}
-        <a href={{ $selflink }} class="u-url">
+        <a href={{ $selflink }} class="u-url no-outline">
           <h1 class="p-name">
               {{ cond $isTag "Tag «" nil}}{{ . }}{{ cond $isTag "»" nil}}
           </h1>
@@ -35,6 +35,7 @@
   {{ else }}
     {{ range .Paginator.Pages }}
       {{ partial "post/summary.html" . }}
+      <hr>
     {{ end }}
     {{ partial "post/pagination.html" . }}
   {{ end }}

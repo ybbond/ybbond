@@ -6,7 +6,7 @@
     {{ $filename := . | safeURL }}
     {{ $original := printf "%s%s" $permalink $filename }}
   {{ end }}
-  <a data-goatcounter-click="{{ $slug }}" href="{{ $permalink }}" class="u-url">
+  <a data-goatcounter-click="{{ $slug }}" href="{{ $permalink }}" class="u-url no-outline">
     <h2 class="summary__title p-name">
       {{ $title }}
     </h2>
@@ -31,11 +31,11 @@
  {{ $hell := .Type }}
   {{ if .Params.Description }}
     <p> {{ .Params.Description | safeHTML }} </p>
-    <a data-goatcounter-click="rmore-{{ $slug }}" href="{{ $permalink }}">
+    <a data-goatcounter-click="rmore-{{ $slug }}" href="{{ $permalink }}" class="no-outline">
       <p>Read More »</p>
     </a>
   {{ else }}
-    <div class="summary__content">
+    <div class="content">
       {{ partial "components/summary-seo.html" .Content }}
     </div>
   {{ end }}

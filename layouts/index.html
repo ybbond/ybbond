@@ -8,12 +8,12 @@
 
   <hr>
 
-  <a data-goatcounter-click="cl-posts-title" href={{ $postURL }}><h2>Blog Posts:</h2></a>
+  <h2>Blog Posts:</h2>
   <div href={{ $postURL }} class="listing">
     {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
       <a
         href={{ .Permalink }}
-        class="area full-width listing__post"
+        class="listing__post"
       >
         <h3 class="listing__post__title">
           {{ .Title }}
@@ -32,7 +32,7 @@
 
   <hr>
 
-  <a data-goatcounter-click="cl-notes-title" href={{ $notesURL }}><h2>Notes:</h2></a>
+  <h2>Notes:</h2>
   <div class="listing">
     {{ range first 5 (where .Site.RegularPages "Type" "notes") }}
       {{ partial "post/notes-item.html" . }}
