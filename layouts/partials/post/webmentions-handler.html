@@ -1,0 +1,95 @@
+{{ with index $.Site.Data.webmentions (replace (trim .RelPermalink "/") "/" "--") }}
+  {{- with where . "wm-property" "in" (slice "like-of" "repost-of" "bookmark-of" "rsvp" "in-reply-to" "mention-of") }}
+    <p class="wm-title">
+      Webmentions <a
+        href="https://indieweb.org/Webmention"
+      >?</a>:
+    </p>
+  {{- end }}
+
+  {{ with where . "wm-property" "in" (slice "repost-of" "bookmark-of" "rsvp") -}}
+    <p class="wm-subtitle">Reposted/Boosted by:</p>
+    <div class="wm-avatar-container">
+      {{- range . }}
+        <div class="wm-avatar-list">
+          {{ $like := . }}
+          <a
+            href="{{ $like.author.url }}"
+            title="Photo of {{ $like.author.name }}"
+            class="wm-avatar"
+          >
+            <img
+              src="{{ $like.author.photo }}"
+              alt="Photo of {{ $like.author.name }}"
+              class="wm-avatar"
+            />
+          </a>
+        </div>
+      {{- end }}
+    </div>
+  {{ end -}}
+
+  {{ with where . "wm-property" "in" (slice "like-of") -}}
+    <p class="wm-subtitle">Liked by:</p>
+    {{- range . }}
+      {{ $like := . }}
+      <a
+        href="{{ $like.author.url }}"
+        title="Photo of {{ $like.author.name }}"
+        class="wm-avatar"
+      >
+        <img
+          src="{{ $like.author.photo }}"
+          alt="Photo of {{ $like.author.name }}"
+          class="wm-avatar"
+        />
+      </a>
+    {{- end }}
+  {{ end -}}
+
+  {{ with where . "wm-property" "in" (slice "in-reply-to" "mention-of") }}
+    <div>
+      <p class="wm-subtitle">Replies:</p>
+        {{ range . }}
+          {{ $reply := . }}
+          <div class="wm-reply">
+            <div class="wm-reply-head">
+              <a
+                href="{{ $reply.author.url }}"
+                title="Photo of {{ $reply.author.name }}"
+                class="wm-avatar"
+              >
+                <img
+                  src="{{ $reply.author.photo }}"
+                  alt="Photo of {{ $reply.author.name }}"
+                  class="wm-avatar"
+                />
+              </a>
+              <a
+                href="{{ $reply.author.url }}"
+                title="Profile of {{ $reply.author.name }}"
+                class="wm-author no-outline"
+              >
+                <span class="">{{ $reply.author.name }}</span>
+              </a>
+                &nbsp;on&nbsp;
+              <a href="{{ $reply.url }}" class="no-outline">
+                {{ substr (index $reply "wm-received") 0 10 }}
+              </a>
+            </div>
+            <div class="wm-reply-content">
+              {{ if $reply.content.html }}
+                {{ safeHTML $reply.content.html }}
+              {{ else }}
+                {{ $reply.content.text }}
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+    </div>
+  {{ end }}
+
+  {{- with where . "wm-property" "in" (slice "like-of" "repost-of" "bookmark-of" "rsvp" "in-reply-to" "mention-of") -}}
+    <hr class="wm-hr">
+  {{- end -}}
+{{ end }}

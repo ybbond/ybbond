@@ -1,0 +1,20 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "happydude",
+      "photo": "https://webmention.io/avatar/indieweb.social/a971b399b2b2c66daa292ea79888a77f2f15a8d33c7f9cf611428be3f8283405.png",
+      "url": "https://indieweb.social/@happydude"
+    },
+    "url": "https://indieweb.social/@ybbond/104216953461884291#favorited-by-71219",
+    "published": null,
+    "wm-received": "2020-05-29T19:43:26Z",
+    "wm-id": 803571,
+    "wm-source": "https://brid-gy.appspot.com/like/mastodon/@ybbond@indieweb.social/104216953461884291/71219",
+    "wm-target": "https://ybbond.dev/posts/2020-05-about-goatcounter/",
+    "like-of": "https://ybbond.dev/posts/2020-05-about-goatcounter/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]

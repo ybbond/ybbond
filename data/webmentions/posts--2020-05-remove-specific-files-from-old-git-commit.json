@@ -1,0 +1,95 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Juang Wiantoro 🐪",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/8ba188375503cd671a4e9d3d8d8fe9177cfb526d260466eccf9ab813c0270174.jpg",
+      "url": "https://twitter.com/broerjuang"
+    },
+    "url": "https://twitter.com/ybbond_/status/1261627903055237123#favorited-by-40011472",
+    "published": null,
+    "wm-received": "2020-05-16T17:39:36Z",
+    "wm-id": 797112,
+    "wm-source": "https://brid-gy.appspot.com/like/twitter/ybbond_/1261627903055237123/40011472",
+    "wm-target": "https://ybbond.dev/posts/2020-05-remove-specific-files-from-old-git-commit/",
+    "like-of": "https://ybbond.dev/posts/2020-05-remove-specific-files-from-old-git-commit/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "aji lantang mardhika",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/a92726e563e1c688e03a05786c9f1d76b39f8c2a5db52bf0ebeb7a3a7220ec2a.png",
+      "url": "https://twitter.com/gielantang"
+    },
+    "url": "https://twitter.com/ybbond_/status/1261627903055237123#favorited-by-109550271",
+    "published": null,
+    "wm-received": "2020-05-16T17:39:37Z",
+    "wm-id": 797113,
+    "wm-source": "https://brid-gy.appspot.com/like/twitter/ybbond_/1261627903055237123/109550271",
+    "wm-target": "https://ybbond.dev/posts/2020-05-remove-specific-files-from-old-git-commit/",
+    "like-of": "https://ybbond.dev/posts/2020-05-remove-specific-files-from-old-git-commit/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Gema Anggada ✌︎",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/37281c4bd268bfe06abfa65433108d1a22abadef735dd75a6e34fcc4e011de39.jpg",
+      "url": "https://twitter.com/heygema"
+    },
+    "url": "https://twitter.com/ybbond_/status/1261627903055237123#favorited-by-309514240",
+    "published": null,
+    "wm-received": "2020-05-16T17:39:40Z",
+    "wm-id": 797114,
+    "wm-source": "https://brid-gy.appspot.com/like/twitter/ybbond_/1261627903055237123/309514240",
+    "wm-target": "https://ybbond.dev/posts/2020-05-remove-specific-files-from-old-git-commit/",
+    "like-of": "https://ybbond.dev/posts/2020-05-remove-specific-files-from-old-git-commit/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Gema Anggada ✌︎",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/37281c4bd268bfe06abfa65433108d1a22abadef735dd75a6e34fcc4e011de39.jpg",
+      "url": "https://twitter.com/heygema"
+    },
+    "url": "https://twitter.com/heygema/status/1261634157450457089",
+    "published": "2020-05-16T12:26:37+00:00",
+    "wm-received": "2020-05-16T17:39:41Z",
+    "wm-id": 797115,
+    "wm-source": "https://brid-gy.appspot.com/repost/twitter/ybbond_/1261627903055237123/1261634157450457089",
+    "wm-target": "https://ybbond.dev/posts/2020-05-remove-specific-files-from-old-git-commit/",
+    "content": {
+      "text": "My first post that is \"techy tutorial\" and not life or app related 👨‍💻\n\nybbond.dev/posts/2020-05-…"
+    },
+    "repost-of": "https://ybbond.dev/posts/2020-05-remove-specific-files-from-old-git-commit/",
+    "wm-property": "repost-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Darcien",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/7dc27036504760a3290c16f3b6f645d7303db81bb2791c1249eead57d878e229.jpg",
+      "url": "https://twitter.com/darcien_"
+    },
+    "url": "https://twitter.com/ybbond_/status/1261627903055237123#favorited-by-115009099",
+    "published": null,
+    "wm-received": "2020-05-20T16:01:53Z",
+    "wm-id": 798894,
+    "wm-source": "https://brid-gy.appspot.com/like/twitter/ybbond_/1261627903055237123/115009099",
+    "wm-target": "https://ybbond.dev/posts/2020-05-remove-specific-files-from-old-git-commit/",
+    "like-of": "https://ybbond.dev/posts/2020-05-remove-specific-files-from-old-git-commit/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]

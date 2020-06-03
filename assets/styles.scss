@@ -94,7 +94,7 @@ a {
   &#active {
     cursor: default;
   }
-  &:hover, &#active {
+  &:hover:not(.wm-avatar), &#active {
     @include themify($themes) {
       background-color: themed('color-background-hover');
       color: themed('color-red');
@@ -373,7 +373,8 @@ time {
 
 .footnotes {
   hr {
-    margin-bottom: 0.2em;
+    margin-top: 3rem;
+    margin-bottom: 0.2rem;
   }
   &__text {
     margin: 0;
@@ -386,4 +387,45 @@ time {
   &:after {
     content: ']';
   }
+}
+
+.wm-hr {
+  margin-top: 3rem;
+  margin-bottom: 0.2rem;
+}
+.wm-title {
+  margin: 0 0 1rem;
+}
+.wm-subtitle {
+  margin: 1rem 0 0.3rem;
+  font-size: 0.8rem;
+}
+
+.wm-avatar-list {
+  display: flex;
+  align-items: center;
+}
+a.wm-avatar {
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.6rem;
+  margin-right: 0.4rem;
+}
+img.wm-avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+.wm-reply {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+.wm-reply-head {
+  display: flex;
+  align-items: center;
+}
+.wm-reply-content {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
 }
