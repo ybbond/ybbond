@@ -9,24 +9,20 @@
 
   {{ with where . "wm-property" "in" (slice "repost-of" "bookmark-of" "rsvp") -}}
     <p class="wm-subtitle">Reposted/Boosted by:</p>
-    <div class="wm-avatar-container">
-      {{- range . }}
-        <div class="wm-avatar-list">
-          {{ $like := . }}
-          <a
-            href="{{ $like.author.url }}"
-            title="Photo of {{ $like.author.name }}"
-            class="wm-avatar"
-          >
-            <img
-              src="{{ $like.author.photo }}"
-              alt="Photo of {{ $like.author.name }}"
-              class="wm-avatar"
-            />
-          </a>
-        </div>
-      {{- end }}
-    </div>
+    {{- range . }}
+      {{ $like := . }}
+      <a
+        href="{{ $like.author.url }}"
+        title="Photo of {{ $like.author.name }}"
+        class="wm-avatar"
+      >
+        <img
+          src="{{ $like.author.photo }}"
+          alt="Photo of {{ $like.author.name }}"
+          class="wm-avatar"
+        />
+      </a>
+    {{- end }}
   {{ end -}}
 
   {{ with where . "wm-property" "in" (slice "like-of") -}}
