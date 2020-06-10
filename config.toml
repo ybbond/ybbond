@@ -13,6 +13,7 @@ title = "YBBond"
   twitter = "ybbond_"
   github = "ybbond"
   microblog = "ybbond"
+  instagram = "ybbond"
 
 [markup.goldmark.renderer]
     hardWraps = true
