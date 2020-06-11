@@ -5,6 +5,7 @@ author: Yohanes Bandung Bondowoso
 tags:
   - indonesian #indonesian
   - story #story
+  - picture #picture
 date: 2017-05-14T02:02:02+0700
 ID: 20170514020202
 image:

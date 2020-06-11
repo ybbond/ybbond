@@ -5,6 +5,7 @@ author: Yohanes Bandung Bondowoso
 tags:
   - indonesian #indonesian
   - poem #poem
+  - picture #picture
 date: 2016-03-11T19:04:55+0700
 ID: 20160311190455
 image:

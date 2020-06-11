@@ -1117,5 +1117,77 @@
     "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "res_Q",
+      "photo": "https://webmention.io/avatar/scontent-atl3-1.cdninstagram.com/9b0eb8512048907a831063cf3e0f9aafac9bd9ee450e59025f18ea7af297df07.jpg",
+      "url": "https://www.instagram.com/res_qphotography/"
+    },
+    "url": "https://www.instagram.com/p/CBQ0cjygyFx/#liked-by-1448170829",
+    "published": null,
+    "wm-received": "2020-06-11T07:02:31Z",
+    "wm-id": 809119,
+    "wm-source": "https://brid-gy.appspot.com/like/instagram/ybbond/2328591668342890865_43527601/1448170829",
+    "wm-target": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Aurellia Marcia",
+      "photo": "https://webmention.io/avatar/scontent-atl3-1.cdninstagram.com/664041df06bdaf899bd1c2b459fe91debebb31568e6a9fde351d8b6106fb1519.jpg",
+      "url": "https://www.instagram.com/aurelliamarcia/"
+    },
+    "url": "https://www.instagram.com/p/CBQ0cjygyFx/#liked-by-593025870",
+    "published": null,
+    "wm-received": "2020-06-11T07:02:32Z",
+    "wm-id": 809120,
+    "wm-source": "https://brid-gy.appspot.com/like/instagram/ybbond/2328591668342890865_43527601/593025870",
+    "wm-target": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Yohana Esperansa",
+      "photo": "https://webmention.io/avatar/scontent-atl3-1.cdninstagram.com/a0089fed45cb5fe88fd76067854455e73b3958d8e76321886d5f2cb54d05928b.jpg",
+      "url": "https://www.instagram.com/yohanaesperansa/"
+    },
+    "url": "https://www.instagram.com/p/CBQ0cjygyFx/#liked-by-280584529",
+    "published": null,
+    "wm-received": "2020-06-11T07:02:33Z",
+    "wm-id": 809121,
+    "wm-source": "https://brid-gy.appspot.com/like/instagram/ybbond/2328591668342890865_43527601/280584529",
+    "wm-target": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Aya",
+      "photo": "https://webmention.io/avatar/scontent-iad3-1.cdninstagram.com/0a28054faaa07020e868ffacdb96c240fd922559d155e1074826c94a4973a3b5.jpg",
+      "url": "https://www.instagram.com/sorayaazizah/"
+    },
+    "url": "https://www.instagram.com/p/CBQ0cjygyFx/#liked-by-675526666",
+    "published": null,
+    "wm-received": "2020-06-11T09:20:50Z",
+    "wm-id": 809146,
+    "wm-source": "https://brid-gy.appspot.com/like/instagram/ybbond/2328591668342890865_43527601/675526666",
+    "wm-target": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
