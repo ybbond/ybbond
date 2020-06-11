@@ -18,6 +18,8 @@ Nozzle aimed
 Ready to shoot
 We all do commute
 
+<br>
+
 Don't you all bored?
 With this routinity?
 Mornings—Nights
@@ -25,6 +27,8 @@ Even the sun—moon mock;
 ironically
 They do commute
 too
+
+<br>
 
 Accompany
 human commuters
@@ -38,9 +42,13 @@ How else would we get salary,
 or study,
 or resource for food?
 
+<br>
+
 We need to commute
 Gaining stuffs while
 keep cycling the route
+
+<br>
 
 "No I dont need to,
 I already get all things"
@@ -54,6 +62,8 @@ Because
 We need to
 do
 the Commute."
+
+<br>
 
 25 Januari 2016
 Di atas kereta Commuter

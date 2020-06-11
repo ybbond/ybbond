@@ -28,7 +28,6 @@
           alt="{{ $.Title }}"></amp-img>
   {{ end }}
  -->
- {{ $hell := .Type }}
   {{ if .Params.Description }}
     <p> {{ .Params.Description | safeHTML }} </p>
     <a data-goatcounter-click="rmore-{{ $slug }}" href="{{ $permalink }}" class="no-outline">
