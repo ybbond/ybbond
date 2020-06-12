@@ -1189,5 +1189,23 @@
     "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "BOOMメJabzz٭",
+      "photo": "https://webmention.io/avatar/scontent-atl3-1.cdninstagram.com/bd826706a052ebec62d432a8530e8acc156aa5cd7fd0a1ee9ef91251df276c14.jpg",
+      "url": "https://www.instagram.com/angga.angg/"
+    },
+    "url": "https://www.instagram.com/p/CBQ0cjygyFx/#liked-by-2308964533",
+    "published": null,
+    "wm-received": "2020-06-12T04:25:57Z",
+    "wm-id": 809736,
+    "wm-source": "https://brid-gy.appspot.com/like/instagram/ybbond/2328591668342890865_43527601/2308964533",
+    "wm-target": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
