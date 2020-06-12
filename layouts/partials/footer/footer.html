@@ -5,6 +5,7 @@
       <a
         data-goatcounter-click="cl-home-foot"
         data-rel="prefetch"
+        title="Button to go back to home page"
         href={{ .Site.BaseURL }}
       >« Back to Home
       </a>
@@ -14,25 +15,30 @@
     <a
       data-goatcounter-click="cl-gh-foot"
       href="https://github.com/{{ .Site.Params.Github }}"
+      title="external link to my github profile"
       rel="me"
     >GitHub</a>
     <a
       data-goatcounter-click="cl-twit-foot"
       href="https://twitter.com/{{ .Site.Params.Twitter }}"
+      title="external link to my twitter profile"
       rel="me"
     >Twitter</a>
     <a
       data-goatcounter-click="cl-micro-foot"
       href="https://micro.blog/{{ .Site.Params.Microblog }}"
+      title="external link to my micro dot blog profile"
       rel="me"
     >Micro.blog</a>
     <a
       data-goatcounter-click="cl-mast-foot"
       href="https://indieweb.social/@ybbond"
+      title="external link to my mastodon profile"
       rel="me"
     >Mastodon</a>
     <a
       data-goatcounter-click="cl-rss-foot"
+      title="link to the RSS Feed for main content of this site"
       href={{ "index.xml" | absURL }}
     >RSS</a>
   </p>
@@ -45,6 +51,7 @@
       href="https://goatcounter.com"
       data-goatcounter-click="cl-gc-foot"
       target="_blank"
+      title="A Good Privacy Aware Web Analytics"
       rel="noreferrer noopener"
     >GoatCounter</a>.
     <br>
@@ -53,6 +60,7 @@
       href="https://stats.ybbond.dev/"
       data-goatcounter-click="cl-stats-foot"
       target="_blank"
+      title="external link to stats.ybbond.dev"
       rel="noreferrer noopener"
     >stats.ybbond.dev</a>.
   </span>
@@ -82,6 +90,6 @@
   >→</a>
 </center>
 
-<center class="footer__copyright">
-  &copy;{{ now.Year }} {{ .Site.Params.Author }}
+<center class="footer__license">
+  <a rel="license" title="Creative Commons Attribution 4.0 International License" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="{{ .Site.BaseURL }}cc-by-80x15.png" /></a><br />This document is licensed under a <a rel="license" title="Creative Commons Attribution 4.0 International License" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a>.
 </center>
