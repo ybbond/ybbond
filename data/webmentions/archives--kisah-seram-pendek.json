@@ -1207,5 +1207,23 @@
     "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Laurentius Damar Parthasiwi",
+      "photo": "https://webmention.io/avatar/scontent-iad3-1.cdninstagram.com/fa666e2fe0a081e61b65b9ec2696d212569e477bdfec21add6cc1ab29b357d24.jpg",
+      "url": "https://www.instagram.com/laurentiusdp/"
+    },
+    "url": "https://www.instagram.com/p/CBQ0cjygyFx/#liked-by-958881054",
+    "published": null,
+    "wm-received": "2020-06-12T12:39:07Z",
+    "wm-id": 809803,
+    "wm-source": "https://brid-gy.appspot.com/like/instagram/ybbond/2328591668342890865_43527601/958881054",
+    "wm-target": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
