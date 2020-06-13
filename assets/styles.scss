@@ -8,8 +8,10 @@ html {
     color: themed('color-text');
   }
   font-family: $font-text;
-  letter-spacing: -0.02rem;
-  line-height: 1.5;
+  letter-spacing: 0.025rem;
+  font-weight: 300;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
   font-size: 16px;
 }
 
@@ -21,6 +23,10 @@ html {
     padding: 0 1.5em;
     margin: 0;
   }
+}
+
+strong {
+  font-weight: 600;
 }
 
 body {
@@ -94,7 +100,7 @@ a {
   &#active {
     cursor: default;
   }
-  &:hover:not(.wm-avatar), &#active {
+  &:hover:not(.wm-avatar):not(.no-hover), &#active {
     @include themify($themes) {
       background-color: themed('color-background-hover');
       color: themed('color-red');
@@ -235,6 +241,7 @@ time {
   &__more {
     padding: 1em 0 0;
     margin-bottom: 0;
+    margin-right: 0.3em;
     text-align: right;
   }
 }
@@ -254,6 +261,7 @@ time {
   display: flex;
   &__left {
     text-align: left;
+    margin-left: 0.3rem;
   }
   &__center {
     flex: 1;
@@ -261,6 +269,7 @@ time {
   }
   &__right {
     text-align: right;
+    margin-right: 0.3rem;
   }
 }
 
@@ -271,7 +280,7 @@ time {
 
 .footer {
   &__separator {
-    margin: 0.5rem auto 1.4em;
+    margin: 0.5rem auto 1.4rem;
   }
 
   &__nav {
@@ -324,18 +333,18 @@ time {
   }
 
   .hcard {
-    max-width: 25em;
-    font-size: 0.8em;
-    margin: 2em auto 0.5em;
-    padding: 1.5em;
+    max-width: 19rem;
+    font-size: 0.8rem;
+    margin: 2rem auto 0.5rem;
+    padding: 1rem 1rem 0.8rem;
     position: relative;
     @include themify($themes) {
-      border: solid 2px themed('color-border');
+      border: solid 1px themed('color-border');
     }
     &__description {
-      top: -0.9em;
-      left: 1em;
-      padding: 0 0.5em;
+      top: -0.7rem;
+      left: 0.8rem;
+      padding: 0 0.4rem;
       position: absolute;
       @include themify($themes) {
         background-color: themed('color-background');
@@ -348,26 +357,26 @@ time {
       position: relative;
       img {
         position: absolute;
-        width: 5em;
-        height: 5em;
+        width: 3.8rem;
+        height: 3.8rem;
       }
       & > a {
-        margin-left: 6.5em;
+        margin-left: 5rem;
       }
       & > .p-locality {
-        margin-left: 6.5em;
+        margin-left: 5rem;
       }
     }
   }
 
   .web-ring {
-    font-size: 0.8em;
-    margin: 0 0 1.8em;
+    font-size: 0.8rem;
+    margin: 0 0 1.5rem;
   }
 
   &__license {
-    margin: 0.7em 0 1em;
-    font-size: 0.7em;
+    margin: 0.7rem 0 1rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -389,15 +398,31 @@ time {
   }
 }
 
+.bottom-hcard-container {
+  margin: 4rem 0 1rem;
+}
+.hcard-top {
+  margin: 0 0 0.8rem;
+}
+.hcard-tags {
+  margin: 0.8rem 0 0.7rem;
+}
+.hcard-bottom {
+  margin: 0;
+}
+
 .wm-hr {
-  margin-top: 3rem;
   margin-bottom: 0.2rem;
 }
+.wm-div {
+  margin-bottom: 3rem;
+}
+
 .wm-title {
-  margin: 0 0 1rem;
+  margin: 0 0 0.7rem;
 }
 .wm-subtitle {
-  margin: 1rem 0 0.3rem;
+  margin: 0.7rem 0 0.3rem;
   font-size: 0.8rem;
 }
 

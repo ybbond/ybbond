@@ -36,11 +36,18 @@ Some others satisfy my hobbies.
 - **nnn**, n³ The missing terminal file manager for X.
 - **lazygit** [my post][lazygit]
 
-### Daily
+### Services
 
-- ~~Canary mail~~ Apple's **Mail.app** with 
-  » **iPGMail** (iOS)
-  » **GPG Mail** extension (Mac)
+- **Fastmail**
+  <small>I try to use less Google, but I cannot find replacement for YouTube and Translate :(</small>
+- **BitWarden**
+
+### Daily Applications
+
+I use these app on both macOS and iOS (or iPadOS).
+
+- **Canary mail**
+  <small>lightweight email client with configurable keyboard shortcuts, and PGP encryption</small>
 - **2Do App**
 - **Reeder 4**
   <small>beautiful and gesture-based RSS Reader.</small>

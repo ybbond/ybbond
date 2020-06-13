@@ -17,27 +17,27 @@ copyright = "CC-BY 4.0"
   instagram = "ybbond"
 
 [markup.goldmark.renderer]
-    hardWraps = true
-    unsafe = true
-    xhtml = true
+  hardWraps = true
+  unsafe = true
+  xhtml = true
 
 [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 8
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 8
 [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 9
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 9
 [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact"
-    weight = 10
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact"
+  weight = 10
 [[menu.main]]
-    identifier = "uses"
-    name = "Uses"
-    url = "/uses"
-    weight = 11
+  identifier = "uses"
+  name = "Uses"
+  url = "/uses"
+  weight = 11

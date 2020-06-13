@@ -21,30 +21,32 @@
       <div class="e-content">
         {{ partial "components/content.html" .Content }}
       </div>
+
+      <div class="bottom-hcard-container" {{ if eq .Type "page" }} hidden=""{{ end }}>
+        <p class="hcard-top hcard">
+          <a class="u-url link-white" href={{ .Permalink }}>Published</a> on
+          <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7" class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
+            {{ .Date.Format "02 January 2006" }}</time>,
+          for stories like this:
+        </p>
+        {{ with .Params.tags }}
+          <p class="hcard-tags">
+            {{ range . }}
+              {{- partial "components/tagitem.html" . -}}
+            {{ end }}
+          </p>
+        {{ end }}
+        {{ if ne .Type "page" -}}
+          <p class="hcard-bottom">If you have any feedback, please contact me at <a title="Open default mail client and add my email as recipient" href="mailto:hi@ybbond.dev">hi@ybbond.dev</a></p>
+        {{ end -}}
+      </div>
+
       {{- if ne .Type "page" }}
-        <hr class="wm-hr">
         {{ partial "post/webmentions-handler.html" . }}
       {{- else }}
         <br>
         <br>
       {{- end }}
-
-
-      <p {{ if eq .Type "page" }}class="hcard" hidden=""{{ end }}>
-        <a class="u-url link-white" href={{ .Permalink }}>Published</a> on
-        <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7" class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
-        	{{ .Date.Format "02 January 2006" }}</time>,
-      	for stories like this:</p>
-      {{ with .Params.tags }}
-        <p>
-          {{ range . }}
-            {{- partial "components/tagitem.html" . -}}
-          {{ end }}
-        </p>
-      {{ end }}
-      {{ if ne .Type "page" -}}
-        <p>If you have any feedback, please contact me at <a href="mailto:hi@ybbond.dev">hi@ybbond.dev</a></p>
-      {{ end -}}
     </article>
   {{ end }}
 {{ end }}

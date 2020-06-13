@@ -29,14 +29,8 @@
           <a data-goatcounter-click="cl-note-hash" class="u-url" href="/notes/#{{ $idslug }}">#</a> <a data-goatcounter-click="cl-note-full" href={{ .Permalink }}>»</a>
         {{ end }}
     </span>
-    {{ with .Title}}
-      <span class="notes__title__separator"> - </span>
-    {{ end }}
-    {{ with .Title}}
-      <span class="notes__title__title">{{ . }} <a class="u-url" href="#{{ $idslug }}">#</a></span>
-    {{ end }}
   </p>
-  <div class="e-content p-name">
+  <div class="notes__content e-content p-name">
     {{ .Content }}
   </div>
 </div>

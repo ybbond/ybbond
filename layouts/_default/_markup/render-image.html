@@ -27,7 +27,7 @@
 {{ $src_set = (print $src_set ", " $large.RelPermalink " 1500w") }}
 {{ end }}
 
-{{ $border_class := "image-border" }}
+{{ $figure_class := "image-figure" }}
 
 
 <noscript>
@@ -36,7 +36,7 @@
       display: none;
     }
   </style>
-  <figure class="{{ $border_class }}">
+  <figure class="{{ $figure_class }}">
     <center>
       <a class="no-outline" href='{{ $image.RelPermalink }}'>
         <img
@@ -51,9 +51,9 @@
   </figure>
 </noscript>
 
-<figure class="{{ $border_class }} lazy">
+<figure class="{{ $figure_class }} lazy">
   <center>
-    <a class="no-outline" href='{{ $image.RelPermalink }}'>
+    <a class="no-outline no-hover" href='{{ $image.RelPermalink }}'>
       <img class="lazyload" data-sizes="auto" src="{{ $src.RelPermalink }}"
         style="max-width: 100%; height: auto;"
         srcset="data:image/jpeg;base64,{{ $placeholder.Content | base64Encode }}" data-src="{{ $src.RelPermalink }}"
