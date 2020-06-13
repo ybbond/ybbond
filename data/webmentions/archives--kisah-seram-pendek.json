@@ -1225,5 +1225,23 @@
     "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "stella gracia 💐",
+      "photo": "https://webmention.io/avatar/scontent-iad3-1.cdninstagram.com/1756c90ecd92fb3ce065c79b4c485750da0c4822fdb6a0ce249fdbfbd2c40814.jpg",
+      "url": "https://www.instagram.com/stgrca29/"
+    },
+    "url": "https://www.instagram.com/p/CBQ0cjygyFx/#liked-by-300962049",
+    "published": null,
+    "wm-received": "2020-06-13T12:50:30Z",
+    "wm-id": 810106,
+    "wm-source": "https://brid-gy.appspot.com/like/instagram/ybbond/2328591668342890865_43527601/300962049",
+    "wm-target": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "like-of": "https://ybbond.dev/archives/kisah-seram-pendek/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
