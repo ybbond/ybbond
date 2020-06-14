@@ -1,0 +1,24 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ali Reza Hayati",
+      "photo": "https://webmention.io/avatar/cf.mastohost.com/d2c0df5852f9ce62ae1916727c61c355e62c936057f61e433348972cb52a9fd8.jpg",
+      "url": "https://social.tchncs.de/@arh"
+    },
+    "url": "https://social.tchncs.de/@arh/104338112225372892",
+    "published": "2020-06-13T18:34:05",
+    "wm-received": "2020-06-13T21:43:52Z",
+    "wm-id": 810224,
+    "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@ybbond@indieweb.social/104338026598450001/104338112575915792",
+    "wm-target": "https://ybbond.dev/notes/04-june-2020/",
+    "content": {
+      "html": "<p><span class=\"h-card\"><a href=\"https://indieweb.social/@ybbond\" class=\"u-url\">@<span>ybbond</span></a></span> I installed the plugin for my WordPress site but I don't know is that it or there's more steps to it.</p>",
+      "text": "@ybbond I installed the plugin for my WordPress site but I don't know is that it or there's more steps to it."
+    },
+    "in-reply-to": "https://ybbond.dev/notes/04-june-2020/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  }
+]
