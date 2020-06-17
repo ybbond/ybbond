@@ -35,6 +35,10 @@
     margin: 1.2rem 0;
   }
 
+  p + ul, p + ol {
+    margin-top: -0.8rem;
+  }
+
   table {
     display: block;
     overflow-x: auto;

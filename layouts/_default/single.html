@@ -2,6 +2,7 @@
   {{ if eq .Type "notes" }}
     <article>
       {{- partial "post/notes-item.html" . -}}
+      {{ partial "post/webmentions-handler.html" . }}
     </article>
   {{ else }}
     <article class="content h-entry">

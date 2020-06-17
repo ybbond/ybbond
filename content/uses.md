@@ -15,13 +15,14 @@ Some others satisfy my hobbies.
 - Macbook Pro 2018 13" (Office)
 - Macbook White Unibody mid 2010 (Experiments) [my note][mbwhite]
 - Low End PC with Manjaro Linux XFCE (Home)
-- iPad Mini 5
+- iPad Mini 5 WiFi 64GB
+- iPhone SE (2016) 128GB
 
 ### Peripheral
 
 - Ducky One 2 Mini Keyboard [gif image][ducky]
 - NuPhy NuType F1 Keyboard [my review post][nuphy]
-- Roland FP-30
+- Roland Electric Piano FP-30
 - Guitars. Many of them.
 
 
@@ -35,6 +36,7 @@ Some others satisfy my hobbies.
 - **tmux** on **kitty** [tmux.conf][tmux], [kitty.conf][kitty]
 - **nnn**, n³ The missing terminal file manager for X.
 - **lazygit** [my post][lazygit]
+- I also have license for **Sublime Text** and **Onivim 2** that I rarely use.
 
 ### Services
 
@@ -52,6 +54,8 @@ I use these app on both macOS and iOS (or iPadOS).
 - **Reeder 4**
   <small>beautiful and gesture-based RSS Reader.</small>
 - **BusyCal**
+- **iA Writer** [my post about it][iawriter]
+  <small>I write my Hugo post mostly with this app.</small>
 
 ### Zettelkasten
 
@@ -63,8 +67,6 @@ I use [zettelkasten](https://zettelkasten.de/) paradigm for my knowledge base an
 - **aText**
   <small>alternative to TextExpander that is single purchase.
   my template to make Zettelkasten [is here](/zettelkasten-atext-template.atext).</small>
-- **iA Writer** [my post about it][iawriter]
-  I write my Hugo post mostly with this app.
 
 [mbwhite]: /notes/#date-2020-05-08-0412
 [iawriter]: /posts/2020-04-in-search-of-good-writing-app-part-2-ia-writer-vs-ivim/
