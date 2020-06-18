@@ -1,4 +1,4 @@
 {{ $list_span := . | replaceRE "<li( id=\"fn:[\\d]+\" role=\"doc-endnote\")?>(\\n<p>)?" "<li${1}>${2}<span></span>" }}
-{{ $footnote := $list_span | replaceRE "(<div class=\"footnotes\" role=\"doc-endnotes\">\\n<hr />)" "${1}<h4 class=\"footnotes__text\">Footnotes:</h4>" }}
+{{ $footnote := $list_span | replaceRE "(<div class=\"footnotes\" role=\"doc-endnotes\">\\n<hr />)" "${1}<h3 class=\"footnotes__text\">Footnotes:</h3>" }}
 {{ $checkbox_non_disabled := $footnote | replaceRE "disabled=\"\" type=\"checkbox" "type=\"checkbox" }}
 {{ $checkbox_non_disabled | safeHTML }}

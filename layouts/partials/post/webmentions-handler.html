@@ -2,14 +2,14 @@
   <hr class="wm-hr">
   <div class="wm-div">
     {{- with where . "wm-property" "in" (slice "like-of" "repost-of" "bookmark-of" "rsvp" "in-reply-to" "mention-of") }}
-      <h4 class="wm-title">
+      <h3 class="wm-title">
         Webmentions <a
           href="https://indieweb.org/Webmention"
           rel="noopenner noreferrer"
           target="_blank"
           class="no-outline"
         >?</a>:
-      </h4>
+      </h3>
     {{- end }}
 
     {{ with where . "wm-property" "in" (slice "repost-of" "bookmark-of" "rsvp") -}}

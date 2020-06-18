@@ -10,6 +10,14 @@ date: 2020-06-17T17:07:22+0700
 ID: 20200617170722
 ---
 
+> Update per <time title="Thursday, 18 June 2020 on 11:05 GMT+7">June 18th, 2020</time>:
+> 
+> Mr. Maciej of Pinboard just replied to my email and by that, my refund is in process. My Pinboard account is closed now.
+
+<br>
+
+---
+
 This is more of a rant than a proper blog post. You may call this is a **Buyer's Remorse**. I say, this is a biased review for **Pinboard** and **Feed Wrangler**.
 
 I am an avid app and SaaS[^1] user who likes to look for any apps/services for certain use cases. I will try a set of apps with a more-or-less same feature before committing on one app. This method leads me to use iA Writer —writing app, BitWarden —password manager service, Fastmail —mail provider, FSNotes —note taking app, Canary Mail —email client. The afore mentioned apps and their competitors that I've tried beforehand offer free trial period that allow me to have a sneak peek of what I will be getting.
@@ -31,6 +39,16 @@ I have great understandings if a service's customer support got overwhelmed. But
 
 {{< tweet 1273099013693280256 >}}
 
+There is a chance my emails got detected as spam. I am well aware of that, so I write my refund requests as polite as possible:
+
+> On Wed, Jun 17, 2020 at 2:08 PM [REDACTED] wrote:
+>
+> I  want to refund for account "[REDACTED]", on the email "[REDACTED]"
+>
+> I have emailed since 3 days ago with my personal mail address, but no response. I even desperately contacted you via twitter.
+>
+> Thank you for your attention, I also have feedback to setup trial account, because your email support is not active, but in the FAQ you said there will be 3 days no question asked refund policy.
+
 The waiting game just began.
 
 ## The Review
@@ -40,10 +58,11 @@ So, a quick, biased review for Feed Wrangler and Pinboard, because they have bas
 **Pros:**
 - solid basic features
 - good integration with third-party apps
+- 'no-nonsense' interface that don't bloat
 
 **Cons:**
 - their customer supports are horrible
-- their 'no-nonsense' interface are ugly
+- their 'no-nonsense' interface are not very beautiful
 - no official or reliable first-party mobile apps
 - pinboard's archival account won't work for Medium and many developers' good site
 
