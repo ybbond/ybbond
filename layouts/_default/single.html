@@ -4,6 +4,11 @@
       {{- partial "post/notes-item.html" . -}}
       {{ partial "post/webmentions-handler.html" . }}
     </article>
+  {{ else if eq .Type "responses" }}
+    <article>
+      {{- partial "post/responses-item.html" . -}}
+      {{ partial "post/webmentions-handler.html" . }}
+    </article>
   {{ else }}
     <article class="content h-entry">
       <h1 class="p-name">{{ .Title }}</h1>
@@ -19,7 +24,7 @@
           {{ end }}
         {{ end }}
       </div>
-      <div class="e-content">
+      <div class="p-content e-content">
         {{ partial "components/content.html" .Content }}
       </div>
 

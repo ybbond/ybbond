@@ -1,0 +1,41 @@
+{{ $dateformat := .Date.Format "2006-01-02 15:04" }}
+{{ $idslug := (print "date-" $dateformat "-") | urlize }}
+{{ $author := ""}}
+{{ if isset .Params.Destination "author" }}
+  {{ $author = print " by «" .Params.Destination.Author "»" }}
+{{ end }}
+{{ $title := print "In response to " "«" .Params.Destination.Title "»" $author }}
+<div class="content responses h-entry" id={{ $idslug }}>
+  <h1 class="p-name">{{ $title }}</h1>
+  <div id="h-card" class="hcard" hidden="">
+    {{ $permalink := .Permalink }}
+    {{ $title := .Title }}
+    {{ with .Params.Image.Src }}
+      {{ $filename := . | safeURL }}
+      {{ $original := printf "%s%s" $permalink $filename }}
+      <img class="u-photo" hidden="" src={{ $original }} alt="Illustration of {{ $title }}" />
+    {{ end }}
+    <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
+    <br>
+    <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+    <br>
+    <a rel="syndication" class="u-syndication" href={{ .Permalink }}>{{ .Title }}</a>
+    <br>
+    <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
+    <br>
+    <a class="p-category" href={{ "responses/" | absURL }}>responses</a>
+  </div>
+  <p class="responses__subtitle">
+    <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7" class="responses__subtitle__date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
+      {{ .Date.Format "02 Jan 2006" }}
+    </time>
+    {{ if .Title }}
+    {{ else }}
+      <a data-goatcounter-click="cl-response-hash" class="u-url" href="/responses/#{{ $idslug }}">#</a> <a data-goatcounter-click="cl-response-full" href={{ .Permalink }}>»</a>
+    {{ end }}
+  </p>
+  <p class="responses__original"><a class="u-in-reply-to" href={{ .Params.Destination.Url }}>»Link to responded post«</a></p>
+  <div class="responses__content e-content p-content">
+    {{ partial "components/content.html" .Content }}
+  </div>
+</div>

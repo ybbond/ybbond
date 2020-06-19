@@ -25,12 +25,16 @@
       {{ end }}
       {{ with .Content }}<div>{{ . }}</div>{{ end }}
     </div>
-    <hr>
+    <hr class="list__subtitle">
   {{ end }}
 
   {{ if  eq .Type "notes" }}
     {{ range (where .Site.RegularPages "Type" "notes") }}
       {{ partial "post/notes-item.html" . }}
+    {{ end }}
+  {{ else if  eq .Type "responses" }}
+    {{ range (where .Site.RegularPages "Type" "responses") }}
+      {{ partial "post/responses-item.html" . }}
     {{ end }}
   {{ else }}
     {{ range .Paginator.Pages }}

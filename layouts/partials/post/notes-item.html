@@ -1,6 +1,6 @@
 {{ $dateformat := .Date.Format "2006-01-02 15:04" }}
 {{ $idslug := (print "date-" $dateformat "-") | urlize }}
-<div class="notes h-entry" id={{ $idslug }}>
+<div class="content notes h-entry" id={{ $idslug }}>
   <div id="h-card" class="hcard" hidden="">
     {{ $permalink := .Permalink }}
     {{ $title := .Title }}
@@ -30,7 +30,7 @@
         {{ end }}
     </span>
   </p>
-  <div class="notes__content e-content p-name">
+  <div class="notes__content e-content p-content p-name">
     {{ .Content }}
   </div>
 </div>
