@@ -1,7 +1,7 @@
 baseURL = "https://ybbond.dev/"
 languageCode = "en-us"
 title = "YBBond"
-copyright = "CC-BY 4.0"
+copyright = "CC BY-SA 4.0"
 
 [permalinks]
   posts = "/posts/:year-:month-:slug/"
