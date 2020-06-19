@@ -19,6 +19,9 @@
 <script type="application/javascript" src="{{ .Site.BaseURL }}darkToggler.js" async="true"></script>
 <script type="application/javascript" src="{{ .Site.BaseURL }}lazyImage.js" async="true"></script>
 <script data-goatcounter="https://stats.ybbond.dev/count" async="true" src="//gc.zgo.at/count.js"></script>
+<noscript>
+  <img src="https://stats.ybbond.dev/count?p=/test-img">
+</noscript>
 
 <style>
   {{ with resources.Get "styles.scss" | resources.ToCSS | resources.Minify }}
