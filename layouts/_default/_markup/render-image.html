@@ -1,5 +1,9 @@
 {{ $image := (.Page.Resources.GetMatch  .Destination) }}
 {{ $alt := .Text }}
+{{ $title := .Text }}
+{{ if ne .Title "" }}
+  {{ $title = .Title }}
+{{ end }}
 {{ $placeholder := ($image.Resize "48x q20") | images.Filter (images.GaussianBlur 6) }}
 {{ $src := $image }}
 {{ $src_set := ""}}
@@ -38,10 +42,12 @@
   </style>
   <figure class="{{ $figure_class }}">
     <center>
-      <a class="no-outline" href='{{ $image.RelPermalink }}'>
+      <a title={{ $title }} class="no-outline" href='{{ $image.RelPermalink }}'>
         <img
           src="{{ $src.RelPermalink }}"
           style="max-width: 100%; height: auto;"
+          alt={{ $title }}
+          title={{ $title }}
         />
       </a>
       <figcaption>
@@ -53,11 +59,11 @@
 
 <figure class="{{ $figure_class }} lazy">
   <center>
-    <a class="no-outline no-hover" href='{{ $image.RelPermalink }}'>
+    <a title={{ $title }} class="no-outline no-hover" href='{{ $image.RelPermalink }}'>
       <img class="lazyload" data-sizes="auto" src="{{ $src.RelPermalink }}"
         style="max-width: 100%; height: auto;"
         srcset="data:image/jpeg;base64,{{ $placeholder.Content | base64Encode }}" data-src="{{ $src.RelPermalink }}"
-        data-srcset="{{ $src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $alt }}" />
+        data-srcset="{{ $src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt={{ $title }} title={{ $title }} />
     </a>
     <figcaption>
       <em>{{ .Text | safeHTML }}</em>

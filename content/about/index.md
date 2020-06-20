@@ -6,7 +6,9 @@ description: "Hi, my name is Yohanes Bandung Bondowoso"
 
 People call me **Bandung**. ૮ ・ﻌ・ა
 
-![photo by Soraya Azizah](bandung-mosh-on-tarintih.jpg)
+![photo by Soraya Azizah](bandung-mosh-on-tarintih.jpg "Photo of Bandung a moment before crowd-surfing on a band performance")
+
+I am a software engineer that value and strive for privacy, security and enjoyable services. I like to read the internet and try applications, gathering informations to further enhance my expertise at my job and inspirations to make my life easier.
 
 Currently work as **Frontend Engineer** of [kumparan.com](https://kumparan.com) in Jakarta, Indonesia. Building it with `ReactJS` and `React Native` for Web, Android and iOS.
 
