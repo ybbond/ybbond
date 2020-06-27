@@ -1,0 +1,24 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Yohanes Bandung",
+      "photo": "https://webmention.io/avatar/cf.mastohost.com/faac94884f2da7e21d290b74444291e1415f6cb597aa528ee1fd0585e0c15119.jpg",
+      "url": "https://indieweb.social/@ybbond"
+    },
+    "url": "https://indieweb.social/@ybbond/104416972213614082",
+    "published": "2020-06-27T16:49:13",
+    "wm-received": "2020-06-27T17:35:06Z",
+    "wm-id": 816648,
+    "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@ybbond@indieweb.social/104416969966573396/104416972213614082",
+    "wm-target": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "content": {
+      "html": "<p>I still use Vim tho.</p>",
+      "text": "I still use Vim tho."
+    },
+    "in-reply-to": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  }
+]
