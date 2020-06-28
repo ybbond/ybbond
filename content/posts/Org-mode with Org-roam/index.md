@@ -91,7 +91,7 @@ Thinking long and far, I decided to keep using Org-roam, while waiting to find a
 
 ## Conclusion
 
-Let's [stop worrying and start loving](https://www.youtube.com/watch?v=JWD1Fpdd4Pc) ~~Emacs~~ **Org-mode**! It is overall a good framework to store notes, add Org-roam and it became many times better! Don't worry, (Neo)Vim is still my daily driver.
+Let's [stop worrying and start loving](https://invidio.us/watch?v=JWD1Fpdd4Pc) ~~Emacs~~ **Org-mode**! It is overall a good framework to store notes, add Org-roam and it became many times better! Don't worry, (Neo)Vim is still my daily driver.
 
 [emacs-plus]: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#with-homebrew
 [org-roam-install]: https://github.com/org-roam/org-roam#installation

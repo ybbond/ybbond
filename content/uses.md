@@ -75,7 +75,8 @@ To help on my working time, I use these apps:
 ### Services
 
 - **Fastmail**
-  <small>I try to use less Google, but I cannot find replacement for YouTube and Translate :(</small>
+  <small>I try to use less Google, but I cannot find replacement for ~~YouTube~~ and Translate :(</small>
+  <small>Thanks to [Josh Habdas](https://habd.as), I now use Invidio.us</small>
 - **BitWarden** password manager
 - **Worldbrain's Memex 2**
   <small>Browser extension to bookmark, highlight and annotate any site.

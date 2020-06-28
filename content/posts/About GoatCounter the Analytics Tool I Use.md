@@ -6,6 +6,7 @@ description: I implemented a good, privacy-respecting web analytics for this web
 tags:
   - meta #meta
   - webdev #webdev
+  - privacy #privacy
 date: 2020-05-23T00:47:36+0700
 ID: 1590169657
 ---
@@ -33,5 +34,5 @@ I made it open for everyone and set obvious statement down in the footer, becaus
 
 
 [^1]: A good post from iA, _"Ethics" and Ethics_ by **Oliver Reichenstein**. [Read it here](https://ia.net/topics/ethics-and-ethics) on their site.
-[^2]: Reference is from video _Social Media: Anything for Upcummies! ⬆🍆💦💦_ by **Luke Smith**. You can [watch it here](https://youtu.be/YjbyDU0WzYI?t=48) on YouTube.
+[^2]: Reference is from video _Social Media: Anything for Upcummies! ⬆🍆💦💦_ by **Luke Smith**. You can [watch it here](https://invidio.us/watch?v=YjbyDU0WzYI&t=48) on Invidio.us.
 [^3]: I even stated in my [post](/posts/2020-04-migrating-my-blog-to-hugo/#current-features) about migrating to Hugo that I will implement _tracker_.
