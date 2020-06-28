@@ -38,5 +38,49 @@
     "repost-of": "https://ybbond.dev/notes/04-june-2020/",
     "wm-property": "repost-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Yohanes Bandung",
+      "photo": "https://webmention.io/avatar/cf.mastohost.com/faac94884f2da7e21d290b74444291e1415f6cb597aa528ee1fd0585e0c15119.jpg",
+      "url": "https://indieweb.social/@ybbond"
+    },
+    "url": "https://indieweb.social/@ybbond/104354302589796406",
+    "published": "2020-06-16T15:11:31",
+    "wm-received": "2020-06-28T07:20:17Z",
+    "wm-id": 816919,
+    "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@ybbond@indieweb.social/104338026598450001/104354302589796406",
+    "wm-target": "https://ybbond.dev/notes/04-june-2020/",
+    "content": {
+      "html": "<p><span class=\"h-card\"><a href=\"https://social.tchncs.de/@arh\" class=\"u-url\">@<span>arh</span></a></span> that's good!<br />so what happened in your first reply to this toot? did you not use brid.gy back then?<br />I don't know the flow on wordpress because I use hugo.</p>",
+      "text": "@arh that's good!\nso what happened in your first reply to this toot? did you not use brid.gy back then?\nI don't know the flow on wordpress because I use hugo."
+    },
+    "in-reply-to": "https://ybbond.dev/notes/04-june-2020/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Yohanes Bandung",
+      "photo": "https://webmention.io/avatar/cf.mastohost.com/faac94884f2da7e21d290b74444291e1415f6cb597aa528ee1fd0585e0c15119.jpg",
+      "url": "https://indieweb.social/@ybbond"
+    },
+    "url": "https://indieweb.social/@ybbond/104353773915766995",
+    "published": "2020-06-16T12:57:04",
+    "wm-received": "2020-06-28T07:20:18Z",
+    "wm-id": 816920,
+    "wm-source": "https://brid-gy.appspot.com/comment/mastodon/@ybbond@indieweb.social/104338026598450001/104353773915766995",
+    "wm-target": "https://ybbond.dev/notes/04-june-2020/",
+    "content": {
+      "html": "<p><span class=\"h-card\"><a href=\"https://social.tchncs.de/@arh\" class=\"u-url\">@<span>arh</span></a></span> I did a quick check to your site, and I think your site already has webmention's \"mention\" (in the post moving to GNU/Linux)</p><p>have you checked <a href=\"https://brid.gy\"><span>https://</span><span>brid.gy</span><span></span></a> ?</p>\n<a href=\"https://brid.gy/\">Bridgy</a>",
+      "text": "@arh I did a quick check to your site, and I think your site already has webmention's \"mention\" (in the post moving to GNU/Linux)have you checked https://brid.gy ?\nBridgy"
+    },
+    "in-reply-to": "https://ybbond.dev/notes/04-june-2020/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
   }
 ]

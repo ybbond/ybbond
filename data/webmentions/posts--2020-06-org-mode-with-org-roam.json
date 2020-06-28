@@ -20,5 +20,107 @@
     "in-reply-to": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
     "wm-property": "in-reply-to",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Josh Habdas",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/d6fb4f6515eb0c02d5f4e7f2db09e14bc5cec4b8691e38282a0b37826ec57774.jpg",
+      "url": "https://twitter.com/balibebas"
+    },
+    "url": "https://twitter.com/balibebas/status/1277000962985594880",
+    "published": "2020-06-27T22:08:49+00:00",
+    "wm-received": "2020-06-28T07:18:51Z",
+    "wm-id": 816915,
+    "wm-source": "https://brid-gy.appspot.com/comment/twitter/ybbond_/1276920239146450945/1277000962985594880",
+    "wm-target": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "content": {
+      "html": "That was a good read. Love your writing style. I felt like I was along for the whole adventure. The backlinked files feature makes me want to try this out. Adding to my bucket list is things to try. 📃✔️\n<a class=\"u-mention\" href=\"https://twitter.com/broerjuang\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ybbond_\"></a>\n<a class=\"u-mention\" href=\"https://ybbond.dev/\"></a>",
+      "text": "That was a good read. Love your writing style. I felt like I was along for the whole adventure. The backlinked files feature makes me want to try this out. Adding to my bucket list is things to try. 📃✔️"
+    },
+    "in-reply-to": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Muhammad Ridho Assuryadi",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/0107cf3d3793af72a45f8c74e1811f5f49667b2f5a645925b52454e459d4f21a.png",
+      "url": "https://twitter.com/ridho_assuryadi"
+    },
+    "url": "https://twitter.com/ybbond_/status/1276920239146450945#favorited-by-3605950338",
+    "published": null,
+    "wm-received": "2020-06-28T07:18:53Z",
+    "wm-id": 816916,
+    "wm-source": "https://brid-gy.appspot.com/like/twitter/ybbond_/1276920239146450945/3605950338",
+    "wm-target": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "like-of": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Josh Habdas",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/d6fb4f6515eb0c02d5f4e7f2db09e14bc5cec4b8691e38282a0b37826ec57774.jpg",
+      "url": "https://twitter.com/balibebas"
+    },
+    "url": "https://twitter.com/ybbond_/status/1276920239146450945#favorited-by-1125734938844614656",
+    "published": null,
+    "wm-received": "2020-06-28T07:18:54Z",
+    "wm-id": 816917,
+    "wm-source": "https://brid-gy.appspot.com/like/twitter/ybbond_/1276920239146450945/1125734938844614656",
+    "wm-target": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "like-of": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "wm-property": "like-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Juang Wiantoro 🐪",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/8ba188375503cd671a4e9d3d8d8fe9177cfb526d260466eccf9ab813c0270174.jpg",
+      "url": "https://twitter.com/broerjuang"
+    },
+    "url": "https://twitter.com/broerjuang/status/1276974938964889601",
+    "published": "2020-06-27T20:25:25+00:00",
+    "wm-received": "2020-06-28T07:18:55Z",
+    "wm-id": 816918,
+    "wm-source": "https://brid-gy.appspot.com/post/twitter/ybbond_/1276974938964889601",
+    "wm-target": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "content": {
+      "html": "Awesooome! finally, one step closer to be emacs user :p \n\nbtw, I found this project interesting too <a href=\"https://github.com/athensresearch/athens\">github.com/athensresearch…</a> oss alternative of roam research built on top of Clojure. Wanna join? :p\n<a class=\"u-mention\" href=\"https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/\"></a>",
+      "text": "Awesooome! finally, one step closer to be emacs user :p \n\nbtw, I found this project interesting too github.com/athensresearch… oss alternative of roam research built on top of Clojure. Wanna join? :p"
+    },
+    "mention-of": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "wm-property": "mention-of",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Yohanes Bandung Bondowoso",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/9917d8cd6f06e07fe912490052ae3e5a96709a6f7d3b29dd393ab82bcd7c23ba.jpg",
+      "url": "https://twitter.com/ybbond_"
+    },
+    "url": "https://twitter.com/ybbond_/status/1277141023173402624",
+    "published": "2020-06-28T07:25:22+00:00",
+    "wm-received": "2020-06-28T08:21:25Z",
+    "wm-id": 816939,
+    "wm-source": "https://brid-gy.appspot.com/comment/twitter/ybbond_/1276920239146450945/1277141023173402624",
+    "wm-target": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "content": {
+      "html": "bonus point if you already used to use Emacs,\n\neven if you are not, I have no problem this far opening Emacs for a single purpose — note taking.\n<a class=\"u-mention\" href=\"https://twitter.com/balibebas\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/broerjuang\"></a>",
+      "text": "bonus point if you already used to use Emacs,\n\neven if you are not, I have no problem this far opening Emacs for a single purpose — note taking."
+    },
+    "in-reply-to": "https://ybbond.dev/posts/2020-06-org-mode-with-org-roam/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
   }
 ]
