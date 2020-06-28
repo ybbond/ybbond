@@ -33,18 +33,21 @@
           <a class="u-url link-white" href={{ .Permalink }}>Published</a> on
           <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7" class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
             {{ .Date.Format "02 January 2006" }}</time>,
-          for stories like this:
+          tagged:
+          {{ with .Params.tags }}
+            <span class="hcard-tags">
+              {{ range . }}
+                {{- partial "components/tagitem.html" . -}}
+              {{ end }}
+            </span>
+          {{ end }}
         </p>
-        {{ with .Params.tags }}
-          <p class="hcard-tags">
-            {{ range . }}
-              {{- partial "components/tagitem.html" . -}}
-            {{ end }}
-          </p>
-        {{ end }}
         {{ if ne .Type "page" -}}
           {{- if isset .Params.Twitter "link" }}
-            <p><strong>Comment is unavailable for now</strong>, sorry :( You can comment on this twitter link instead, that will be linked to this post: <a target="_blank" rel="nofollow noreferrer" href={{ .Params.Twitter.Link }}>»Twitter Link«</a></p>
+            <p class="twitter-link"><strong>Comment is unavailable for now</strong>, sorry :( You can reply this tweet, that will be linked to this post: <a target="_blank" rel="nofollow noreferrer" href={{ .Params.Twitter.Link }}>»Twitter Link«</a></p>
+            {{ if isset .Params.Mastodon "link" -}}
+            <p class="mastodon-link">If you prefer fediverse, you can reply this Toot instead: <a target="_blank" rel="nofollow noreferrer" href={{ .Params.Mastodon.Link }}>»Mastodon Link«</a></p>
+            {{ end -}}
           {{- end }}
           <p class="hcard-bottom">If you have any feedback, please contact me at <a title="Open default mail client and add my email as recipient" href="mailto:hi@ybbond.dev">hi@ybbond.dev</a></p>
         {{ end -}}

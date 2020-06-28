@@ -9,6 +9,8 @@ tags:
   - privacy #privacy
 twitter:
   link: https://twitter.com/ybbond_/status/1264119154606510084
+mastodon:
+  link: https://indieweb.social/web/statuses/104216953461884291
 date: 2020-05-23T00:47:36+0700
 ID: 1590169657
 ---

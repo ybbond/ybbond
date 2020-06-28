@@ -8,6 +8,8 @@ tags:
   - review #review
 twitter:
   link: https://twitter.com/ybbond_/status/1273787519298007041
+mastodon:
+  link: https://indieweb.social/web/statuses/104367901536889423
 date: 2020-06-17T17:07:22+0700
 ID: 20200617170722
 ---
