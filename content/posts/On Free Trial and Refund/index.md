@@ -6,6 +6,8 @@ description: This is more of a rant than a proper blog post. You may call this i
 tags:
   - apps #apps
   - review #review
+twitter:
+  link: https://twitter.com/ybbond_/status/1273787519298007041
 date: 2020-06-17T17:07:22+0700
 ID: 20200617170722
 ---

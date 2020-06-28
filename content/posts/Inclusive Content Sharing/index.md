@@ -8,6 +8,8 @@ tags:
 - privacy #privacy
 image:
   src: 2.png
+twitter:
+  link: https://twitter.com/ybbond_/status/1277262291696627712
 date: 2020-06-28T16:44:38+0700
 ID: 20200628164438
 ---

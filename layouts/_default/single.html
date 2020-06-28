@@ -43,6 +43,9 @@
           </p>
         {{ end }}
         {{ if ne .Type "page" -}}
+          {{- if isset .Params.Twitter "link" }}
+            <p><strong>Comment is unavailable for now</strong>, sorry :( You can comment on this twitter link instead, that will be linked to this post: <a target="_blank" rel="nofollow noreferrer" href={{ .Params.Twitter.Link }}>»Twitter Link«</a></p>
+          {{- end }}
           <p class="hcard-bottom">If you have any feedback, please contact me at <a title="Open default mail client and add my email as recipient" href="mailto:hi@ybbond.dev">hi@ybbond.dev</a></p>
         {{ end -}}
       </div>
