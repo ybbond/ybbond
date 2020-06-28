@@ -32,9 +32,9 @@ Example of accessibility: make your website content recognizable by text-to-spee
 
 Back to the topic of content sharing. I gave you example about sharing picture of animal that some people may find disturbing. That is one thing.
 
-Other thing is to think about individuals that do extra effort to conceal their **privacy**, even from Google.
+Other thing is to think about individuals that do extra effort to conceal their **privacy**, even from Google[^2].
 
-What is it about Google? Well, some people believe that accessing Google's domains or endpoints may give off their privacy to that company. The obvious example is using Google Analytics for any website[^2]. That practice may give off visitors' data to Google. Other example is using Google Fonts, or embedding Youtube videos. Extreme example is linking a text to Youtube, like how I did in some of my posts.
+What is it about Google? Well, some people believe that accessing Google's domains or endpoints may give off their privacy to that company. The obvious example is using Google Analytics for any website[^3]. That practice may give off visitors' data to Google. Other example is using Google Fonts, or embedding Youtube videos. Extreme example is linking a text to Youtube, like how I did in some of my posts.
 
 ![Previously, I share Youtube links too](2.png "Previously, I share Youtube links too")
 
@@ -66,4 +66,5 @@ Cheers!
 
 
 [^1]: Fear of snake. Even they may feel the fear only by reading the word of that animal. Sorry then :(
-[^2]: [A more privacy-friendly blog](https://vincent.bernat.ch/en/blog/2018-more-privacy-blog) → This is a great post by **Vincent Bernat** listing privacy friendly alternatives for tools oft used on website.
+[^2]: [Don't trust privacy options](https://alirezahayati.com/2020/06/dont-trust-privacy-options/) → **Ali Reza Hayati** boldly written about how some companies may use your private informations for scary things. Not now, maybe, but might be in the future.
+[^3]: [A more privacy-friendly blog](https://vincent.bernat.ch/en/blog/2018-more-privacy-blog) → This is a great post by **Vincent Bernat** listing privacy friendly alternatives for tools oft used on website.
