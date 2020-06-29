@@ -24,7 +24,7 @@ Internet adds to that complexity. For instance you share a cute picture of a sna
 
 The awareness of inclusivity had spread wider day by day. There is **Inclusive Design**, which concepts encourage you to think about **diversity** and **accessibility** when building products.
 
-Example of diversity: provide more gender dropdown choice knowing some people won't feel comfortable sharing their gender.
+Example of diversity: provide more gender dropdown choice knowing some people won't feel comfortable sharing their gender. Or perhaps, make the gender dropdown choice non-mandatory. Better yet, don't ask for it.
 
 ![Image courtesy of <a rel="nofollow noreferrer" href="http://www.sarahdopp.com/blog/2010/designing-a-better-drop-down-menu-for-gender/">post from Sarah Dopp</a>](gender-selection.png)
 
@@ -42,27 +42,27 @@ What is it about Google? Well, some people believe that accessing Google's domai
 
 ![Changed those to Invidious](youtube-invidious.gif "Changed those to Invidious")
 
-I replaced the links to [Invidio.us](https://invidio.us) though. Hope that helps.
+This practice may leads unaware readers to accidentally visit Youtube. They won't like that. I replaced the links to [Invidio.us](https://invidio.us) though. Hope that helps.
 
 So we talked about disturbing content and privacy. I am also thinking about **content availability**. The example is sharing great content that some people may not be able to retrieve, because it is hidden behind paywall. The example is some content on Medium, or NYTimes.
 
-I often encounter this on Hacker News, where the linked content is a paywalled post on Medium, or NYTimes. There is a work-around for this, and I know maybe that great content only available on that certain platform.
+I often encounter this on Hacker News, where the linked content is a paywalled post on Medium, or NYTimes. There is a work-around for this that I often use, because some of those great contents might only be available on that certain paywalled platform.
 
 ![GIF animation of Medium Paywall, also an irony](medium-paywall.gif "GIF animation of Medium Paywall, also an irony")
 
-I train myself to take some time searching whether that post shared elsewhere and share the alternative link instead.
+When sharing contents that I originally read on Medium, I train myself to take some time searching whether that post shared elsewhere and to share the alternative link instead.
 
 ## Conclusion
 
 > You cannot please everyone.
 
-The topics I've written are not all. Others may think other factors they find necessary to consider before writing post or sharing links on the internet.
+The topics I've written are not all. Others may think of other factors they find necessary to consider before writing post or sharing links on the internet.
 
 Easier written than said, even more done.
 
 Sometimes I forget about some factors, and I am willing to be stand corrected for that. Thank you for all of you taking your precious time for reminding me. Truly appreciate your good intention.
 
-As a closing statement, this is a complicated world. I can be a simpleton and ignoring all those complexity, but I choose the option I think making this world a more pleasant place to live. For me, and others.
+As a closing statement: This is a complicated world. I can be a simpleton and ignoring all those complexity, but I choose the option that I think will make this world a more pleasant place to live. For me, and others.
 
 Cheers!
 
