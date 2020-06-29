@@ -16,5 +16,34 @@
     "repost-of": "https://ybbond.dev/posts/2020-06-inclusive/",
     "wm-property": "repost-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ali Reza Hayati",
+      "photo": "https://webmention.io/avatar/alirezahayati.com/f7b244f41969e80e9a3d74f37b1a2c1b88511d58f2d55f31274204ab1c319eb7.jpg",
+      "url": "https://alirezahayati.com/author/arh/"
+    },
+    "url": "https://alirezahayati.com/2020/06/inclusive-content-sharing/",
+    "published": "2020-06-29T13:45:15+04:30",
+    "wm-received": "2020-06-29T09:15:23Z",
+    "wm-id": 817427,
+    "wm-source": "https://alirezahayati.com/2020/06/inclusive-content-sharing/",
+    "wm-target": "https://ybbond.dev/posts/2020-06-inclusive/",
+    "summary": {
+      "content-type": "text/plain",
+      "value": "Inclusive Content Sharing"
+    },
+    "content": {
+      "html": "<p><a href=\"https://ybbond.dev/posts/2020-06-inclusive/\">Inclusive Content Sharing</a></p>",
+      "text": "Inclusive Content Sharing"
+    },
+    "mention-of": "https://ybbond.dev/posts/2020-06-inclusive/",
+    "wm-property": "mention-of",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://alirezahayati.com/2020/06/inclusive-content-sharing/"
+    }
   }
 ]
