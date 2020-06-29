@@ -1,0 +1,20 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Tim Chambers",
+      "photo": "https://webmention.io/avatar/cf.mastohost.com/3d127181897047f67fe519d631f377c20bc9b3de25abaa7136d7554001d018de.png",
+      "url": "https://indieweb.social/@tchambers"
+    },
+    "url": "https://indieweb.social/@ybbond/104422323385996032#reblogged-by-2",
+    "published": null,
+    "wm-received": "2020-06-29T02:16:50Z",
+    "wm-id": 817331,
+    "wm-source": "https://brid-gy.appspot.com/repost/mastodon/@ybbond@indieweb.social/104422323385996032/2",
+    "wm-target": "https://ybbond.dev/posts/2020-06-inclusive/",
+    "repost-of": "https://ybbond.dev/posts/2020-06-inclusive/",
+    "wm-property": "repost-of",
+    "wm-private": false
+  }
+]
