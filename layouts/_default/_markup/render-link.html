@@ -1,6 +1,46 @@
 <a href="{{ .Destination | safeURL }}"
-    {{ with .Title}}
-      title="{{ . }}"
+  {{ $brand := "font-awesome-flag" }}
+  {{ $title := .Title }}
+
+  {{ $root := .Page.Site.BaseURL | replaceRE "^https?://(en.|www.|m.)?([^/]+).*" "$2" }}
+  {{ $domain := .Destination | replaceRE "^https?://(en.|www.|m.)?([^/]+).*" "$2" }}
+  {{ if eq $domain "github.com" }}
+    {{ $brand = "github" }}
+  {{ else if eq $domain "twitter.com" }}
+    {{ $brand = "twitter" }}
+  {{ else if eq $domain "patreon.com" }}
+    {{ $brand = "patreon" }}
+  {{ else if eq $domain "instagram.com" }}
+    {{ $brand = "instagram" }}
+  {{ else if eq $domain "kickstarter.com" }}
+    {{ $brand = "kickstarter" }}
+  {{ else if eq $domain "keybase.io" }}
+    {{ $brand = "keybase" }}
+  {{ else if eq $domain "openstreetmap.org" }}
+    {{ $brand = "periscope" }}
+  {{ else if eq $domain "apple.stackexchange.com" }}
+    {{ $brand = "stack-exchange" }}
+  {{ else if eq $domain "news.ycombinator.com" }}
+    {{ $brand = "hacker-news" }}
+  {{ else if eq $domain "git.ybbond.dev" }}
+    {{ $brand = "git-alt" }}
+  {{ else if or (eq $domain "wikipedia.com") (eq $domain "wikipedia.org") }}
+    {{ $brand = "wikipedia-w" }}
+  {{ end}}
+
+  {{ $first := truncate 1 "" $domain }}
+  {{ $slash := (eq $first "/" )}}
+  {{ $hash := (eq $first "#") }}
+  {{ $not_internal := (eq true (and (and (ne $first "/") (ne $first "#")) (ne $domain $root))) }}
+
+    {{ if ne .Title "" }}
+      title="{{ .Title }}"
+    {{ else if $slash }}
+      title="Internal link with text: {{ .Text | safeHTML }}"
+    {{ else if $hash }}
+      title="Same post link with text: {{ .Text | safeHTML }}"
+    {{ else }}
+      title="Link to {{ $domain }} with text: {{ .Text | safeHTML }}"
     {{ end }}
     data-goatcounter-click="{{ .Text }}"
     {{ if strings.HasPrefix .Destination "http" }}
@@ -9,4 +49,4 @@
     {{ else }}
       data-rel="prefetch"
     {{ end }}
->{{ .Text | safeHTML }}</a>
+>{{ .Text | safeHTML }}{{if and (ne false $not_internal) (ne $domain "stats.ybbond.dev") }}&nbsp;<i class="fab fa-{{ $brand }}"></i>{{ end }}</a>

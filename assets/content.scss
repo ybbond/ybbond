@@ -35,6 +35,15 @@
     }
   }
 
+  i {
+    font-size: 0.8rem;
+    vertical-align: 0.4rem;
+  }
+
+  i.fa-font-awesome-flag {
+    font-size: 0.6rem;
+  }
+
   p:not([class]) {
     margin: 1.2rem 0;
   }

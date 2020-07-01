@@ -14,7 +14,7 @@
     </div>
   {{ $selflink := .Permalink }}
   {{ if or .Title .Content }}
-    <div class="list__header">
+    <div class="list__header content">
       {{ $isTag := eq .Type "tags" }}
       {{ with .Title }}
         <a href={{ $selflink }} class="u-url no-outline">

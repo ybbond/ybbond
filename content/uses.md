@@ -76,7 +76,7 @@ To help on my working time, I use these apps:
 
 - **Fastmail**
   <small>I try to use less Google, but I cannot find replacement for ~~YouTube~~ and Translate :(</small>
-  <small>Thanks to [Josh Habdas](https://habd.as), I now use Invidio.us</small>
+  <small>Thanks to [Josh Habdas](https://habd.as), I switched from Youtube to Invidio.us</small>
 - **BitWarden** password manager
 - **Worldbrain's Memex 2**
   <small>Browser extension to bookmark, highlight and annotate any site.
@@ -89,12 +89,15 @@ To help on my working time, I use these apps:
 
 I use [zettelkasten](https://zettelkasten.de/) paradigm for my knowledge base and note-taking.
 
+- **Emacs** with [Org-roam](https://github.com/org-roam/org-roam)
+  <small>Org-roam is an awesome minor package for Org-mode.
+  Read [my post about this](/posts/2020-06-org-mode-with-org-roam/).</small>
 - **FSNotes** [screencast on Twitter][video]
   <small>a very good note taking app.
   if you are familiar with nvALT, FSNotes feels much better.</small>
 - **aText**
   <small>alternative to TextExpander that is single purchase.
-  my template to make Zettelkasten [is here](/zettelkasten-atext-template.atext).</small>
+  my template to make Zettelkasten [is here](/blogging-and-noting.atext).</small>
 
 [mbwhite]: /notes/#date-2020-05-08-0412
 [iawriter]: /posts/2020-04-in-search-of-good-writing-app-part-2-ia-writer-vs-ivim/
