@@ -13,7 +13,7 @@ private: true
 ---
 
 **Last commit:**
-[8d555622e932419714f6cb27d39265e7faa2252f](https://git.ybbond.dev/ybbond/index.html#8d555622e932419714f6cb27d39265e7faa2252f)
+[103d6d01d31282b4a153fb6c4c7aafca0a3465c4](https://git.ybbond.dev/ybbond/index.html#103d6d01d31282b4a153fb6c4c7aafca0a3465c4)
 
 **Commit title:**
 content: May links and note about macbook right port overheat
@@ -26,46 +26,538 @@ Mon,  1 Jun 2020 02:11:23 +0700
 
 [go to location »](/)
 
-![Home Page](home.png)
+```json
+[
+    {
+      "domain": "ybbond.dev",
+      "path": "/",
+      "content-length": "6.21 KB",
+      "content-size": "29.71 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "darkToggler.js",
+      "content-length": "858 B",
+      "content-size": "810 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "lazyImage.js",
+      "content-length": "6.74 KB",
+      "content-size": "31.86 KB"
+    },
+    {
+      "domain": "gc.zgo.at",
+      "path": "count.js",
+      "content-length": "2.45 KB",
+      "content-size": "5.77 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "logo.png",
+      "content-length": "138.59 KB",
+      "content-size": "138.10 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Regular.woff",
+      "content-length": "56.03 KB",
+      "content-size": "55.53 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterDuospace-Regular.woff",
+      "content-length": "76.85 KB",
+      "content-size": "76.36 KB"
+    },
+    {
+      "domain": "stats.ybbond.dev",
+      "path": "count?p=/&t=",
+      "content-length": "765 B",
+      "content-size": "43 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "favicon.ico",
+      "content-length": "1.36 KB",
+      "content-size": "1.12 KB"
+    }
+]
+```
 
 ## About
 
 [go to location »](/about/)
 
-![About Page](about.png)
+```json
+[
+    {
+      "domain": "ybbond.dev",
+      "path": "/about/",
+      "content-length": "6.56 KB",
+      "content-size": "25.53 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "darkToggler.js",
+      "content-length": "858 B",
+      "content-size": "810 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "lazyImage.js",
+      "content-length": "3.71 KB",
+      "content-size": "7.06 KB"
+    },
+    {
+      "domain": "gc.zgo.at",
+      "path": "count.js",
+      "content-length": "2.45 KB",
+      "content-size": "5.77 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "logo.png",
+      "content-length": "138.59 KB",
+      "content-size": "138.10 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Regular.woff",
+      "content-length": "56.03 KB",
+      "content-size": "55.53 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Bold.woff",
+      "content-length": "57.09 KB",
+      "content-size": "56.59 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterDuospace-Regular.woff",
+      "content-length": "76.85 KB",
+      "content-size": "76.36 KB"
+    },
+    {
+      "domain": "stats.ybbond.dev",
+      "path": "count?p=/&t=",
+      "content-length": "765 B",
+      "content-size": "43 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "bandung-mosh-on-tarintih.jpeg",
+      "content-length": "36.74 KB",
+      "content-size": "36.26 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "favicon.ico",
+      "content-length": "1.36 KB",
+      "content-size": "1.12 KB"
+    }
+]
+```
 
 ## Uses
 
 [go to location »](/uses/)
 
-![Uses Page](uses.png)
+```json
+[
+    {
+      "domain": "ybbond.dev",
+      "path": "/uses/",
+      "content-length": "5.78 KB",
+      "content-size": "24.61 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "darkToggler.js",
+      "content-length": "858 B",
+      "content-size": "810 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "lazyImage.js",
+      "content-length": "3.71 KB",
+      "content-size": "7.06 KB"
+    },
+    {
+      "domain": "gc.zgo.at",
+      "path": "count.js",
+      "content-length": "2.45 KB",
+      "content-size": "5.77 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "logo.png",
+      "content-length": "138.59 KB",
+      "content-size": "138.10 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Regular.woff",
+      "content-length": "56.03 KB",
+      "content-size": "55.53 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterDuospace-Regular.woff",
+      "content-length": "76.85 KB",
+      "content-size": "76.36 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Bold.woff",
+      "content-length": "57.09 KB",
+      "content-size": "56.59 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "favicon.ico",
+      "content-length": "1.36 KB",
+      "content-size": "1.12 KB"
+    },
+    {
+      "domain": "stats.ybbond.dev",
+      "path": "count?p=/&t=",
+      "content-length": "765 B",
+      "content-size": "43 B"
+    }
+]
+```
 
 ## Posts List
 
 [go to location »](/posts/)
 
-![Posts List Page](posts.png)
+```json
+[
+    {
+      "domain": "ybbond.dev",
+      "path": "/posts/",
+      "content-length": "7.81 KB",
+      "content-size": "34.84 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "darkToggler.js",
+      "content-length": "858 B",
+      "content-size": "810 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "lazyImage.js",
+      "content-length": "3.71 KB",
+      "content-size": "7.06 KB"
+    },
+    {
+      "domain": "gc.zgo.at",
+      "path": "count.js",
+      "content-length": "2.45 KB",
+      "content-size": "5.77 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "logo.png",
+      "content-length": "138.59 KB",
+      "content-size": "138.10 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Regular.woff",
+      "content-length": "56.03 KB",
+      "content-size": "55.53 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterDuospace-Regular.woff",
+      "content-length": "76.85 KB",
+      "content-size": "76.36 KB"
+    },
+    {
+      "domain": "stats.ybbond.dev",
+      "path": "count?p=/&t=",
+      "content-length": "765 B",
+      "content-size": "43 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "favicon.ico",
+      "content-length": "1.36 KB",
+      "content-size": "1.12 KB"
+    }
+]
+```
 
 ## Notes List
 
 [go to location »](/notes/)
 
-![Notes List Page](notes.png)
+```json
+[
+    {
+      "domain": "ybbond.dev",
+      "path": "/notes/",
+      "content-length": "7.17 KB",
+      "content-size": "44.01 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "darkToggler.js",
+      "content-length": "858 B",
+      "content-size": "810 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "lazyImage.js",
+      "content-length": "3.71 KB",
+      "content-size": "7.06 KB"
+    },
+    {
+      "domain": "gc.zgo.at",
+      "path": "count.js",
+      "content-length": "2.45 KB",
+      "content-size": "5.77 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "logo.png",
+      "content-length": "138.59 KB",
+      "content-size": "138.10 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Regular.woff",
+      "content-length": "56.03 KB",
+      "content-size": "55.53 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterDuospace-Regular.woff",
+      "content-length": "76.85 KB",
+      "content-size": "76.36 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Bold.woff",
+      "content-length": "57.09 KB",
+      "content-size": "56.59 KB"
+    },
+    {
+      "domain": "stats.ybbond.dev",
+      "path": "count?p=/&t=",
+      "content-length": "765 B",
+      "content-size": "43 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "favicon.ico",
+      "content-length": "1.36 KB",
+      "content-size": "1.12 KB"
+    }
+]
+```
 
 ## Post Migrating
 
 [go to location »](/posts/2020-04-migrating-my-blog-to-hugo/)
 
-![Post Migrating My Site to Hugo](post-migrating.png)
+```json
+[
+    {
+      "domain": "ybbond.dev",
+      "path": "/posts/2020-04-migrating-my-blog-to-hugo/",
+      "content-length": "6.77 KB",
+      "content-size": "27.12 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "darkToggler.js",
+      "content-length": "858 B",
+      "content-size": "810 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "lazyImage.js",
+      "content-length": "3.71 KB",
+      "content-size": "7.06 KB"
+    },
+    {
+      "domain": "gc.zgo.at",
+      "path": "count.js",
+      "content-length": "2.45 KB",
+      "content-size": "5.77 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "logo.png",
+      "content-length": "138.59 KB",
+      "content-size": "138.10 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Regular.woff",
+      "content-length": "56.03 KB",
+      "content-size": "55.53 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Bold.woff",
+      "content-length": "57.09 KB",
+      "content-size": "56.59 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterDuospace-Regular.woff",
+      "content-length": "76.85 KB",
+      "content-size": "76.36 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "favicon.ico",
+      "content-length": "1.36 KB",
+      "content-size": "1.12 KB"
+    },
+    {
+      "domain": "stats.ybbond.dev",
+      "path": "count?p=/&t=",
+      "content-length": "765 B",
+      "content-size": "43 B"
+    }
+]
+```
 
 ## Post Sidebar
 
 [go to location »](/posts/2020-04-why-i-positioned-sidebar-to-the-right/)
 
-![Post Why I Positioned Sidebar to the Right](post-sidebar.png)
+```json
+[
+    {
+      "domain": "ybbond.dev",
+      "path": "/posts/2020-04-why-i-positioned-sidebar-to-the-right/",
+      "content-length": "5.65 KB",
+      "content-size": "22.97 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "darkToggler.js",
+      "content-length": "858 B",
+      "content-size": "810 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "lazyImage.js",
+      "content-length": "3.71 KB",
+      "content-size": "7.06 KB"
+    },
+    {
+      "domain": "gc.zgo.at",
+      "path": "count.js",
+      "content-length": "2.45 KB",
+      "content-size": "5.77 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "logo.png",
+      "content-length": "138.59 KB",
+      "content-size": "138.10 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Bold.woff",
+      "content-length": "57.09 KB",
+      "content-size": "56.59 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Regular.woff",
+      "content-length": "56.03 KB",
+      "content-size": "55.53 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterDuospace-Regular.woff",
+      "content-length": "76.85 KB",
+      "content-size": "76.36 KB"
+    },
+    {
+      "domain": "stats.ybbond.dev",
+      "path": "count?p=/&t=",
+      "content-length": "765 B",
+      "content-size": "43 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "favicon.ico",
+      "content-length": "1.36 KB",
+      "content-size": "1.12 KB"
+    }
+]
+```
 
 ## Notes IndieWeb
 
 [go to location »](/notes/04-may-2020-2/)
 
-![Notes about IndieWeb](notes-indieweb.png)
+```json
+[
+    {
+      "domain": "ybbond.dev",
+      "path": "/notes/04-may-2020-2/",
+      "content-length": "4.68 KB",
+      "content-size": "20.54 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "darkToggler.js",
+      "content-length": "859 B",
+      "content-size": "810 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "lazyImage.js",
+      "content-length": "3.71 KB",
+      "content-size": "7.06 KB"
+    },
+    {
+      "domain": "gc.zgo.at",
+      "path": "count.js",
+      "content-length": "2.45 KB",
+      "content-size": "5.77 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "logo.png",
+      "content-length": "138.59 KB",
+      "content-size": "138.10 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterQuattroS-Regular.woff",
+      "content-length": "56.03 KB",
+      "content-size": "55.53 KB"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "iAWriterDuospace-Regular.woff",
+      "content-length": "76.85 KB",
+      "content-size": "76.36 KB"
+    },
+    {
+      "domain": "stats.ybbond.dev",
+      "path": "count?p=/&t=",
+      "content-length": "765 B",
+      "content-size": "43 B"
+    },
+    {
+      "domain": "ybbond.dev",
+      "path": "favicon.ico",
+      "content-length": "1.36 KB",
+      "content-size": "1.12 KB"
+    }
+]
+```
