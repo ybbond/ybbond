@@ -18,6 +18,8 @@
     {{ $brand = "keybase" }}
   {{ else if eq $domain "openstreetmap.org" }}
     {{ $brand = "periscope" }}
+  {{ else if eq $domain "apps.apple.com" }}
+    {{ $brand = "app-store" }}
   {{ else if eq $domain "apple.stackexchange.com" }}
     {{ $brand = "stack-exchange" }}
   {{ else if eq $domain "news.ycombinator.com" }}
