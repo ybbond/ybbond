@@ -39,7 +39,7 @@
     }
   }
 
-  i {
+  i:not(.no-sup) {
     font-size: 0.8rem;
     vertical-align: 0.4rem;
   }
@@ -144,7 +144,7 @@
     font-size: 0.8em;
   }
 
-  twitter-widget {
+  twitter-widget, .twitter-tweet {
     margin-left: auto;
     margin-right: auto;
   }

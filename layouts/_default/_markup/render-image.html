@@ -1,6 +1,9 @@
 {{ $image := (.Page.Resources.GetMatch  .Destination) }}
 {{ $alt := .Text }}
-{{ $title := .Text }}
+{{ $title := "" }}
+{{ if ne .Text "" }}
+  {{ $title = .Text }}
+{{ end }}
 {{ if ne .Title "" }}
   {{ $title = .Title }}
 {{ end }}
@@ -42,16 +45,18 @@
   </style>
   <figure class="{{ $figure_class }}">
     <center>
-      <a title={{ $title }} class="no-outline" href='{{ $image.RelPermalink }}'>
-        <img
-          src="{{ $src.RelPermalink }}"
-          style="max-width: 100%; height: auto;"
-          alt={{ $title }}
-          title={{ $title }}
-        />
-      </a>
+      <img
+        src="{{ $src.RelPermalink }}"
+        style="max-width: 100%; height: auto;"
+        alt={{ $title }}
+        title={{ $title }}
+      />
       <figcaption>
-        <em>{{ .Text }}</em>
+      <em>{{ .Text }}
+        <a title="{{ $title }}" href="{{ $image.RelPermalink }}">
+          <i class="no-sup fab fa-font-awesome-flag"></i>
+        </a>
+      </em>
       </figcaption>
     </center>
   </figure>
@@ -59,14 +64,16 @@
 
 <figure class="{{ $figure_class }} lazy">
   <center>
-    <a title={{ $title }} class="no-outline no-hover" href='{{ $image.RelPermalink }}'>
-      <img class="lazyload" data-sizes="auto" src="{{ $src.RelPermalink }}"
-        style="max-width: 100%; height: auto;"
-        srcset="data:image/jpeg;base64,{{ $placeholder.Content | base64Encode }}" data-src="{{ $src.RelPermalink }}"
-        data-srcset="{{ $src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt={{ $title }} title={{ $title }} />
-    </a>
+    <img class="lazyload" data-sizes="auto" src="{{ $src.RelPermalink }}"
+      style="max-width: 100%; height: auto;"
+      srcset="data:image/jpeg;base64,{{ $placeholder.Content | base64Encode }}" data-src="{{ $src.RelPermalink }}"
+      data-srcset="{{ $src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt={{ $title }} title={{ $title }} />
     <figcaption>
-      <em>{{ .Text | safeHTML }}</em>
+      <em>{{ .Text | safeHTML }}
+        <a title="{{ $title }}" href="{{ $image.RelPermalink }}">
+          <i class="no-sup fab fa-font-awesome-flag"></i>
+        </a>
+      </em>
     </figcaption>
   </center>
 </figure>

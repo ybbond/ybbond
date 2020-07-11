@@ -26,7 +26,7 @@ The awareness of inclusivity had spread wider day by day. There is **Inclusive D
 
 Example of diversity: provide more gender dropdown choice knowing some people won't feel comfortable sharing their gender. Or perhaps, make the gender dropdown choice non-mandatory. Better yet, don't ask for it.
 
-![Image courtesy of <a rel="nofollow noreferrer" href="http://www.sarahdopp.com/blog/2010/designing-a-better-drop-down-menu-for-gender/">post from Sarah Dopp</a>](gender-selection.png)
+![Image courtesy of <a rel="nofollow noreferrer" href="http://www.sarahdopp.com/blog/2010/designing-a-better-drop-down-menu-for-gender/">post from Sarah Dopp</a>](gender-selection.png "Image of inclusive drop down choices. Referenced from SarahDopp.com")
 
 Example of accessibility: make your website content recognizable by text-to-speech software for those having difficulties reading. Other example of accessibility: provide certain color scheme on video game's User Interface, for those having difficulties differentiating certain colors.
 
