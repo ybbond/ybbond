@@ -31,7 +31,7 @@ For the response system, I found [WebMention](https://webmention.io/), which lea
 
 One embarassing thing is that I follow Martin's RSS Feed for so long, but I didn't read about his latest project. Before GoatCounter, I tried [StatCounter](https://statcounter.com) and opted-out shortly because I think the settings page is clumsy. I searched for another good alternatives that results none. Just last monday I see Martin published a new post about GoatCounter update. I decided to check it and that day, I tried GoatCounter.
 
-You can see my instance of GoatCounter on [stats.ybbond.dev](https://stats.ybbond.dev/)!
+You can see my instance of GoatCounter on [ybbond.goatcounter.com](https://ybbond.goatcounter.com/)!
 
 I made it open for everyone and set obvious statement down in the footer, because I think however small the data I take from user visits, the users should be able to know about it.
 
