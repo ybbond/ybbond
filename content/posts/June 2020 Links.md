@@ -25,7 +25,7 @@ Highlight that I like:
 ## Apps
 
 [Boop](https://apps.apple.com/us/app/boop/id1518425043) &nbsp;<small>macOS App</small>
-Great utility app to process many kind of text, it can pretty format HTML, XML and JSON, convert HEX color to rgb, and more trivial stuff. It is a great tool as I often open a web tool to do those things.
+Great utility app to process many kind of text, it can pretty format HTML, XML and JSON, convert HEX color to rgb, and more trivial stuff. It is a great tool as I often open a web tool to do those things. I [made a custom script](/hex2rgb.js) for Hex to RGB based on the placeholder script.
 
 [Org-roam](https://www.orgroam.com/)
 I think, this is the end of my quest to search the best note taking app (on desktop, at the very least). I've written about it [on this post](/posts/2020-06-org-mode-with-org-roam/).
