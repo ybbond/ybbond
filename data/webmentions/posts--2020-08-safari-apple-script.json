@@ -1,0 +1,20 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Richard Yudi",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/a2667f9921c71e191f92446d1724b01a07521a53af7219b3f6e7f2bb6c78c18c.jpg",
+      "url": "https://twitter.com/richardyudi"
+    },
+    "url": "https://twitter.com/ybbond_/status/1297602893504106496#favorited-by-45273041",
+    "published": null,
+    "wm-received": "2020-08-24T06:51:15Z",
+    "wm-id": 843147,
+    "wm-source": "https://brid-gy.appspot.com/like/twitter/ybbond_/1297602893504106496/45273041",
+    "wm-target": "https://ybbond.dev/posts/2020-08-safari-apple-script/",
+    "like-of": "https://ybbond.dev/posts/2020-08-safari-apple-script/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
