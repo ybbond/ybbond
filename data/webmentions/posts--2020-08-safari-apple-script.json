@@ -16,5 +16,23 @@
     "like-of": "https://ybbond.dev/posts/2020-08-safari-apple-script/",
     "wm-property": "like-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Ahmad Ainul Rizki",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/d7319156e688561199ec3a671c9f18ab9d50ce8c179b436002841cd84f697c7a.jpg",
+      "url": "https://twitter.com/bejoistic"
+    },
+    "url": "https://twitter.com/ybbond_/status/1297602893504106496#favorited-by-1225435021034418179",
+    "published": null,
+    "wm-received": "2020-08-27T15:38:43Z",
+    "wm-id": 844548,
+    "wm-source": "https://brid-gy.appspot.com/like/twitter/ybbond_/1297602893504106496/1225435021034418179",
+    "wm-target": "https://ybbond.dev/posts/2020-08-safari-apple-script/",
+    "like-of": "https://ybbond.dev/posts/2020-08-safari-apple-script/",
+    "wm-property": "like-of",
+    "wm-private": false
   }
 ]
