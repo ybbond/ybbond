@@ -31,6 +31,7 @@ Some others satisfy my hobbies.
 ### Peripherals
 
 - Ducky One 2 Mini Keyboard [gif image on Twitter][ducky]
+  <small>P/N <code>DKON1861ST</code></small>
 - NuPhy NuType F1 Keyboard [my review post][nuphy]
 - Roland Electric Piano FP-30
 - Guitars. Many of them.
