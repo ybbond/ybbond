@@ -3,8 +3,10 @@ title: Interesting Links I Found on June, 2020
 author: Yohanes Bandung Bondowoso
 tags:
   - bookmarks #bookmarks
-date: 2020-07-10T14:12:04+0700
-ID: 20200710141204
+slug: interesting-links
+date: 2020-06-30T23:59:59+0700
+type: bookmarks
+ID: 20200630235959
 ---
 
 The June's issue is late, sorry. I've been busy at work.

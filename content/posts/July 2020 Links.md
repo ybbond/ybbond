@@ -3,8 +3,10 @@ title: Interesting Links I Found on July 2020
 author: Yohanes Bandung Bondowoso
 tags:
   - bookmarks #bookmarks
-date: 2020-08-15T20:54:23+0700
-ID: 20200815205423
+slug: interesting-links
+date: 2020-07-31T23:59:59+0700
+type: bookmarks
+ID: 20200731235959
 ---
 
 ## Articles

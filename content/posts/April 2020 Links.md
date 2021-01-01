@@ -3,8 +3,10 @@ title: Interesting Links I Found on April, 2020
 author: Yohanes Bandung Bondowoso
 tags:
   - bookmarks #bookmarks
-date: 2020-05-01T00:00:01
+slug: interesting-links
+date: 2020-04-30T23:59:59+0700
 type: bookmarks
+ID: 20200430235959
 ---
 
 
