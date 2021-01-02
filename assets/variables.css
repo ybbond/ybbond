@@ -1,0 +1,24 @@
+:root {
+  --light-text: #242424;
+  --light-background: #E3E0D7;
+  --light-background-hover: #D4D1C7;
+  --light-border: #555555;
+  --light-red: #C31B00;
+  --light-blue: #2263b6;
+  --light-green: #257933;
+  --light-font: 400;
+  --light-font-bold: 600;
+
+  --dark-text: #E3E0D7;
+  --dark-background: #242424;
+  --dark-background-hover: #303030;
+  --dark-border: #808080;
+  --dark-red: #F9690E;
+  --dark-blue: #8DBFFF;
+  --dark-green: #79D688;
+  --dark-font: 300;
+  --dark-font-bold: 700;
+
+  --font-mono: 'iA Writer Duospace', monospace;
+  --font-text: -apple-system, BlinkMacSystemFont, avenir, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}

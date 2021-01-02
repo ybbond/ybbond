@@ -16,11 +16,31 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $rssTitle | safeHTML }}
 {{ end }}
 
-<script type="application/javascript" src="{{ .Site.BaseURL }}darkToggler.js" async="true"></script>
 <script type="application/javascript" src="{{ .Site.BaseURL }}lazyImage.js" async="true"></script>
 
 <style>
-  {{ with resources.Get "styles.scss" | resources.ToCSS | resources.Minify }}
+  {{ with resources.Get "fonts.css" | resources.Minify }}
+      {{ .Content | safeCSS }}
+  {{ end }}
+  {{ with resources.Get "theme.css" | resources.Minify }}
+      {{ .Content | safeCSS }}
+  {{ end }}
+  {{ with resources.Get "responsive.css" | resources.Minify }}
+      {{ .Content | safeCSS }}
+  {{ end }}
+  {{ with resources.Get "main.css" | resources.Minify }}
+      {{ .Content | safeCSS }}
+  {{ end }}
+  {{ with resources.Get "content.css" | resources.Minify }}
+      {{ .Content | safeCSS }}
+  {{ end }}
+  {{ with resources.Get "header.css" | resources.Minify }}
+      {{ .Content | safeCSS }}
+  {{ end }}
+  {{ with resources.Get "footer.css" | resources.Minify }}
+      {{ .Content | safeCSS }}
+  {{ end }}
+  {{ with resources.Get "variables.css" | resources.Minify }}
       {{ .Content | safeCSS }}
   {{ end }}
 </style>

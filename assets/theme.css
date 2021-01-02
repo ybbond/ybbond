@@ -1,0 +1,170 @@
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: var(--light-background);
+    color: var(--light-text);
+    font-weight: var(--light-font);
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: var(--light-green);
+    font-weight: var(--light-font);
+  }
+
+  a {
+    color: var(--light-blue);
+  }
+  .link-white {
+    color: var(--light-text);
+  }
+
+  a:hover:not(.wm-avatar):not(.no-hover), a#active {
+    background-color: var(--light-background-hover);
+    color: var(--light-red);
+  }
+  a:hover:not(.wm-avatar):not(.no-hover):not(.no-outline):not(.footnote-ref),
+  a#active:not(.no-outline):not(.footnote-ref) {
+    outline-color: var(--light-background-hover);
+    background-color: var(--light-background-hover);
+  }
+
+  hr {
+    border-top-color: var(--light-text);
+  }
+
+  strong {
+    font-weight: var(--light-font-bold);
+  }
+
+  time {
+    color: var(--light-red);
+  }
+
+  blockquote {
+    border-left-color: var(--light-red);
+  }
+
+  :not(pre) > code {
+    background-color: var(--light-background-hover);
+  }
+
+  /* content */
+  .notes:target {
+    outline-color: var(--light-background-hover);
+  }
+  .responses:target {
+    outline-color: var(--light-background-hover);
+  }
+
+  .content ol li span:before {
+    color: var(--light-red);
+  }
+  .content ul li span:before {
+    color: var(--light-red);
+  }
+
+  .content table th {
+    background-color: var(--light-background-hover);
+    color: var(--light-text);
+  }
+  .content table td, .content table th {
+    border-color: var(--light-text);
+  }
+  .content table tr:nth-child(even) {
+    background-color: var(--light-background-hover);
+    color: var(--light-text);
+  }
+
+  /* footer */
+  .footer .hcard {
+    border: solid 1px var(--light-border);
+  }
+  .footer .hcard__description {
+    background-color: var(--light-background);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: var(--dark-background);
+    color: var(--dark-text);
+    font-weight: var(--dark-font);
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: var(--dark-green);
+    font-weight: var(--dark-font);
+  }
+
+  a {
+    color: var(--dark-blue);
+  }
+  .link-white {
+    color: var(--dark-text);
+  }
+
+  a:hover:not(.wm-avatar):not(.no-hover), a#active {
+    background-color: var(--dark-background-hover);
+    color: var(--dark-red);
+  }
+  a:hover:not(.wm-avatar):not(.no-hover):not(.no-outline):not(.footnote-ref),
+  a#active:not(.no-outline):not(.footnote-ref) {
+    outline-color: var(--dark-background-hover);
+    background-color: var(--dark-background-hover);
+  }
+
+  hr {
+    border-top-color: var(--dark-text);
+  }
+
+  strong {
+    font-weight: var(--dark-font-bold);
+  }
+
+  time {
+    color: var(--dark-red);
+  }
+
+  blockquote {
+    border-color-color: var(--dark-red);
+  }
+
+  :not(pre) > code {
+    background-color: var(--dark-background-hover);
+  }
+
+  /* content */
+  .notes:target {
+    outline-color: var(--dark-background-hover);
+  }
+  .responses:target {
+    outline-color: var(--dark-background-hover);
+  }
+
+  .content ol li span:before {
+    color: var(--dark-red);
+  }
+  .content ul li span:before {
+    color: var(--dark-red);
+  }
+
+  .content table th {
+    background-color: var(--dark-background-hover);
+    color: var(--dark-text);
+  }
+  .content table td, .content table th {
+    border-color: var(--dark-text);
+  }
+  .content table tr:nth-child(even) {
+    background-color: var(--dark-background-hover);
+    color: var(--dark-text);
+  }
+
+  /* footer */
+  .footer .hcard {
+    border: solid 1px var(--dark-border);
+  }
+  .footer .hcard__description {
+    background-color: var(--dark-background);
+  }
+}
+

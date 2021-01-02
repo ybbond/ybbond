@@ -1,0 +1,185 @@
+.content {
+  font-family: var(--font-text);
+  width: 100%;
+}
+
+.content .language-json {
+  font-size: 0.75rem;
+}
+
+.content .headline-hash {
+  padding: 0 0.2em;
+}
+
+.content .before-hash {
+  position: absolute;
+  font-size: 0.9em;
+  top: 0.1rem;
+}
+.content .before-hash.h2 {
+  left: -1.6em;
+}
+.content .before-hash.h3 {
+  left: -2.4em;
+}
+
+.content figcaption {
+  font-size: 0.8em;
+}
+
+.content twitter-widget, .content .twitter-tweet {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content i:not(.no-sup) {
+  font-size: 0.8rem;
+  vertical-align: 0.4rem;
+}
+
+.content i.fa-font-awesome-flag {
+  font-size: 0.6rem;
+}
+
+.content p:not([class]) {
+  margin: 1.2rem 0;
+}
+
+.content p + ul, .content p + ol {
+  margin-top: -0.8rem;
+}
+
+.content table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+.content table td, .content table th {
+  border: 1px solid;
+}
+.content table td {
+  padding: 0.5em 1em;
+}
+.content table th {
+  padding: 1em 2em;
+}
+
+.content ol {
+  margin: 1.5em 0;
+  padding: 0;
+  counter-reset: my-awesome-counter;
+  list-style: none;
+}
+.content ol li {
+  counter-increment: my-awesome-counter;
+  list-style-position: outside;
+  margin-bottom: 0.2em;
+}
+.content ol li span {
+  position: relative;
+}
+.content ol li span:before {
+  position: absolute;
+  right: 0.5em;
+  top: 0.1em;
+  content: counter(my-awesome-counter)'.';
+  font-size: 0.8em;
+}
+
+.content ul {
+  margin: 1.5em 0;
+  padding: 0;
+  list-style: none;
+}
+.content ul li {
+  margin-bottom: 0.2em;
+  position: relative;
+}
+.content ul li span {
+  position: relative;
+}
+.content ul li span:before {
+  right: 0.6em;
+  top: -0.2em;
+  display: inline-block;
+  content: "–";
+  position: absolute;
+  z-index: 1;
+}
+.content ul li input {
+  margin-left: -1.9em;
+  position: absolute;
+  z-index: 2;
+  top: 3.9px;
+  margin-right: 0;
+}
+
+.content__hr {
+  margin: 4em 0 0;
+}
+
+.notes {
+  margin-bottom: 2rem;
+}
+.notes > div, .notes > p {
+  margin: 0;
+  margin-top: 0.7rem;
+}
+.notes > div > p, .notes > p > p {
+  margin: 0;
+  margin-top: 0.7rem;
+}
+.notes:target {
+  outline-style: solid;
+  outline-width: 0.2em;
+  outline-offset: 0.6em;
+}
+
+.notes__title {
+  margin: 0;
+}
+.notes__title a {
+  font-family: var(--font-mono);
+}
+
+.notes__content {
+  margin-top: 0 !important;
+}
+.notes__content > p {
+  margin-top: 0 !important;
+}
+
+.twitter-link {
+  margin-bottom: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.mastodon-link {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.responses {
+  margin-bottom: 3rem;
+}
+.responses:target {
+  outline-style: solid;
+  outline-width: 0.2rem;
+  outline-offset: 1.3rem;
+}
+
+.responses h1 {
+  margin-bottom: 0;
+}
+
+.responses__subtitle {
+  margin: 0;
+}
+.responses__subtitle a {
+  font-family: var(--font-mono);
+}
+
+.image-figure {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}

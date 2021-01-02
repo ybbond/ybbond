@@ -1,0 +1,71 @@
+.footer__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+
+.footer__nav > p {
+  margin: 0;
+}
+
+.footer__nav__left {
+  text-align: left;
+}
+
+.footer__nav__right {
+  text-align: right;
+}
+.footer__nav__right a {
+  padding: 0 0.2rem;
+  margin: 0 0.2rem;
+}
+
+.footer .web-ring {
+  font-size: 0.8rem;
+  margin: 0 0 1.5rem;
+}
+
+.footer__separator {
+  margin: 0.5rem auto 1.4rem;
+}
+
+.footer__license {
+  margin: 0.7rem 0 1rem;
+  font-size: 0.7rem;
+}
+
+.footer .hcard {
+  max-width: 19rem;
+  font-size: 0.8rem;
+  margin: 2rem auto 0.5rem;
+  padding: 1rem 1rem 0.8rem;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+}
+.footer .hcard .h-card {
+  position: relative;
+}
+.footer .hcard .h-card img {
+  position: absolute;
+  width: 3.8rem;
+  height: 3.8rem;
+}
+.footer .hcard .h-card > a {
+  margin-left: 5rem;
+}
+.footer .hcard .h-card > .p-locality {
+  margin-left: 5rem;
+}
+
+.footer .hcard__description {
+  top: -0.7rem;
+  left: 0.8rem;
+  padding: 0 0.4rem;
+  position: absolute;
+}
+
+.footer .hcard__description > p {
+  margin: 0;
+}
