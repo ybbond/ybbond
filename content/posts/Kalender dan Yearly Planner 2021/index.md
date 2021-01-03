@@ -9,6 +9,8 @@ tags:
 - tools #tools
 image:
   src: pratinjau.png
+twitter:
+  link: https://twitter.com/ybbond_/status/1345821961323102208
 date: 2021-01-03T23:46:13+0700
 ID: 20210103234613
 ---
@@ -17,21 +19,21 @@ Sudah lama saya tidak mendisain, kebetulan saya beli _Affinity Designer_ saat po
 
 ## Unduh
 
-PDF siap cetak [dapat anda unduh di sini][unduh].
+PDF siap cetak [dapat anda unduh di sini][unduh]. Rekomendasi saya adalah cetak ukuran A1 dengan bahan spanduk lateks agar kalender ini mudah dicoret dan dibersihkan dengan spidol non-permanen.
 
 ![Pratinjau disain kalender](pratinjau.png)
 
 Sementara hanya ada satu macam disain. Saya akan perbarui artikel ini jika versi lain sesuai masukan dan pemberian suara dari Instagram sudah saya buat.
 
-Pertanyaan, umpan balik, saran atau pelaporan kesalahan penulisan dan disain dapat disampaikan ke alamat surel saya di hi@ybbond.dev.
+Umpan balik, saran atau pelaporan kesalahan penulisan dan disain dapat disampaikan ke alamat surel saya di hi@ybbond.dev. Jika anda punya akun Twitter, bisa juga [membalas tweet saya](https://twitter.com/ybbond_/status/1345821961323102208).
 
 ## Fitur
 
-Ukuran disain adalah 550mm untuk lebar, dan 800mm untuk tinggi. Ukuran ini disadur dari dimensi pintu kulkas di rumah saya.
-
-Tidak ada jeda antar bulan memungkinkan implementasi paradigma _time blocking_ yang luwes.
+**Tidak ada jeda antar bulan** memungkinkan implementasi paradigma _time blocking_ yang luwes.
 
 Hal tersebut juga menekankan bahwa dalam kehidupan yang sibuk ini, unit **pekan** merupakan mata uang yang berharga. Kita hidup merencanakan kegiatan yang harus dilakukan tiap pekan, sembari menanti akhir pekan untuk bersantai.
+
+**Dimensi yang besar** memudahkan anda menulis catatan atau perencanaan kegiatan. Dimensi disain adalah 550x800mm, sedikit lebih kecil dari ukuran A1. Disadur dari ukuran lebar pintu kulkas di rumah saya.
 
 ## Sumber Data
 
