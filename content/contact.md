@@ -14,7 +14,3 @@ If you prefer encrypted email, you can get my PGP key in [txt format](/ybbond-pu
 ```html
 56DA ADB1 5246 1C80 6792 DBAB 8477 3B93 9886 81A0
 ```
-
-If you'd rather use encrypted chat than encrypted email:
-- XMPP [ybbond@tchncs.de](xmpp:ybbond@tchncs.de)
-- Matrix **@ybbond:tchncs.de**
