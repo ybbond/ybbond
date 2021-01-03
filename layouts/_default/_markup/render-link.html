@@ -26,7 +26,7 @@
     {{ $brand = "hacker-news" }}
   {{ else if eq $domain "git.ybbond.dev" }}
     {{ $brand = "git-alt" }}
-  {{ else if or (eq $domain "wikipedia.com") (eq $domain "wikipedia.org") }}
+  {{ else if or (eq $domain "wikipedia.com") (or (eq $domain "wikipedia.com") (eq $domain "id.wikipedia.org")) }}
     {{ $brand = "wikipedia-w" }}
   {{ end}}
 

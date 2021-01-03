@@ -17,14 +17,17 @@ Some others satisfy my hobbies.
 &nbsp;&nbsp; »  [Working](#working)
 &nbsp;&nbsp; »  [Services](#services)
 &nbsp;&nbsp; »  [Zettelkasten](#zettelkasten)
+&nbsp;&nbsp; »  [Previous Apps](#previous-apps)
 
 ## Hardware
 
 ### Platforms
 
 - Macbook Pro 2018 13" (Office)
+- ~~Mac Mini 2018 i3 128GB (Home)~~
+- Beelink U57 (Home)
 - Macbook White Unibody mid 2010 (Experiments) [my note][mbwhite]
-- Low End PC with Manjaro Linux XFCE (Home)
+- Low End PC with Manjaro Linux XFCE (Experiments)
 - iPad Mini 5 WiFi 64GB
 - iPhone SE (2016) 128GB
 
@@ -33,6 +36,10 @@ Some others satisfy my hobbies.
 - Ducky One 2 Mini Keyboard [gif image on Twitter][ducky]
   <small>P/N <code>DKON1861ST</code></small>
 - NuPhy NuType F1 Keyboard [my review post][nuphy]
+- Dell U2419H
+  <small>24" rotatable monitor</small>
+- Dell E2216H
+  <small>22" rotatable monitor</small>
 - Roland Electric Piano FP-30
 - Guitars. Many of them.
 
@@ -53,50 +60,61 @@ Some others satisfy my hobbies.
 
 I use these app on both macOS and iOS (or iPadOS):
 
-- **Canary mail**
-  <small>lightweight email client with configurable keyboard shortcuts, and PGP encryption</small>
-- **2Do App**
-- **Reeder 4**
-  <small>beautiful and gesture-based RSS Reader.</small>
-- **BusyCal**
+- **NetNewsWire**
+  <small>Simple and performant RSS reader for all Apple platform.</small>
 - **iA Writer** [my post about it][iawriter]
   <small>I write my Hugo post mostly with this app.</small>
+- **2Do**
+  <small>Task management app</small>
 
 ### Working
 
 To help on my working time, I use these apps:
 
-- **Xit** Git GUI for macOS
-  <small>When doing heavy refactor, I like to code while looking at the repository's history.
-  [Xit][xit] is a free and open source. I think it is comparable to the awesome **Sublime Merge**.</small>
 - **Ripcord** chat client for Slack and Discord
   <small>The official **Slack** and **Discord** desktop client uses **Electron**, I don't like that.
   [Ripcord][ripcord] is a shareware that is based on, I don't know, it looks like **GTK+**.</small>
+- **Xit** Git GUI for macOS
+  <small>When doing heavy refactor, I like to code while looking at the repository's history.
+  [Xit][xit] is a free and open source. I think it is comparable to the awesome **Sublime Merge**.</small>
 
 ### Services
 
 - **Fastmail**
   <small>I try to use less Google, but I cannot find replacement for ~~YouTube~~ and Translate :(</small>
   <small>Thanks to [Josh Habdas](https://habd.as), I switched from Youtube to Invidio.us</small>
-- **BitWarden** password manager
-- **Worldbrain's Memex 2**
-  <small>Browser extension to bookmark, highlight and annotate any site.
-  With full text search and grouping, this is a good service for knowledge gathering.</small>
-- **Historio.us**
-  <small>Web archiver. It supports full text search and tagging.
-  I use this side-by-side with **Memex 2**.</small>
+- **BitWarden**
+  <small>password manager</small>
 
 ### Zettelkasten
 
 I use [zettelkasten](https://zettelkasten.de/) paradigm for my knowledge base and note-taking.
 
-- **Emacs** with [Org-roam](https://github.com/org-roam/org-roam)
-  <small>Org-roam is an awesome minor package for Org-mode.
-  Read [my post about this](/posts/2020-06-org-mode-with-org-roam/).</small>
+- **DEVONthink**
+  I don't exactly use this for Zettelkasten,
+  more for archiving and paperless document management.
+- **Obsidian**
 - **FSNotes** [screencast on Twitter][video]
   <small>a very good note taking app.
   if you are familiar with nvALT, FSNotes feels much better.</small>
-- **aText**
+
+### Previous Apps
+
+- **Canary mail** → Apple Mail
+  <small>lightweight email client with configurable keyboard shortcuts, and PGP encryption</small>
+- **Reeder 4** → **NetNewsWire**
+  <small>beautiful and gesture-based RSS Reader.</small>
+- **BusyCal** → Apple Calendar
+- **Emacs** → **Obsidian**
+  <small>Org-roam is an awesome minor package for Org-mode.
+  Read [my post about this](/posts/2020-06-org-mode-with-org-roam/).</small>
+- **Worldbrain's Memex 2** → **DEVONthink**
+  <small>Browser extension to bookmark, highlight and annotate any site.
+  With full text search and grouping, this is a good service for knowledge gathering.</small>
+- **Historio.us** → **DEVONthink**
+  <small>Web archiver. It supports full text search and tagging.
+  I use this side-by-side with **Memex 2**.</small>
+- **aText** → **Keyboard Maestro**
   <small>alternative to TextExpander that is single purchase.
   my template to make Zettelkasten [is here](/blogging-and-noting.atext).</small>
 
