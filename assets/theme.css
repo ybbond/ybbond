@@ -125,7 +125,7 @@
   }
 
   blockquote {
-    border-color-color: var(--dark-red);
+    border-left-color: var(--dark-red);
   }
 
   :not(pre) > code {

@@ -1,4 +1,5 @@
 html {
+  scroll-behavior: smooth;
   font-family: var(--font-text);
   letter-spacing: 0.025rem;
   line-height: 1.6;
@@ -118,33 +119,31 @@ time[title] {
 .pagination {
   padding: 1em 0;
   display: flex;
-  &__left {
-    text-align: left;
-    margin-left: 0.3rem;
-  }
-  &__center {
-    flex: 1;
-    text-align: center;
-  }
-  &__right {
-    text-align: right;
-    margin-right: 0.3rem;
-  }
+}
+.pagination__left {
+  text-align: left;
+  margin-left: 0.3rem;
+}
+.pagination__center {
+  flex: 1;
+  text-align: center;
+}
+.pagination__right {
+  text-align: right;
+  margin-right: 0.3rem;
 }
 
 .tagitem {
-  font-family: $font-mono;
+  font-family: var(--font-mono);
   margin: 0 0.4rem;
 }
 
-.footnotes {
-  hr {
-    margin-top: 3rem;
-    margin-bottom: 0.2rem;
-  }
-  &__text {
-    margin: 0;
-  }
+.footnotes hr {
+  margin-top: 3rem;
+  margin-bottom: 0.2rem;
+}
+.footnotes__text {
+  margin: 0;
 }
 
 .footnote-ref::before {

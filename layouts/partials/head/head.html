@@ -22,16 +22,13 @@
   {{ with resources.Get "fonts.css" | resources.Minify }}
       {{ .Content | safeCSS }}
   {{ end }}
+  {{ with resources.Get "variables.css" | resources.Minify }}
+      {{ .Content | safeCSS }}
+  {{ end }}
   {{ with resources.Get "theme.css" | resources.Minify }}
       {{ .Content | safeCSS }}
   {{ end }}
-  {{ with resources.Get "responsive.css" | resources.Minify }}
-      {{ .Content | safeCSS }}
-  {{ end }}
   {{ with resources.Get "main.css" | resources.Minify }}
-      {{ .Content | safeCSS }}
-  {{ end }}
-  {{ with resources.Get "content.css" | resources.Minify }}
       {{ .Content | safeCSS }}
   {{ end }}
   {{ with resources.Get "header.css" | resources.Minify }}
@@ -40,7 +37,10 @@
   {{ with resources.Get "footer.css" | resources.Minify }}
       {{ .Content | safeCSS }}
   {{ end }}
-  {{ with resources.Get "variables.css" | resources.Minify }}
+  {{ with resources.Get "content.css" | resources.Minify }}
+      {{ .Content | safeCSS }}
+  {{ end }}
+  {{ with resources.Get "responsive.css" | resources.Minify }}
       {{ .Content | safeCSS }}
   {{ end }}
 </style>
