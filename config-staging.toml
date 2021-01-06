@@ -1,0 +1,43 @@
+baseURL = "https://ybbond.dev/"
+languageCode = "en-us"
+title = "YBBond"
+copyright = "CC BY-SA 4.0"
+
+[permalinks]
+  posts = "/posts/:year-:month-:slug/"
+
+[params]
+  author = "Yohanes Bandung Bondowoso"
+  description = "Thoughts, Ideas and Writings."
+  mainSiteURL = "https://ybbond.dev"
+  email = "hi@ybbond.dev"
+  twitter = "ybbond_"
+  github = "ybbond"
+  microblog = "ybbond"
+  instagram = "ybbond"
+
+[markup.goldmark.renderer]
+  hardWraps = true
+  unsafe = true
+  xhtml = true
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 8
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 9
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact"
+  weight = 10
+[[menu.main]]
+  identifier = "uses"
+  name = "Uses"
+  url = "/uses"
+  weight = 11
