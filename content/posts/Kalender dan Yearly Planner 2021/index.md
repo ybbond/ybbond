@@ -15,6 +15,15 @@ date: 2021-01-03T23:46:13+0700
 ID: 20210103234613
 ---
 
+> **Pembaruan**
+> Teman saya, Lala, membuat versi modifikasi sebagai kalender meja.
+> [Klik di sini][lala] untuk akses PDF yang ia beri.
+>
+> Pun kalian dapat unduh, modifikasi, atau menambah fitur baru.
+> Saya senang dengan sistem yang mirip _open source_ ini.
+
+Sudah lama saya tidak mendesain. Sembari belajar lagi[^aff], saya coba bikin kalender sekaligus <em>yearly planner</em> untuk tahun 2021.
+
 § [Unduh](#unduh)
 &nbsp;&nbsp; »  [Hitam dengan penanda libur](#hitam-dengan-libur)
 &nbsp;&nbsp; »  [Hitam **tanpa** penanda libur](#hitam-tanpa-libur)
@@ -25,8 +34,6 @@ ID: 20210103234613
 § [Fitur](#fitur)
 § [Sumber Data](#sumber-data)
 § [Font](#font)
-
-Sudah lama saya tidak mendesain. Sembari belajar lagi[^aff], saya coba bikin kalender sekaligus <em>yearly planner</em> untuk tahun 2021.
 
 ## Unduh
 
@@ -56,7 +63,7 @@ Unduh PDF varian [Sabtu tidak libur. Angka, garis dan penanda libur berwarana me
 
 Rekomendasi saya adalah cetak ukuran A1 dengan bahan spanduk albatros atau lateks agar kalender ini mudah dan tahan lama.
 
-Umpan balik, saran atau pelaporan kesalahan penulisan dan desain dapat disampaikan ke alamat surel saya di hi@ybbond.dev. Jika anda punya akun Twitter, bisa juga [membalas tweet saya](https://twitter.com/ybbond_/status/1345821961323102208).
+Umpan balik, saran atau pelaporan kesalahan penulisan dan desain dapat disampaikan ke alamat surel saya di hi@ybbond.dev. Jika kalian punya akun Twitter, bisa juga [membalas tweet saya](https://twitter.com/ybbond_/status/1345821961323102208).
 
 ## Fitur
 
@@ -64,7 +71,7 @@ Umpan balik, saran atau pelaporan kesalahan penulisan dan desain dapat disampaik
 
 Hal tersebut juga menekankan bahwa dalam kehidupan yang sibuk ini, unit **pekan** merupakan mata uang yang berharga. Kita hidup merencanakan kegiatan yang harus dilakukan tiap pekan, sembari menanti akhir pekan untuk bersantai.
 
-**Dimensi yang besar** memudahkan anda menulis catatan atau perencanaan kegiatan. Dimensi desain adalah `550x800mm`, sedikit lebih kecil dari ukuran A1. Disadur dari ukuran lebar pintu kulkas di rumah saya.
+**Dimensi yang besar** memudahkan kalian menulis catatan atau perencanaan kegiatan. Dimensi desain adalah `550x800mm`, sedikit lebih kecil dari ukuran A1. Disadur dari ukuran lebar pintu kulkas di rumah saya.
 
 ## Sumber Data
 
@@ -92,6 +99,7 @@ Semoga kalender ini bermanfaat!
 [archive-menpan]: https://web.archive.org/web/20210101095722/https://www.menpan.go.id/site/berita-terkini/libur-nasional-dan-cuti-bersama-tahun-2021-sebanyak-23-hari
 [ia-github]: https://github.com/iaolo/iA-Fonts
 [ia-post]: https://ia.net/writer/blog/a-typographic-christmas
+[lala]: https://cdn.ybbond.dev/static/KALENDER-MEJA.pdf
 [menpan]: https://www.menpan.go.id/site/berita-terkini/libur-nasional-dan-cuti-bersama-tahun-2021-sebanyak-23-hari
 [twitter]: https://twitter.com/markobar1996/status/1344925077523972098
 [unduh]: https://cdn.ybbond.dev/static/2021.pdf
