@@ -28,7 +28,7 @@ jobs:
             Fetch webmentions
             skip-checks: true
         run: |
-          git config user.email "hi@ybbond.dev"
+          git config user.email "hi@ybbond.id"
           git config user.name "Yohanes Bandung Bondowoso"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/ybbond/ybbond.git
           git checkout master

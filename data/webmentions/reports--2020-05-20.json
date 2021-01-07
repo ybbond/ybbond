@@ -12,16 +12,16 @@
     "wm-received": "2020-05-20T09:41:55Z",
     "wm-id": 798701,
     "wm-source": "https://brid-gy.appspot.com/comment/twitter/ybbond_/1263017467099508737/1263033521574080513",
-    "wm-target": "https://ybbond.dev/reports/2020-05-20/",
+    "wm-target": "https://ybbond.id/reports/2020-05-20/",
     "photo": [
       "https://pbs.twimg.com/media/EYcxP5FUcAYZvix.png",
       "https://pbs.twimg.com/media/EYcxTXjUwAA9a90.png"
     ],
     "content": {
-      "html": "Hmm, what about using plain old wget? Something like \"wget -p --timestamping &lt;URL&gt;\". If you want something with more details, maybe Apache Bench could work. For automation, I think Marionette from Firefox could work, but probably that's overkill 😂\n<a class=\"u-mention\" href=\"https://twitter.com/ybbond_\"></a>\n<a class=\"u-mention\" href=\"https://ybbond.dev/\"></a>",
+      "html": "Hmm, what about using plain old wget? Something like \"wget -p --timestamping &lt;URL&gt;\". If you want something with more details, maybe Apache Bench could work. For automation, I think Marionette from Firefox could work, but probably that's overkill 😂\n<a class=\"u-mention\" href=\"https://twitter.com/ybbond_\"></a>\n<a class=\"u-mention\" href=\"https://ybbond.id/\"></a>",
       "text": "Hmm, what about using plain old wget? Something like \"wget -p --timestamping <URL>\". If you want something with more details, maybe Apache Bench could work. For automation, I think Marionette from Firefox could work, but probably that's overkill 😂"
     },
-    "in-reply-to": "https://ybbond.dev/reports/2020-05-20/",
+    "in-reply-to": "https://ybbond.id/reports/2020-05-20/",
     "wm-property": "in-reply-to",
     "wm-private": false
   },
@@ -38,11 +38,11 @@
     "wm-received": "2020-05-20T18:41:32Z",
     "wm-id": 799139,
     "wm-source": "https://brid-gy.appspot.com/repost/twitter/ybbond_/1263017467099508737/1263167728703148032",
-    "wm-target": "https://ybbond.dev/reports/2020-05-20/",
+    "wm-target": "https://ybbond.id/reports/2020-05-20/",
     "content": {
       "text": "I make my site's reports manually. Each post consists of screenshots of devtools' network tab.\n\nI haven't find a good way to automate this,"
     },
-    "repost-of": "https://ybbond.dev/reports/2020-05-20/",
+    "repost-of": "https://ybbond.id/reports/2020-05-20/",
     "wm-property": "repost-of",
     "wm-private": false
   },
@@ -59,12 +59,12 @@
     "wm-received": "2020-05-21T00:55:22Z",
     "wm-id": 799543,
     "wm-source": "https://brid-gy.appspot.com/comment/twitter/ybbond_/1263017467099508737/1263262903664164865",
-    "wm-target": "https://ybbond.dev/reports/2020-05-20/",
+    "wm-target": "https://ybbond.id/reports/2020-05-20/",
     "content": {
       "html": "I didn't know wget has those flags. This is good suggestion and can be scripted!\n\nThanks! 🥰\n<a class=\"u-mention\" href=\"https://twitter.com/darcien_\"></a>",
       "text": "I didn't know wget has those flags. This is good suggestion and can be scripted!\n\nThanks! 🥰"
     },
-    "in-reply-to": "https://ybbond.dev/reports/2020-05-20/",
+    "in-reply-to": "https://ybbond.id/reports/2020-05-20/",
     "wm-property": "in-reply-to",
     "wm-private": false
   }

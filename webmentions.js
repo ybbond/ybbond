@@ -1,31 +1,6 @@
 const fs = require("fs");
 const https = require("https");
 
-fetchWebmentions().then(webmentions => {
-  webmentions.forEach(webmention => {
-    const slug = webmention["wm-target"]
-      .replace("https://ybbond.dev/", "")
-      .replace(/\/$/, "")
-      .replace("/", "--");
-
-    const filename = `${__dirname}/data/webmentions/${slug !== '' ? slug : 'home'}.json`;
-
-    if (!fs.existsSync(filename)) {
-      fs.writeFileSync(filename, JSON.stringify([webmention], null, 2));
-
-      return;
-    }
-
-    const entries = JSON.parse(fs.readFileSync(filename))
-      .filter(wm => wm["wm-id"] !== webmention["wm-id"])
-      .concat([webmention]);
-
-    entries.sort((a, b) => a["wm-id"] - b["wm-id"]);
-
-    fs.writeFileSync(filename, JSON.stringify(entries, null, 2));
-  });
-});
-
 function fetchWebmentions() {
   const token = process.env.WEBMENTIONS_TOKEN;
 
@@ -34,7 +9,7 @@ function fetchWebmentions() {
 
   const url =
     "https://webmention.io/api/mentions.jf2" +
-    "?domain=ybbond.dev" +
+    "?domain=ybbond.id" +
     `&token=${token}` +
     `&since=${since.toISOString()}` +
     "&per-page=999";
@@ -67,3 +42,28 @@ function fetchWebmentions() {
     return response.children;
   });
 }
+
+fetchWebmentions().then(webmentions => {
+  webmentions.forEach(webmention => {
+    const slug = webmention["wm-target"]
+      .replace("https://ybbond.id/", "")
+      .replace(/\/$/, "")
+      .replace("/", "--");
+
+    const filename = `${__dirname}/data/webmentions/${slug !== '' ? slug : 'home'}.json`;
+
+    if (!fs.existsSync(filename)) {
+      fs.writeFileSync(filename, JSON.stringify([webmention], null, 2));
+
+      return;
+    }
+
+    const entries = JSON.parse(fs.readFileSync(filename))
+      .filter(wm => wm["wm-id"] !== webmention["wm-id"])
+      .concat([webmention]);
+
+    entries.sort((a, b) => a["wm-id"] - b["wm-id"]);
+
+    fs.writeFileSync(filename, JSON.stringify(entries, null, 2));
+  });
+});

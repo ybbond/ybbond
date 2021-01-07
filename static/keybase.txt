@@ -4,6 +4,83 @@ https://keybase.io/ybbond
 
 I hereby claim:
 
+  * I am an admin of https://ybbond.id
+  * I am ybbond (https://keybase.io/ybbond) on keybase.
+  * I have a public key with fingerprint 56DA ADB1 5246 1C80 6792  DBAB 8477 3B93 9886 81A0
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120bfd28f06adb094e201bec397a38edbe031f9bf4c4869e8f4f9c4869fdc1b08ca0a",
+      "fingerprint": "56daadb152461c806792dbab84773b93988681a0",
+      "host": "keybase.io",
+      "key_id": "84773b93988681a0",
+      "kid": "010186c4cf4a610f4c6ecb11e4dc3bddd347ba4b02e3535d94266e0c5ed30e63b79d0a",
+      "uid": "c9bcf231ce6903969d34778a1014f419",
+      "username": "ybbond"
+    },
+    "service": {
+      "hostname": "ybbond.id",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1609979267,
+  "expire_in": 157680000,
+  "prev": "72175231d08ee0e2d03c6a7be85f2b9f94f0329ea825c8057b6838008345e6de",
+  "seqno": 39,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNqAnicbZJ9TBRHGMbvQKF8lOg1CiY0lqVNIyEw+72LlLRwnIoVTVoNKuXY2Z2F
+BXt33h53HBTkeuZKTIhciAKtLSpo0kIMhTa1RaBQEmhRLDY1bYGIJQRTi43yZYBC
+90j9o0n3n91953l+87zvzMDzwbpw/WnX7roGn+eifrivrkRnXjzsLcegVXJjKeVY
+Mdp4oRMSUh3mYkXCUjCAEwDKEsHJgBEkCHgKEQCHSCR5ViA5JEEESFzmoUyJFMfw
+iJMpmd/4lCURh4ATBSBgiZisWAqQ3WZXLA4NSzOSoOFwmqAYXOQAw/KEBAXIUSxL
+Qp7kOY7hcAFoxkKrGnBo4aCgoiTFqtW0H/NGvP/RP8sNcI4RKVGmBAYHWjoGiRDH
+ESWJJJQkiaRYKFAQEIikSVriKYJhEBBpJJEAMSRkeWkjd8kGTuShKBMkLiKGByTP
+8AE/ywnaLpRM4XxAqCK7RXgXaWo3hFaLhFUkYlrNqYgoMNZAH/9ZT9LIiZjNbnVY
+ResJrVzocNjUlIDN4bYFdC4Ezf8SzFCxSNoINYcT2VXFasFScE0pOpQAEmcAz2sz
+ZNhEDJXaFDsyKwEFzTIc0J7APsipIVkCZ2mtEQlwCAFESIAUGYGFiKNlAvIyT8mA
+JHgkcAStnQvNQoYjNQRHUjRiJIQFejppsWIpJK/lFAo0pqoUWARHiR1hFf19uZt0
++nBdyOagwN3ShYdteXbjTnq26O6Nj6upyqCnzDWxtpaFL1mPrjvLYisubfWXhmQZ
+2d7bYcGR7cNOrz/jXFT80KbomjuplcPQd6Pz972LC6WfBSWuDazkCDtdhu6abzfv
+u3ro9FLox2PxB6+lpxu6dANL083jYe6GtqOEPzavb8ax7s5sbrrG58TGjXGerp9N
+Rb8O7r53J7vy88avrrSMGtocTWnC2xEFHXe9nULaT9Xft9WG9+tvT32RK+n7F+iq
+lpLRHcah1ZqRW8vn//IHf9ictP+5kfcaw872nqmdbwDRCe1hL8xtG53dNh2DvfKj
+wVj06aPloKD1Kbty2J31+uKB/OVh9fHBDH+POuk/0ttx2fvbd6rdMtdT8oM+h2H2
+qOCTytncb6Jbnz7++sbxivZTY3VxC++o11/9e2KqNaP+j+RW3x7cHjl+5EKV7+I0
+ETrZHaJ279paFRyTf6H+SVHnxBnf1I680dnKpvyBRy1P7z7sOebeb1tZdUU1zM7H
+R9ZOxhR3PGjbNVu6aDhVWpm3dP9ywkvndYfKLDPuBKk/2enKJuMiJsyrv2z37qzq
+0n30hseQNmds9Lw25Eu9WTtkJG8Nl5uyjccXDzRlZp7j70flrphQe1ua9821L7OS
+0h/2JocL3X8aq/n+s2UxHYW4OP/ydef4zPabV55cXX3REnHJVP/BsdC9I4NBb1UT
+7zsjH5iyTf8Al3HEOQ==
+=z9w1
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ybbond
+
+==================================================================
+
+
+==================================================================
+https://keybase.io/ybbond
+--------------------------------------------------------------------
+
+I hereby claim:
+
   * I am an admin of https://ybbond.dev
   * I am ybbond (https://keybase.io/ybbond) on keybase.
   * I have a public key ASC_0o8GrbCU4gG-w5ejjtvgMfm_TEhp6PT5xIaf3BsIygo

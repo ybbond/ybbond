@@ -126,10 +126,10 @@ I use [zettelkasten](https://zettelkasten.de/) paradigm for my knowledge base an
 [ducky]: https://twitter.com/ybbond_/status/1146845120618090497
 [video]: https://twitter.com/ybbond_/status/1262066984763527168
 
-[kitty]: https://git.ybbond.dev/dotfiles/file/.config/kitty/kitty.conf.html
-[nvim]: https://git.ybbond.dev/dotfiles/file/.config/nvim/init.vim.html
-[tmux]: https://git.ybbond.dev/dotfiles/file/.tmux.conf.html
-[zshrc]: https://git.ybbond.dev/dotfiles/file/.zshrc.html 
+[kitty]: https://git.ybbond.id/dotfiles/file/.config/kitty/kitty.conf.html
+[nvim]: https://git.ybbond.id/dotfiles/file/.config/nvim/init.vim.html
+[tmux]: https://git.ybbond.id/dotfiles/file/.tmux.conf.html
+[zshrc]: https://git.ybbond.id/dotfiles/file/.zshrc.html
 
 [xit]: https://github.com/Uncommon/Xit
 [ripcord]: https://cancel.fm/ripcord/
