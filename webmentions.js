@@ -4,7 +4,7 @@ const https = require("https");
 fetchWebmentions().then(webmentions => {
   webmentions.forEach(webmention => {
     const slug = webmention["wm-target"]
-      .replace("https://ybbond.dev/", "")
+      .replace("https://ybbond.id/", "")
       .replace(/\/$/, "")
       .replace("/", "--");
 
@@ -34,7 +34,7 @@ function fetchWebmentions() {
 
   const url =
     "https://webmention.io/api/mentions.jf2" +
-    "?domain=ybbond.dev" +
+    "?domain=ybbond.id" +
     `&token=${token}` +
     `&since=${since.toISOString()}` +
     "&per-page=999";

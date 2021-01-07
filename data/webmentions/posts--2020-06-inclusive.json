@@ -12,8 +12,8 @@
     "wm-received": "2020-06-29T02:16:50Z",
     "wm-id": 817331,
     "wm-source": "https://brid-gy.appspot.com/repost/mastodon/@ybbond@indieweb.social/104422323385996032/2",
-    "wm-target": "https://ybbond.dev/posts/2020-06-inclusive/",
-    "repost-of": "https://ybbond.dev/posts/2020-06-inclusive/",
+    "wm-target": "https://ybbond.id/posts/2020-06-inclusive/",
+    "repost-of": "https://ybbond.id/posts/2020-06-inclusive/",
     "wm-property": "repost-of",
     "wm-private": false
   },
@@ -30,16 +30,16 @@
     "wm-received": "2020-06-29T09:15:23Z",
     "wm-id": 817427,
     "wm-source": "https://alirezahayati.com/2020/06/inclusive-content-sharing/",
-    "wm-target": "https://ybbond.dev/posts/2020-06-inclusive/",
+    "wm-target": "https://ybbond.id/posts/2020-06-inclusive/",
     "summary": {
       "content-type": "text/plain",
       "value": "Inclusive Content Sharing"
     },
     "content": {
-      "html": "<p><a href=\"https://ybbond.dev/posts/2020-06-inclusive/\">Inclusive Content Sharing</a></p>",
+      "html": "<p><a href=\"https://ybbond.id/posts/2020-06-inclusive/\">Inclusive Content Sharing</a></p>",
       "text": "Inclusive Content Sharing"
     },
-    "mention-of": "https://ybbond.dev/posts/2020-06-inclusive/",
+    "mention-of": "https://ybbond.id/posts/2020-06-inclusive/",
     "wm-property": "mention-of",
     "wm-private": false,
     "rels": {

@@ -24,7 +24,7 @@ Other options I found was **Jekyll**, **Hugo**, **nanoc** and **Gatsby**. I trie
 
 The main feature I like is that it parses [Markdown](https://daringfireball.net/projects/markdown/) automatically. This allow me to make post with iA Writer, my currently favorite writing tool for iPad. It supports the flavor of Markdown that parses footnotes! I **love footnotes**[^2]!
 
-It also generates [RSS](https://ybbond.dev/index.xml) for each page.
+It also generates [RSS](https://ybbond.id/index.xml) for each page.
 
 It has native support for tables:
 

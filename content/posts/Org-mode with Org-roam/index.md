@@ -100,7 +100,7 @@ Let's [stop worrying and start loving](https://invidio.us/watch?v=JWD1Fpdd4Pc) ~
 [emacs-plus]: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#with-homebrew
 [org-roam-install]: https://github.com/org-roam/org-roam#installation
 [jethro-dotfiles]: https://github.com/jethrokuan/dots
-[my-dotfiles]: https://git.ybbond.dev/dotfiles/files.html
+[my-dotfiles]: https://git.ybbond.id/dotfiles/files.html
 [config-org]: https://github.com/midchildan/dotfiles/blob/master/home/.config/doom/config.org#cutting-and-pasting
 [patreon]: https://www.patreon.com/hlushchenko
 
