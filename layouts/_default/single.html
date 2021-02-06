@@ -1,8 +1,10 @@
 {{ define "main" }}
+  {{ .Scratch.Set "scope" "single" }}
   {{ if eq .Type "notes" }}
     <article>
       {{- partial "post/notes-item.html" . -}}
       {{ partial "post/webmentions-handler.html" . }}
+      {{ partial "post/remarkbox.html" . }}
     </article>
   {{ else if eq .Type "responses" }}
     <article>
@@ -53,10 +55,9 @@
         {{ end -}}
       </div>
 
-      {{ partial "post/remarkbox.html" . }}
-
       {{- if ne .Type "page" }}
         {{ partial "post/webmentions-handler.html" . }}
+        {{ partial "post/remarkbox.html" . }}
       {{- else }}
         <br>
         <br>
