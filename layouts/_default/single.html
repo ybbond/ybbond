@@ -10,6 +10,7 @@
     <article>
       {{- partial "post/responses-item.html" . -}}
       {{ partial "post/webmentions-handler.html" . }}
+      {{ partial "post/remarkbox.html" . }}
     </article>
   {{ else }}
     <article class="content h-entry">

@@ -6,7 +6,7 @@
 {{ end }}
 {{ $title := print "In response to " "«" .Params.Destination.Title "»" $author }}
 <div class="content responses h-entry" id={{ $idslug }}>
-  <h1 class="p-name">{{ $title }}</h1>
+  <a class="no-outline" data-goatcounter-click="cl-response-title" href={{ .Permalink }}><h1 class="p-name" class="listing__post__title" >{{ $title }}</h1></a>
   <div id="h-card" class="hcard" hidden="">
     {{ $permalink := .Permalink }}
     {{ $title := .Title }}
