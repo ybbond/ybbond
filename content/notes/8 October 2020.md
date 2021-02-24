@@ -2,7 +2,6 @@
 tags:
   - notes #notes
 date: 2020-10-08T01:03:12+0700
-draft: true
 ID: 20201008010312
 type: notes
 ---
