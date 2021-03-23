@@ -8,7 +8,7 @@ tags:
 date: 2020-04-15T01:59:34
 ---
 
-In the start of 2020, I planned to expand my [personal page](https://old.ybbond.dev/) to not only contain my "CV", but also use it as my blog. That webpage is created with ReactJS, and my original idea was to make a new page that fetch data from GitHub Gist, then parse the Markdown file to HTML file[^1]. I also planned (and I will not drop this one, for the sake of learning) to make that webpage server rendered.
+In the start of 2020, I planned to expand my [personal page](https://old.ybbond.id/) to not only contain my "CV", but also use it as my blog. That webpage is created with ReactJS, and my original idea was to make a new page that fetch data from GitHub Gist, then parse the Markdown file to HTML file[^1]. I also planned (and I will not drop this one, for the sake of learning) to make that webpage server rendered.
 
 [^1]: The more original idea was to create this with ReasonReact, as written in my other [post](/posts/2020-03-trying-bs-json-and-bs-fetch-to-publish-my-gist-as-blog/).
 

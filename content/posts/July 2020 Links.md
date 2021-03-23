@@ -30,5 +30,5 @@ I was looking for file transfer client to manage my Dropbox and CDN files. The p
 
 ## Website
 
-[YBBond.dev Staging](https://staging.ybbond.dev)
+[YBBond.id Staging](https://staging.ybbond.id)
 I am currently refactoring my site to use less data, less JavaScript and removing tracker. The progress is slow, as I am currently a lot busier at work too.

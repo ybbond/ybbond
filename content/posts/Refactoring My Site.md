@@ -18,4 +18,4 @@ Tracker will be removed, because I am not curious about the amount of visitor an
 
 Stuff I'd like to add is JavaScript to allow inline footnotes, my current option is [BigfootJS](http://www.bigfootjs.com/). I also want to add more Indieweb features, such as ping WebMention reaction, and MicroPub. 
 
-Per today, you can see the progress on [staging.ybbond.dev](https://staging.ybbond.dev). If you read this in the future (obviously duh), maybe the staging is gone, already implemented in the main domain.
+Per today, you can see the progress on [staging.ybbond.id](https://staging.ybbond.id). If you read this in the future (obviously duh), maybe the staging is gone, already implemented in the main domain.

@@ -4,7 +4,7 @@ menu: contact
 description: Ways to get in touch with me
 ---
 
-Here is [my latest CV](https://cdn.ybbond.dev/static/CV%20Yohanes%20Bandung%20Bondowoso.pdf) updated on August 2020.
+Here is [my latest CV](https://cdn.ybbond.id/static/CV%20Yohanes%20Bandung%20Bondowoso.pdf) updated on August 2020.
 
 You can contact me through any of my social medias on my [keybase](https://keybase.io/ybbond) or listed in the footer down below ↓.
 

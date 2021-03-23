@@ -14,7 +14,7 @@ I read an interesting article (from a website that features a great function to 
 
 Back then, my website was written in ReasonReact, and back then, I thought that implementing my own blog by fetching my Gist is a nice way to learn `bs-fetch` and `bs-json`.
 
-> tldr; the result can be seen here [reason.ybbond.dev/blog](https://reason.ybbond.dev/blog)
+> tldr; the result can be seen here [reason.ybbond.id/blog](https://reason.ybbond.id/blog)
 
 ## Fun Moment
 Implementing `bs-fetch` was the easier of both, because I follow the example of HackerNews built with ReasonReact.
