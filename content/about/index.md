@@ -6,7 +6,7 @@ description: "Hi, my name is Yohanes Bandung Bondowoso"
 
 People call me **Bandung**. ૮ ・ﻌ・ა
 
-![photo by Soraya Azizah](bandung-mosh-on-tarintih.jpg "Photo of Bandung a moment before crowd-surfing on a band performance")
+![photo by <a rel="nofollow noreferrer" title="Link to Soraya Azizah Instagram profile" href="https://www.instagram.com/bysorayaazizah/">Soraya Azizah</a>](bandung-mosh-on-tarintih.jpg "Photo of Bandung a moment before crowd-surfing on a band performance")
 
 I am a software engineer that value and strive for good design, privacy and enjoyable services. I like to experiment with development tools or paradigms, to read, try applications, gathering informations to further enhance my expertise at my job and inspirations to make my life easier.
 

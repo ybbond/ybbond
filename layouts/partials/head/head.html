@@ -16,8 +16,6 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $rssTitle | safeHTML }}
 {{ end }}
 
-<script type="application/javascript" src="{{ .Site.BaseURL }}lazyImage.js" async="true"></script>
-
 <style>
   {{ with resources.Get "fonts.css" | resources.Minify }}
       {{ .Content | safeCSS }}
@@ -44,8 +42,6 @@
       {{ .Content | safeCSS }}
   {{ end }}
 </style>
-<link href="/fontawesome.min.css" rel="stylesheet">
-<link href="/brands.min.css" rel="stylesheet">
 
 
 <link rel="canonical" href="{{ .Permalink }}" />

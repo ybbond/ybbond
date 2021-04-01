@@ -7,73 +7,31 @@
 {{ if ne .Title "" }}
   {{ $title = .Title }}
 {{ end }}
-{{ $placeholder := ($image.Resize "48x q20") | images.Filter (images.GaussianBlur 6) }}
-{{ $src := $image }}
-{{ $src_set := ""}}
 
-{{ $src_set = (print $image.RelPermalink " " $image.Width "w") }}
-{{ $src := $image }}
+{{ $width := "400px" }}
+{{ $height := "520px" }}
 
-{{ if ge $image.Width "500"}}
-{{ $x_small := $image.Resize "500x" }}
-{{ $src_set = (print $src_set ", "  $x_small.RelPermalink " 500w") }}
-{{ end }}
+{{- if gt $image.Width $image.Height }}
+{{ $width = "520px" }}
+{{ $height = "380px" }}
+{{- end }}
 
-{{ if ge $image.Width "800"}}
-{{ $small := $image.Resize "800x" }}
-{{ $src_set = (print $src_set ", " $small.RelPermalink " 800w") }}
-{{ end }}
-
-{{ if ge $image.Width "1200"}}
-{{ $medium := $image.Resize "1200x" }}
-{{ $src_set = (print $src_set ", " $medium.RelPermalink " 1200w") }}
-{{ end }}
-
-{{ if gt $image.Width "1500"}}
-{{ $large := $image.Resize "1500x" }}
-{{ $src_set = (print $src_set ", " $large.RelPermalink " 1500w") }}
-{{ end }}
-
-{{ $figure_class := "image-figure" }}
-
-
-<noscript>
-  <style>
-    figure.lazy {
-      display: none;
-    }
-  </style>
-  <figure class="{{ $figure_class }}">
-    <center>
+<figure class="image-figure">
+  <center>
+    <div style="width: {{ $width }};height: {{ $height }};">
       <img
-        src="{{ $src.RelPermalink }}"
+        src="{{ $image.RelPermalink }}"
         style="max-width: 100%; height: auto;"
-        alt={{ $title }}
-        title={{ $title }}
+        alt={{ .Text | safeHTML }}
+        title={{ .Text | safeHTML }}
       />
       <figcaption>
-      <em>{{ .Text }}
-        <a title="{{ $title }}" href="{{ $image.RelPermalink }}">
-          <i class="no-sup fab fa-font-awesome-flag"></i>
-        </a>
-      </em>
+        <em>{{ .Text | safeHTML }} &nbsp;
+          <a title="Link to open full image." href="{{ $image.RelPermalink }}" class="view-full-size">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><path d="M71.2 48.8c1.6 1.6 4.1 1.6 5.6 0L112 13.6V32c0 2.4 2.2 4.4 4.7 3.9 2-.3 3.3-2.2 3.3-4.2V4c0-2.2-1.8-4-4-4H88.2c-2 0-3.8 1.4-4.2 3.3-.4 2.5 1.6 4.7 4 4.7h18.4L71.2 43.2c-1.6 1.6-1.6 4.1 0 5.6zm20.8-.9V104c0 4.4-3.6 8-8 8H16c-4.4 0-8-3.6-8-8V36c0-4.4 3.6-8 8-8h56.1c1.1 0 2.1-.4 2.8-1.2l5.1-5.1c.6-.6.2-1.7-.7-1.7H12C5.4 20 0 25.4 0 32v76c0 6.6 5.4 12 12 12h76c6.6 0 12-5.4 12-12V40.6c0-.9-1.1-1.3-1.7-.7L93.2 45c-.8.8-1.2 1.8-1.2 2.9z"></path></svg>
+          </a>
+        </em>
       </figcaption>
-    </center>
-  </figure>
-</noscript>
-
-<figure class="{{ $figure_class }} lazy">
-  <center>
-    <img class="lazyload" data-sizes="auto" src="{{ $src.RelPermalink }}"
-      style="max-width: 100%; height: auto;"
-      srcset="data:image/jpeg;base64,{{ $placeholder.Content | base64Encode }}" data-src="{{ $src.RelPermalink }}"
-      data-srcset="{{ $src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt={{ $title }} title={{ $title }} />
-    <figcaption>
-      <em>{{ .Text | safeHTML }}
-        <a title="{{ $title }}" href="{{ $image.RelPermalink }}">
-          <i class="no-sup fab fa-font-awesome-flag"></i>
-        </a>
-      </em>
-    </figcaption>
+    </div>
   </center>
 </figure>

@@ -55,6 +55,10 @@
     outline-color: var(--light-background-hover);
   }
 
+  .view-full-size svg {
+    fill: var(--light-red);
+  }
+
   .content ol li span:before {
     color: var(--light-red);
   }
@@ -138,6 +142,10 @@
   }
   .responses:target {
     outline-color: var(--dark-background-hover);
+  }
+
+  .view-full-size svg {
+    fill: var(--dark-red);
   }
 
   .content ol li span:before {

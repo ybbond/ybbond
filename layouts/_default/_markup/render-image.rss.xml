@@ -1,0 +1,15 @@
+{{ $image := (.Page.Resources.GetMatch  .Destination) }}
+
+<figure>
+  <center>
+  <img
+    src="{{ $image.RelPermalink }}"
+    style="max-width: 100%; height: auto;"
+    alt={{ .Text | safeHTML }}
+    title={{ .Text | safeHTML }}
+  />
+  <figcaption>
+    <em>{{ .Text | safeHTML }}</em>
+  </figcaption>
+  </center>
+</figure>

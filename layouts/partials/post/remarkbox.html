@@ -9,16 +9,19 @@
 </div>
 <script src="https://my.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js"></script>
 <script>
-  var rb_owner_key = "372c6a71-6844-11eb-8f74-040140774501";
-  var thread_uri = window.location.href;
-  var thread_title = window.document.title;
-  var thread_fragment = window.location.hash;
+  const rb_owner_key = "372c6a71-6844-11eb-8f74-040140774501";
+  let thread_uri = window.location.href;
+  if (thread_uri.startsWith('http://localhost:1313')) {
+    thread_uri = 'https://ybbond.id' + thread_uri.substring(21);
+  }
+  const thread_title = window.document.title;
+  const thread_fragment = window.location.hash;
 
   // rb owner was here.
-  var rb_src = "https://my.remarkbox.com/embed" + 
+  const rb_src = "https://my.remarkbox.com/embed" +
       "?rb_owner_key=" + rb_owner_key +
       "&thread_title=" + encodeURI(thread_title) +
-      "&thread_uri=" + encodeURIComponent(thread_uri) + 
+      "&thread_uri=" + encodeURIComponent(thread_uri) +
       thread_fragment;
 
   function create_remarkbox_iframe() {

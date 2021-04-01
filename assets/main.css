@@ -59,7 +59,7 @@ a {
 a:hover:not(.wm-avatar):not(.no-hover):not(.no-outline):not(.footnote-ref),
 a#active:not(.no-outline):not(.footnote-ref) {
   outline-style: solid;
-  outline-width: 0.3rem;
+  outline-width: 0.2rem;
 }
 a.button {
   display: inline-block;
@@ -86,10 +86,15 @@ time[title] {
   cursor: help;
 }
 
+.view-full-size svg {
+  width: .9em;
+  height: .9em;
+}
+
 .listing__post {
   width: 100%;
   display: inline-block;
-  padding: 0.5rem 0 0.7rem;
+  padding: 0.3rem 0;
 }
 .listing__post__title {
   margin: 0.01rem;
