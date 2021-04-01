@@ -8,13 +8,26 @@
   {{ $title = .Title }}
 {{ end }}
 
-{{ $width := "400px" }}
+{{ $width := "380px" }}
 {{ $height := "520px" }}
+{{ $orientation := "portrait" }}
 
-{{- if gt $image.Width $image.Height }}
-{{ $width = "520px" }}
-{{ $height = "380px" }}
-{{- end }}
+{{- if gt $image.Width $image.Height -}}
+  {{ $orientation = "landscape" }}
+  {{ $width = "520px" }}
+  {{ $height = "380px" }}
+    {{ if gt "300" $image.Width -}}
+      {{ $width = "300px" }}
+      {{ $height = "170px" }}
+    {{ end -}}
+{{- end -}}
+
+{{- if eq $orientation "portrait" -}}
+  {{ if gt "300" $image.Height -}}
+    {{ $width = "170px" }}
+    {{ $height = "300px" }}
+  {{ end -}}
+{{- end -}}
 
 <figure class="image-figure">
   <center>
