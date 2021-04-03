@@ -1,6 +1,4 @@
-{{ $image := (.Page.Resources.GetMatch  .Destination) }}
-
-<figure>
+{{ $image := (.Page.Resources.GetMatch  .Destination) }}<figure>
   <center>
   <img
     src="{{ $image.RelPermalink }}"

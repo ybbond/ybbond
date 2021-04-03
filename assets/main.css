@@ -86,7 +86,11 @@ time[title] {
   cursor: help;
 }
 
+.view-full-size {
+  position: relative;
+}
 .view-full-size svg {
+  position: absolute;
   width: .9em;
   height: .9em;
 }

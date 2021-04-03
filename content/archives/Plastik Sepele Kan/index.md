@@ -17,7 +17,7 @@ Tadi gua baru baca koran Kompas minggu lalu, liat iklan hape, terus langsung nga
 
 **Serius**, di koran ada berita: plastik kresek(dinamain dari bunyinya) bakal dicatok tarif minimal Rp 200 di kota tertentu, lebih murah daripada di Balikpapan harganya cenggo(tadinya malah goceng).
 
-![](vin-diesel.jpeg "picture of Vin Diesel meme in Indonesian")
+![Picture of Vin Diesel meme in Indonesian](vin-diesel.jpeg "picture of Vin Diesel meme in Indonesian")
 
 (Di sini gua akan mengandaikan jika harga plastik yang dicatok retailer sama kaya di Balikpapan, Rp 1500) Mengingat mental orang normal yang protes bensin—jelas bermanfaat buat pacaran, nongkrong, bikin areng pas bakar ayam— sempet naik jadi Rp 9000, gimana kalo benda sepele yang biasa dikasih gratis—kadang malah diminta dobel— dikasih harga? Kebayang gimana reaksi orang yang biasanya cuma beli Royco 2 sachet aja pake minta diplastikin.
 
