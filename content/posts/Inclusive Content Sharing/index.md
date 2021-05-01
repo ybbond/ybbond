@@ -9,7 +9,7 @@ tags:
 image:
   src: 2.png
 twitter:
-  link: https://twitter.com/ybbond_/status/1277262291696627712
+  link: https://twitter.com/ybbond/status/1277262291696627712
 mastodon:
   link: https://indieweb.social/web/statuses/104422323385996032
 date: 2020-06-28T16:44:38+0700

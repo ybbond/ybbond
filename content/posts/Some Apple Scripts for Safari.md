@@ -6,7 +6,7 @@ tags:
   - tools #tools
   - apple #apple
 twitter:
-  link: https://twitter.com/ybbond_/status/1297602893504106496
+  link: https://twitter.com/ybbond/status/1297602893504106496
 slug: safari-apple-script
 date: 2020-08-23T19:48:48+0700
 ID: 20200823194848

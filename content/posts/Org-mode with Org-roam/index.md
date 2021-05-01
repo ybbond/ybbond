@@ -10,7 +10,7 @@ date: 2020-06-27T23:05:28+0700
 image:
   src: 2.png
 twitter:
-  link: https://twitter.com/ybbond_/status/1276920239146450945
+  link: https://twitter.com/ybbond/status/1276920239146450945
 mastodon:
   link: https://indieweb.social/web/statuses/104416969966573396
 ID: 20200627230528

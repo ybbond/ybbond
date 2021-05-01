@@ -10,7 +10,7 @@ tags:
 image:
   src: pratinjau.png
 twitter:
-  link: https://twitter.com/ybbond_/status/1345821961323102208
+  link: https://twitter.com/ybbond/status/1345821961323102208
 date: 2021-01-03T23:46:13+0700
 ID: 20210103234613
 ---
@@ -63,7 +63,7 @@ Unduh PDF varian [Sabtu tidak libur. Angka, garis dan penanda libur berwarana me
 
 Rekomendasi saya adalah cetak ukuran A1 dengan bahan spanduk albatros atau lateks agar kalender ini mudah dan tahan lama.
 
-Umpan balik, saran atau pelaporan kesalahan penulisan dan desain dapat disampaikan ke alamat surel saya di hi@ybbond.id. Jika kalian punya akun Twitter, bisa juga [membalas tweet saya](https://twitter.com/ybbond_/status/1345821961323102208).
+Umpan balik, saran atau pelaporan kesalahan penulisan dan desain dapat disampaikan ke alamat surel saya di hi@ybbond.id. Jika kalian punya akun Twitter, bisa juga [membalas tweet saya](https://twitter.com/ybbond/status/1345821961323102208).
 
 ## Fitur
 

@@ -108,8 +108,8 @@ Some others satisfy my hobbies.
 [lazygit]: /posts/2020-05-remove-specific-files-from-old-git-commit/#lazygit-way
 [nuphy]: /posts/2020-04-nuphy-nutype-f1-keyboard-review/
 
-[ducky]: https://twitter.com/ybbond_/status/1146845120618090497
-[video]: https://twitter.com/ybbond_/status/1262066984763527168
+[ducky]: https://twitter.com/ybbond/status/1146845120618090497
+[video]: https://twitter.com/ybbond/status/1262066984763527168
 
 [kitty]: https://git.ybbond.id/dotfiles/file/.config/kitty/kitty.conf.html
 [nvim]: https://git.ybbond.id/dotfiles/file/.config/nvim/init.vim.html
