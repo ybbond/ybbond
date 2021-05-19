@@ -1,0 +1,29 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Yohanes Bandung Bond.",
+      "photo": "",
+      "url": "https://ybbond.id"
+    },
+    "url": "https://ybbond.id/responses/response-20210520121440/",
+    "published": "2021-05-20T00:14:40+07:00",
+    "wm-received": "2021-05-19T17:30:28Z",
+    "wm-id": 1163928,
+    "wm-source": "https://ybbond.id/responses/response-20210520121440/",
+    "wm-target": "https://ybbond.id/notes/06-february-2021/",
+    "syndication": [
+      "https://ybbond.id/responses/response-20210520121440/"
+    ],
+    "content": {
+      "text": "In response to «Notes about Remarkbox» by «YBBond»\nI removed the integration with Remarkbox on this site.\nTurns out I rarely get comment, only 2 ever since the initial integration. The service is also unreliable. Since last month, I cannot log into their dashboard."
+    },
+    "in-reply-to": "https://ybbond.id/notes/06-february-2021/",
+    "wm-property": "in-reply-to",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://ybbond.id/responses/response-20210520121440/"
+    }
+  }
+]
