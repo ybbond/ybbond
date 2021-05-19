@@ -1,7 +1,7 @@
 <div class="hcard">
   <div class="hcard__description"><p>My <a href="http://microformats.org/wiki/representative-h-card-authoring">h-card</a></p></div>
 <div id="h-card" class="h-card">
-  <img class="u-photo" src={{ "logo.png" | absURL }} alt="Photo of {{ .Site.Params.Author }}" />
+  <img class="u-photo" src={{ "logo.png" | absURL }} />
   <a class="p-name u-url u-uid" href={{ .Site.Params.MainSiteURL }} rel="me">{{ substr .Site.Params.Author 0 20 }}.</a>
   <br>
   <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>

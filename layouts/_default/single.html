@@ -15,7 +15,7 @@
     <article class="content h-entry">
       <h1 class="p-name">{{ .Title }}</h1>
       <div id="h-card" class="hcard" hidden="">
-        <img class="u-photo" src={{ "logo.png" | absURL }} alt="Weird photo of yohanes bandung" />
+        <img class="u-photo" src={{ "logo.png" | absURL }} />
         <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
         <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
         <a rel="syndication" class="u-syndication" href={{ .Permalink }}>{{ .Title }}</a>
