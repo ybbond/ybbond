@@ -1,0 +1,28 @@
+<hr class="wm-hr">
+<h3 class="wm-title" id="post-webmention-section">
+  Webmentions <a
+    href="https://indieweb.org/Webmention"
+    rel="noopenner noreferrer"
+    target="_blank"
+    class="no-outline"
+  >?</a>:
+</h3>
+
+<div class="wm-form">
+  <form action="https://webmention.io/ybbond.id/webmention" method="post">
+    <input aria-label="Webmention Source" name="source" placeholder="Paste the URL to your response of this post!" type="url" required="" class="wm-form__textfield">
+    <input name="target" value="{{ .Permalink }}" type="hidden">
+    <input value="Send Webmention" type="submit" class="wm-form__button">
+  </form>
+
+<!--
+  <div>
+    <form method="get" action="https://quill.p3k.io/" target="_blank">
+      <input type="hidden" name="dontask" value="1">
+      <input type="hidden" name="me" value="https://commentpara.de/">
+      <input type="hidden" name="reply" value="https://hacdias.com/micro/2021/02/re-is-it-time-to-build-my-cms-errors/">
+      <input type="submit" value="Write a comment">
+    </form>
+  </div>
+-->
+</div>

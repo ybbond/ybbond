@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5 {
 h1 a, h2 a, h3 a, h4 a, h5 a {
   font-family: var(--font-mono);
 }
+input {
+  font-family: var(--font-text);
+  font-size: .9rem;
+}
 
 h1:not(.header__title) {
   font-size: 2.2rem;
@@ -182,6 +186,26 @@ time[title] {
 .hcard-bottom {
   margin: 0;
   font-size: 0.9rem;
+}
+
+.wm-form {
+  margin: 1rem 0 2rem;
+}
+.wm-form form {
+  display: flex;
+  flex-direction: row;
+}
+.wm-form__textfield {
+  padding: .5rem;
+  flex: 1;
+}
+.wm-form__button {
+  cursor: pointer;
+  display: inline-block;
+  padding: .5rem .7rem;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: .5rem;
 }
 
 .wm-hr {

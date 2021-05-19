@@ -1,17 +1,5 @@
 {{ with index $.Site.Data.webmentions (replace (trim .RelPermalink "/") "/" "--") }}
-  <hr class="wm-hr">
   <div class="wm-div">
-    {{- with where . "wm-property" "in" (slice "like-of" "repost-of" "bookmark-of" "rsvp" "in-reply-to" "mention-of") }}
-      <h3 class="wm-title">
-        Webmentions <a
-          href="https://indieweb.org/Webmention"
-          rel="noopenner noreferrer"
-          target="_blank"
-          class="no-outline"
-        >?</a>:
-      </h3>
-    {{- end }}
-
     {{ with where . "wm-property" "in" (slice "repost-of" "bookmark-of" "rsvp") -}}
       <p class="wm-subtitle">Reposted/Boosted by:</p>
       {{- range . }}

@@ -26,7 +26,8 @@
 .content.notes.h-entry, .content.responses.h-entry {
   /*padding: 4px 10px 1px 10px;*/
   padding: .1px;
-  outline: solid 1px black;
+  outline-style: solid;
+  outline-width: 1px;
 }
 
 .content figcaption {

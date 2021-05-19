@@ -170,6 +170,15 @@
     height: 325px;
   }
 
+  /* webmention */
+  .wm-form form {
+    flex-direction: column;
+  }
+  .wm-form__button {
+    margin-top: .5rem;
+    margin-left: 0;
+  }
+
   /* footer */
   .footer__nav__right a {
     padding: 0 0.15rem;

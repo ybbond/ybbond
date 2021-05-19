@@ -35,12 +35,14 @@
       </span>
     </a>
   </p>
-  <div class="responses__content e-content p-content">
+  <div class="responses__content">
     <p class="responses__original"><a class="u-in-reply-to" href={{ .Params.Destination.Url }}>{{ $title }}</a></p>
-    {{ if eq ($.Scratch.Get "scope") "single" }}
-      {{ partial "components/content.html" .Content }}
-    {{ else }}
-      {{ partial "components/preview.html" .Content }}
-    {{ end }}
+    <div class="e-content p-content">
+      {{ if eq ($.Scratch.Get "scope") "single" }}
+        {{ partial "components/content.html" .Content }}
+      {{ else }}
+        {{ partial "components/preview.html" .Content }}
+      {{ end }}
+    </div>
   </div>
 </div>
