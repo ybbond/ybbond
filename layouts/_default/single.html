@@ -1,16 +1,13 @@
 {{ define "main" }}
-  {{ .Scratch.Set "scope" "single" }}
   {{ if eq .Type "notes" }}
-    <article>
+    <article class="single__micro">
       {{- partial "post/notes-item.html" . -}}
       {{ partial "post/webmentions-handler.html" . }}
-      {{ partial "post/remarkbox.html" . }}
     </article>
   {{ else if eq .Type "responses" }}
-    <article>
+    <article class="single__micro">
       {{- partial "post/responses-item.html" . -}}
       {{ partial "post/webmentions-handler.html" . }}
-      {{ partial "post/remarkbox.html" . }}
     </article>
   {{ else }}
     <article class="content h-entry">
@@ -58,7 +55,6 @@
 
       {{- if ne .Type "page" }}
         {{ partial "post/webmentions-handler.html" . }}
-        {{ partial "post/remarkbox.html" . }}
       {{- else }}
         <br>
         <br>
