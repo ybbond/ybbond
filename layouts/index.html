@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ $postURL := "/posts" | absURL }}
-  {{ $notesURL := "/notes" | absURL }}
+  {{ $notesURL := "/micro" | absURL }}
 
   <article>
     {{ .Content }}
@@ -9,7 +9,7 @@
   <hr>
 
   <h2>Blog Posts:</h2>
-  <div href={{ $postURL }} class="listing">
+  <div href={{ $postURL }} class="listing__top">
     {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
       <a
         href={{ .Permalink }}
@@ -32,13 +32,18 @@
 
   <hr>
 
-  <h2>Notes:</h2>
-  <div class="listing">
-    {{ range first 5 (where .Site.RegularPages "Type" "notes") }}
-      {{ partial "post/notes-item.html" . }}
+  <h2>My Micro:</h2>
+  <div class="listing__bottom">
+    {{ range first 5 (where .Site.RegularPages "Type" "in" (slice "notes" "responses")) }}
+      {{ .Scratch.Set "scope" "list" }}
+      {{ if eq .Type "responses" -}}
+        {{ partial "post/responses-item.html" . }}
+      {{ else -}}
+        {{ partial "post/notes-item.html" . }}
+      {{ end -}}
     {{ end }}
   </div>
-  <p class="main__more"><a href={{ $notesURL }} class="button">More Notes ⤳</a></p>
+  <p class="main__more"><a href={{ $notesURL }} class="button">More Micros ⤳</a></p>
 
 
 {{ end }}

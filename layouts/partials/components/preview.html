@@ -1,0 +1,7 @@
+{{ $list_span := . | replaceRE "<li( id=\"fn:[\\d]+\" role=\"doc-endnote\")?>(\\n<p>)?" "<li${1}>${2}<span></span>" }}
+{{ $fntag := $list_span | replaceRE "(<sup id=\"fnref:\\d{1,5}\")" "${1} style=\"display:none;\" " }}
+{{ $footnote := $fntag | replaceRE "(<div class=\"footnotes\")" "${1} style=\"display:none;\" " }}
+{{ $headerbefore := $footnote | replaceRE "(<a) (class=\"before-hash\")" "${1} style=\"display:none;\" ${2}" }}
+{{ $headerafter := $footnote | replaceRE "(<a) (class=\"headline-hash\")" "${1} style=\"display:none;\" ${2}" }}
+{{ $checkbox_non_disabled := $headerafter | replaceRE "disabled=\"\" type=\"checkbox" "type=\"checkbox" }}
+{{ $checkbox_non_disabled | safeHTML }}

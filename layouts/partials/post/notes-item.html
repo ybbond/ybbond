@@ -20,15 +20,14 @@
     <a class="p-category" href={{ "notes/" | absURL }}>notes</a>
   </div>
   <p class="notes__title">
-    <span>
-      <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7" class="notes__title__date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
-        {{ .Date.Format "02 Jan 2006" }}
-      </time>
-        {{ if .Title }}
-        {{ else }}
-          <a data-goatcounter-click="cl-note-hash" class="u-url" href="/notes/#{{ $idslug }}">#</a> <a data-goatcounter-click="cl-note-full" href={{ .Permalink }}>»</a>
-        {{ end }}
-    </span>
+    <a data-goatcounter-click="cl-note-full" href={{ .Permalink }}>
+      <span>
+        <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7" class="notes__title__date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
+          {{ .Date.Format "02 Jan 2006" }}
+        </time>
+        »
+      </span>
+    </a>
   </p>
   <div class="notes__content e-content p-content p-name">
     {{ .Content }}

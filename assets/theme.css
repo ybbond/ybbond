@@ -48,11 +48,12 @@
   }
 
   /* content */
-  .notes:target {
+  .notes:target, .responses:target {
     outline-color: var(--light-background-hover);
   }
-  .responses:target {
-    outline-color: var(--light-background-hover);
+  .notes__title, .responses__title {
+    background-color: var(--light-background);
+    outline-color: var(--light-text);
   }
 
   .view-full-size svg {
@@ -137,11 +138,12 @@
   }
 
   /* content */
-  .notes:target {
+  .notes:target, .responses:target {
     outline-color: var(--dark-background-hover);
   }
-  .responses:target {
-    outline-color: var(--dark-background-hover);
+  .notes__title, .responses__title {
+    background-color: var(--dark-background);
+    outline-color: var(--dark-text);
   }
 
   .view-full-size svg {

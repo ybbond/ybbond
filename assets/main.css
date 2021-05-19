@@ -95,6 +95,9 @@ time[title] {
   height: .9em;
 }
 
+.listing__bottom {
+  margin-top: 3rem;
+}
 .listing__post {
   width: 100%;
   display: inline-block;
@@ -113,6 +116,10 @@ time[title] {
   margin-bottom: 0;
   margin-right: 0.3em;
   text-align: right;
+}
+
+.single__micro {
+  margin-top: 4rem;
 }
 
 .summary {

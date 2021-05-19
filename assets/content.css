@@ -23,6 +23,12 @@
   left: -2.4em;
 }
 
+.content.notes.h-entry, .content.responses.h-entry {
+  /*padding: 4px 10px 1px 10px;*/
+  padding: .1px;
+  outline: solid 1px black;
+}
+
 .content figcaption {
   font-size: 0.8em;
 }
@@ -118,36 +124,51 @@
   margin: 4em 0 0;
 }
 
-.notes {
-  margin-bottom: 2rem;
+.notes, .responses {
+  margin-bottom: 3rem;
 }
-.notes > div, .notes > p {
+.notes > div, .notes > p, .responses > div, .responses > p {
   margin: 0;
   margin-top: 0.7rem;
 }
-.notes > div > p, .notes > p > p {
+.notes > div > p, .notes > p > p, .responses > div > p, .responses > p > p {
   margin: 0;
   margin-top: 0.7rem;
 }
-.notes:target {
+.notes:target, .responses:target {
   outline-style: solid;
   outline-width: 0.2em;
   outline-offset: 0.6em;
 }
 
-.notes__title {
-  margin: 0;
+.content.notes, .content.responses {
+  position: relative;
 }
-.notes__title a {
+
+.notes__title, .responses__title {
+  position: absolute;
+  top: -1.8rem;
+  left: 1.5rem;
+  margin: 0;
+  padding: .2rem .5rem;
+  outline-width: 1px;
+  outline-style: solid;
+}
+
+.notes__title a, .responses__title a {
   font-family: var(--font-mono);
 }
 
-.notes__content {
-  margin-top: 0 !important;
+.responses__original {
+  margin: 1.2rem 0 !important;
 }
-.notes__content > p {
-  margin-top: 0 !important;
+
+.notes__content, .responses__content {
+  margin: 2rem 1rem 1px 1.5rem !important;
 }
+/*.notes__content > p, .responses__content > p {
+  margin-top: 0 !important;
+}*/
 
 .twitter-link {
   margin-bottom: 0.2rem;
@@ -159,22 +180,6 @@
   font-size: 0.9rem;
 }
 
-.responses {
-  margin-bottom: 3rem;
-}
-.responses:target {
-  outline-style: solid;
-  outline-width: 0.2rem;
-  outline-offset: 1.3rem;
-}
-
 .responses h1 {
   margin-bottom: 0;
-}
-
-.responses__subtitle {
-  margin: 0;
-}
-.responses__subtitle a {
-  font-family: var(--font-mono);
 }

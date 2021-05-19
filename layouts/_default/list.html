@@ -36,6 +36,15 @@
     {{ range (where .Site.RegularPages "Type" "responses") }}
       {{ partial "post/responses-item.html" . }}
     {{ end }}
+  {{ else if  eq .Type "micro" }}
+    {{ range (where .Site.RegularPages "Type" "in" (slice "notes" "responses")) }}
+      {{ .Scratch.Set "scope" "list" }}
+      {{ if eq .Type "responses" -}}
+        {{ partial "post/responses-item.html" . }}
+      {{ else -}}
+        {{ partial "post/notes-item.html" . }}
+      {{ end -}}
+    {{ end }}
   {{ else }}
     {{ range .Paginator.Pages }}
       {{ partial "post/summary.html" . }}
