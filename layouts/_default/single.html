@@ -14,9 +14,9 @@
   {{ else }}
     <article class="content h-entry">
       <h1 class="p-name">{{ .Title }}</h1>
-      <div id="h-card" class="hcard" hidden="">
-        <img class="u-photo" src={{ "logo.png" | absURL }} />
-        <a class="p-author h-card" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
+      <div id="h-card" class="h-card u-author" hidden="">
+        <data class="u-photo" value={{ "logo.png" | absURL }}></data>
+        <a class="p-author" href={{ .Site.Params.MainSiteURL }} rel="author">{{ substr .Site.Params.Author 0 20 }}.</a>
         <a class="u-email" href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
         <a rel="syndication" class="u-syndication" href={{ .Permalink }}>{{ .Title }}</a>
         <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
@@ -26,7 +26,7 @@
           {{ end }}
         {{ end }}
       </div>
-      <div class="p-content e-content">
+      <div class="e-content">
         {{ partial "components/content.html" .Content }}
       </div>
 
