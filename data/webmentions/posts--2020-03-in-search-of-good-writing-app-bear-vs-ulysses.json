@@ -1,0 +1,27 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "In response to «In Search of Good Writing App - Bear vs Ulysses» by «YBBond»",
+      "photo": "https://webmention.io/avatar/ybbond.id/45bb9b4827465744e160601fca0f7235d051ac3c5316d7bcdc73943dfd7a8259.png",
+      "url": ""
+    },
+    "url": "https://ybbond.id/responses/response-20200401221447/",
+    "published": "2020-04-01T22:14:47+07:00",
+    "wm-received": "2021-05-19T21:28:24Z",
+    "wm-id": 1164012,
+    "wm-source": "https://ybbond.id/responses/response-20200401221447/",
+    "wm-target": "https://ybbond.id/posts/2020-03-in-search-of-good-writing-app-bear-vs-ulysses/",
+    "content": {
+      "html": "<p>I’ve made the second post related to the journey of the best writing app. Here is <a href=\"https://ybbond.id/posts/2020-04-in-search-of-good-writing-app-part-2-ia-writer-vs-ivim/\">the link</a></p>",
+      "text": "I’ve made the second post related to the journey of the best writing app. Here is the link"
+    },
+    "in-reply-to": "https://ybbond.id/posts/2020-03-in-search-of-good-writing-app-bear-vs-ulysses/",
+    "wm-property": "in-reply-to",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://ybbond.id/responses/response-20200401221447/"
+    }
+  }
+]
