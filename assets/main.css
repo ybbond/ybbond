@@ -229,10 +229,17 @@ a.wm-avatar {
   font-size: 0.6rem;
   margin-right: 0.4rem;
 }
-img.wm-avatar {
+img.wm-avatar, div.wm-avatar {
   width: 2rem;
   height: 2rem;
   border-radius: 1rem;
+}
+div.wm-avatar {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
 }
 
 .wm-reply {
