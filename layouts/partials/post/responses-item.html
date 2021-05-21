@@ -25,7 +25,7 @@
     </a>
   </p>
   <div class="responses__content">
-    <p class="responses__original"><a class="u-in-reply-to" href={{ .Params.Destination.Url }}>{{ $title }}</a></p>
+    <p class="responses__original"><a class="u-in-reply-to" href={{ .Params.Destination.Url }} rel="noopenner noreferrer nofollow">{{ $title }}</a></p>
     <div class="e-content">
       {{ if eq ($.Scratch.Get "scope") "single" }}
         {{ partial "components/content.html" .Content }}
