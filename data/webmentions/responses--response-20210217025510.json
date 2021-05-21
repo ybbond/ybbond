@@ -1,0 +1,27 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Henrique Dias",
+      "photo": "https://webmention.io/avatar/hacdias.com/664891eacca0e5248f8e6c7b5849da5c82f3a7d58fe9693e730338d01513b117.jpg",
+      "url": "https://hacdias.com"
+    },
+    "url": "https://hacdias.com/micro/2021/02/re-is-it-time-to-build-my-cms-errors/",
+    "published": "2021-02-16T20:21:25",
+    "wm-received": "2021-05-21T06:14:32Z",
+    "wm-id": 1165657,
+    "wm-source": "https://hacdias.com/micro/2021/02/re-is-it-time-to-build-my-cms-errors/",
+    "wm-target": "https://ybbond.id/responses/response-20210217025510/",
+    "content": {
+      "html": "<p>Hey! Thanks for noticing that. It’s fixed now.</p><p>I think you should do it, if you want! I will probably keep going using my “wrapper” and eventually consider a full blown CMS if it doesn’t escalate.</p>",
+      "text": "Hey! Thanks for noticing that. It’s fixed now.I think you should do it, if you want! I will probably keep going using my “wrapper” and eventually consider a full blown CMS if it doesn’t escalate."
+    },
+    "in-reply-to": "https://ybbond.id/responses/response-20210217025510/",
+    "wm-property": "in-reply-to",
+    "wm-private": false,
+    "rels": {
+      "canonical": "https://hacdias.com/micro/2021/02/re-is-it-time-to-build-my-cms-errors/"
+    }
+  }
+]
