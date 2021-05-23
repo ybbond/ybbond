@@ -34,8 +34,14 @@
       <p>Read More »</p>
     </a>
   {{ else }}
-    <div class="content">
-      {{ partial "components/summary-seo.html" .Content }}
-    </div>
+    {{ if eq .Type "archives" }}
+      <div class="content">
+        {{ partial "components/summary-seo.html" .Content }}
+      </div>
+    {{ else }}
+      <a data-goatcounter-click="rmore-{{ $slug }}" href="{{ $permalink }}" class="no-outline">
+        <p>Read More »</p>
+      </a>
+    {{ end }}
   {{ end }}
 </article>

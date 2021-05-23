@@ -9,16 +9,23 @@
     <span class="p-locality">Jakarta</span>, <span class="p-country-name">Indonesia</span>
   </div>
   <p class="notes__title">
-    <a data-goatcounter-click="cl-note-full" class="u-url" href={{ .Permalink }}>
-      <span>
-        <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7" class="notes__title__date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">
-          {{ .Date.Format "02 Jan 2006" }}
-        </time>
-        »
+    <a data-goatcounter-click="cl-note-full" class="no-outline" href={{ .Permalink }}>
+        <time title="{{ .Date.Format "Monday, 02 January 2006 on 15:04:05" }} GMT+7" class="notes__title__date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}+07:00">{{ .Date.Format "02 Jan 2006" }}</time></a>
+    &nbsp;-
+    {{ with .Params.tags }}
+      <span class="hcard-tags">
+        {{ range . }}
+          {{- partial "components/tagitem.html" . -}}
+        {{ end }}
       </span>
-    </a>
+    {{ end }}
   </p>
   <div class="notes__content e-content p-name">
     {{ .Content }}
   </div>
+  <p class="notes__more">
+    <a data-goatcounter-click="cl-note-full" class="u-url" href={{ .Permalink }}>
+      Read More »
+    </a>
+  </p>
 </div>

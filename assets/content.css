@@ -28,6 +28,7 @@
   padding: .1px;
   outline-style: solid;
   outline-width: 1px;
+  margin-bottom: 4rem;
 }
 
 .content figcaption {
@@ -165,11 +166,20 @@
 }
 
 .notes__content, .responses__content {
-  margin: 2rem 1rem 1px 1.5rem !important;
+  margin: 2rem 1rem 2rem 1.5rem !important;
 }
 /*.notes__content > p, .responses__content > p {
   margin-top: 0 !important;
 }*/
+
+.notes__more, .responses__more {
+  position: absolute;
+  bottom: -1rem;
+  margin: 0;
+  padding: .2rem .5rem;
+  outline-width: 1px;
+  outline-style: solid;
+}
 
 .twitter-link {
   margin-bottom: 0.2rem;

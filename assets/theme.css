@@ -51,7 +51,12 @@
   .notes:target, .responses:target {
     outline-color: var(--light-background-hover);
   }
-  .notes__title, .responses__title, .content.notes.h-entry, .content.responses.h-entry {
+  .notes__title,
+  .responses__title,
+  .notes__more,
+  .responses__more,
+  .content.notes.h-entry,
+  .content.responses.h-entry {
     background-color: var(--light-background);
     outline-color: var(--light-text);
   }
@@ -93,7 +98,7 @@
 
   /* footer */
   .footer .hcard {
-    border: solid 1px var(--light-border);
+    border: solid 1px var(--light-text);
   }
   .footer .hcard__description {
     background-color: var(--light-background);
@@ -153,7 +158,12 @@
   .notes:target, .responses:target {
     outline-color: var(--dark-background-hover);
   }
-  .notes__title, .responses__title, .content.notes.h-entry, .content.responses.h-entry {
+  .notes__title,
+  .responses__title,
+  .notes__more,
+  .responses__more,
+  .content.notes.h-entry,
+  .content.responses.h-entry {
     background-color: var(--dark-background);
     outline-color: var(--dark-text);
     outline-width: 0.5px;
@@ -196,7 +206,7 @@
 
   /* footer */
   .footer .hcard {
-    border: solid 1px var(--dark-border);
+    border: solid 1px var(--dark-text);
   }
   .footer .hcard__description {
     background-color: var(--dark-background);

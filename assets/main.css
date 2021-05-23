@@ -102,18 +102,6 @@ time[title] {
 .listing__bottom {
   margin-top: 3rem;
 }
-.listing__post {
-  width: 100%;
-  display: inline-block;
-  padding: 0.3rem 0;
-}
-.listing__post__title {
-  margin: 0.01rem;
-}
-.listing__post__description {
-  margin: 0;
-  margin-top: 0.8em;
-}
 
 .main__more {
   padding: 1em 0 0;

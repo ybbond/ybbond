@@ -47,8 +47,14 @@
     {{ end }}
   {{ else }}
     {{ range .Paginator.Pages }}
-      {{ partial "post/summary.html" . }}
-      <hr>
+      {{ if eq .Type "responses" -}}
+        {{ partial "post/responses-item.html" . }}
+      {{ else if eq .Type "notes" -}}
+        {{ partial "post/notes-item.html" . }}
+      {{ else -}}
+        {{ partial "post/summary.html" . }}
+        <hr>
+      {{ end -}}
     {{ end }}
     {{ partial "post/pagination.html" . }}
   {{ end }}

@@ -8,31 +8,17 @@
 
   <hr>
 
-  <h2>Blog Posts:</h2>
+  <h2>My Latest Blog Posts:</h2>
   <div href={{ $postURL }} class="listing__top">
     {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
-      <a
-        href={{ .Permalink }}
-        class="listing__post"
-      >
-        <h3 class="listing__post__title">
-          {{ .Title }}
-        </h3>
-        <time class="listing__post__date">
-          {{ .Date.Format "02 Jan 2006" }}
-        </time>
-        {{ with .Description }}
-          <p class="link-white listing__post__description">{{ . | safeHTML }}</p>
-        {{ end }}
-        <p class="listing__post__description">Read More »</p>
-      </a>
+      {{ partial "post/summary.html" . }}
     {{ end }}
   </div>
   <p class="main__more"><a href={{ $postURL }} class="button">More Blogs ⤳</a></p>
 
   <hr>
 
-  <h2>My Micro:</h2>
+  <h2>My Latest Micros:</h2>
   <div class="listing__bottom">
     {{ range first 5 (where .Site.RegularPages "Type" "in" (slice "notes" "responses")) }}
       {{ .Scratch.Set "scope" "list" }}
