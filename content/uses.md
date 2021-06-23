@@ -23,11 +23,12 @@ Some others satisfy my hobbies.
 
 ### Platforms
 
-- **Macbook Pro 2018 13"** <small>(Office)</small>
+- **Macbook Air M1, 2020** <small>(Home)</small>
+- ~~Macbook Pro 2018 13" <small>(Office)</small>~~
 - ~~Mac Mini 2018 i3 128GB <small>(Home)</small>~~
 - **Beelink U57** <small>(Home)</small>
 - **Macbook White Unibody mid 2010** <small>(Experiments) [my note][mbwhite]</small>
-- Low End PC with Manjaro Linux i3 ~~XFCE~~ <small>(Experiments)</small>
+- ~~Low End PC with Manjaro Linux i3 XFCE <small>(Experiments)</small>~~
 - **iPhone 12 Mini 128GB**
 - ~~iPad Mini 5 WiFi 64GB~~
 - ~~iPhone SE (2016) 128GB~~
@@ -51,9 +52,10 @@ Some others satisfy my hobbies.
 - **Z Shell** (zsh) <small>[.zshrc][zshrc]</small>
   <small>now macOS use this as default shell.</small>
 - **tmux** <small>on</small> **kitty** <small>[tmux.conf][tmux], [kitty.conf][kitty]</small>
+- **Sublime Text** and **Sublime Merge**
 - **nnn**, <small>n³ The missing terminal file manager for X.</small>
-- **lazygit** <small>[my post about this, and related git commands][lazygit]</small>
-- I also have license for **Sublime Text** and **Onivim 2** that I rarely use.
+- ~~lazygit <small>[my post about this, and related git commands][lazygit]</small>~~
+- I also have license for **Onivim 2** that I rarely use.
 
 ### Daily Applications
 
@@ -73,7 +75,7 @@ Some others satisfy my hobbies.
 
 ### Services
 
-- **Fastmail** <small>For custom domain email, and I like the service in general.</small>
+- **Private Email** <small>Temporary custom email domain. Waiting for iCloud+</small>
 - **BitWarden** <small>Good free password manager.</small>
 - **GitHub** <small>Learning materials, hobby projects and this site's source code is in GH.</small>
 - **Hugo** <small>the main building block for this site.</small>
@@ -83,6 +85,8 @@ Some others satisfy my hobbies.
 
 <details><summary>Previously Used Apps Here</summary>
 
+- **Fastmail** → **Private Email**
+  <small>For custom domain email, and I like the service in general.</small>
 - **Canary mail** → Apple Mail
   <small>lightweight email client with configurable keyboard shortcuts, and PGP encryption</small>
 - **Reeder 4** → **NetNewsWire**
