@@ -183,17 +183,26 @@ time[title] {
   display: flex;
   flex-direction: row;
 }
+.wm-form p {
+  font-size: .9rem;
+}
 .wm-form__textfield {
   padding: .5rem;
   flex: 1;
 }
-.wm-form__button {
+.wm-form__button,
+.wm-form__comment {
   cursor: pointer;
   display: inline-block;
   padding: .5rem .7rem;
   border-style: solid;
   border-width: 1px;
+}
+.wm-form__button {
   margin-left: .5rem;
+}
+.wm-form__comment {
+  flex: 1;
 }
 
 .wm-hr {

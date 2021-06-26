@@ -9,10 +9,20 @@
 </h3>
 
 <div class="wm-form">
+  <p>Submit your WebMention reply URL:</p>
   <form action="https://webmention.io/ybbond.id/webmention" method="post">
     <input aria-label="Webmention Source" name="source" placeholder="Paste the URL to your response of this post!" type="url" required="" class="wm-form__textfield">
     <input name="target" value="{{ .Permalink }}" type="hidden">
     <input value="Send Webmention" type="submit" class="wm-form__button">
+  </form>
+
+  <p>Does not know WebMention?<br>Use commentpara.de to reply:</p>
+
+  <form method="get" action="https://quill.p3k.io/" target="_blank">
+    <input type="hidden" name="dontask" value="1">
+    <input type="hidden" name="me" value="https://commentpara.de/">
+    <input type="hidden" name="reply" value="{{ .Permalink }}">
+    <input class="wm-form__comment" type="submit" value="Write anonymous reply">
   </form>
 
 <!--

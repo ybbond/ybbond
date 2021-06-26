@@ -85,12 +85,14 @@
   }
 
   /* webmention */
-  .wm-form__button {
+  .wm-form__button,
+  .wm-form__comment {
     background-color: var(--light-background);
     border-color: var(--light-blue);
     color: var(--light-blue);
   }
-  .wm-form__button:hover {
+  .wm-form__button:hover,
+  .wm-form__comment:hover {
     background-color: var(--light-background-hover);
     border-color: var(--light-red);
     color: var(--light-red);
@@ -193,12 +195,14 @@
   }
 
   /* webmention */
-  .wm-form__button {
+  .wm-form__button,
+  .wm-form__comment {
     background-color: var(--dark-background);
     border-color: var(--dark-blue);
     color: var(--dark-blue);
   }
-  .wm-form__button:hover {
+  .wm-form__button:hover,
+  wm-form__comment:hover {
     background-color: var(--dark-background-hover);
     border-color: var(--dark-red);
     color: var(--dark-red);
