@@ -1,0 +1,83 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Anonymous",
+      "photo": "https://webmention.io/avatar/commentpara.de/ef200c8b639d79d1cfbc0abf0e25f42dcbc585b4398003dd90f5a56c9d56e3bf.svg",
+      "url": ""
+    },
+    "url": "https://commentpara.de/comment/866.htm",
+    "published": null,
+    "wm-received": "2021-06-26T23:05:26Z",
+    "wm-id": 1202328,
+    "wm-source": "https://commentpara.de/comment/866.htm",
+    "wm-target": "https://ybbond.id/responses/response-20210520121441/",
+    "content": {
+      "text": "Now I am trying to anonymously reply via CommentPara.de. Inspired by many implementors, especially hacdias.com."
+    },
+    "in-reply-to": "https://ybbond.id/responses/response-20210520121441/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "ybbond",
+      "photo": "https://webmention.io/avatar/ybbond.id/45bb9b4827465744e160601fca0f7235d051ac3c5316d7bcdc73943dfd7a8259.png",
+      "url": ""
+    },
+    "url": "https://commentpara.de/comment/867.htm",
+    "published": null,
+    "wm-received": "2021-06-26T23:05:54Z",
+    "wm-id": 1202330,
+    "wm-source": "https://commentpara.de/comment/867.htm",
+    "wm-target": "https://ybbond.id/responses/response-20210520121441/",
+    "content": {
+      "text": "Now I am trying to reply to myself with name and email via CommentPara.de. Inspired by many implementors, especially hacdias.com."
+    },
+    "in-reply-to": "https://ybbond.id/responses/response-20210520121441/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Anonymous",
+      "photo": "https://webmention.io/avatar/commentpara.de/ef200c8b639d79d1cfbc0abf0e25f42dcbc585b4398003dd90f5a56c9d56e3bf.svg",
+      "url": ""
+    },
+    "url": "https://commentpara.de/comment/868.htm",
+    "published": null,
+    "wm-received": "2021-06-26T23:06:12Z",
+    "wm-id": 1202331,
+    "wm-source": "https://commentpara.de/comment/868.htm",
+    "wm-target": "https://ybbond.id/responses/response-20210520121441/",
+    "content": {
+      "text": "Now I am trying to anonymously reply via CommentPara.de. Inspired by many implementors, especially hacdias.com."
+    },
+    "in-reply-to": "https://ybbond.id/responses/response-20210520121441/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Anonymous",
+      "photo": "https://webmention.io/avatar/commentpara.de/ef200c8b639d79d1cfbc0abf0e25f42dcbc585b4398003dd90f5a56c9d56e3bf.svg",
+      "url": ""
+    },
+    "url": "https://commentpara.de/comment/870.htm",
+    "published": null,
+    "wm-received": "2021-06-26T23:06:22Z",
+    "wm-id": 1202332,
+    "wm-source": "https://commentpara.de/comment/870.htm",
+    "wm-target": "https://ybbond.id/responses/response-20210520121441/",
+    "like-of": "https://ybbond.id/responses/response-20210520121441/",
+    "wm-property": "like-of",
+    "wm-private": false
+  }
+]
