@@ -115,10 +115,10 @@ Some others satisfy my hobbies.
 [ducky]: https://twitter.com/ybbond/status/1146845120618090497
 [video]: https://twitter.com/ybbond/status/1262066984763527168
 
-[kitty]: https://git.ybbond.id/dotfiles/file/.config/kitty/kitty.conf.html
-[nvim]: https://git.ybbond.id/dotfiles/file/.config/nvim/init.vim.html
-[tmux]: https://git.ybbond.id/dotfiles/file/.tmux.conf.html
-[zshrc]: https://git.ybbond.id/dotfiles/file/.zshrc.html
+[kitty]: https://github.com/ybbond/dotfiles/tree/master/.config/kitty/kitty.conf.html
+[nvim]: https://github.com/ybbond/dotfiles/tree/master/.config/nvim/init.vim.html
+[tmux]: https://github.com/ybbond/dotfiles/tree/master/.tmux.conf.html
+[zshrc]: https://github.com/ybbond/dotfiles/tree/master/.zshrc.html
 
 [zettelkasten]: https://zettelkasten.de/
 
