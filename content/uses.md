@@ -11,12 +11,12 @@ Some others satisfy my hobbies.
 § [Hardware](#hardware)
 &nbsp;&nbsp; »  [Platforms](#platforms)
 &nbsp;&nbsp; »  [Peripherals](#peripherals)
+&nbsp;&nbsp; »  [Past Hardwares](#past-hardwares)
 § [Software](#software)
 &nbsp;&nbsp; »  [Development](#development)
 &nbsp;&nbsp; »  [Daily Applications](#daily-applications)
 &nbsp;&nbsp; »  [Working](#working)
 &nbsp;&nbsp; »  [Services](#services)
-&nbsp;&nbsp; »  [Zettelkasten](#zettelkasten)
 &nbsp;&nbsp; »  [Previous Apps](#previous-apps)
 
 ## Hardware
@@ -24,37 +24,43 @@ Some others satisfy my hobbies.
 ### Platforms
 
 - **Macbook Air M1, 2020** <small>(Home)</small>
-- ~~Macbook Pro 2018 13" <small>(Office)</small>~~
-- ~~Mac Mini 2018 i3 128GB <small>(Home)</small>~~
 - **Beelink U57** <small>(Home)</small>
 - **Macbook White Unibody mid 2010** <small>(Experiments) [my note][mbwhite]</small>
-- ~~Low End PC with Manjaro Linux i3 XFCE <small>(Experiments)</small>~~
 - **iPhone 12 Mini 128GB**
-- ~~iPad Mini 5 WiFi 64GB~~
-- ~~iPhone SE (2016) 128GB~~
 
 ### Peripherals
 
 - **Ducky One 2 Mini Keyboard** <small>[gif image on Twitter][ducky]
   P/N <code>DKON1861ST</code></small>
 - **NuPhy NuType F1 Keyboard** <small>[my review post][nuphy]</small>
+- **AOC Q24P2C** <small>24" rotatable monitor</small>
 - **Dell U2419H** <small>24" rotatable monitor</small>
-- **Dell E2216H** <small>22" rotatable monitor</small>
 - **Roland Electric Piano FP-30**
 - Guitars. Many of them.
+
+### Past Hardwares
+
+<details><summary>Obsolete or Sold Hardwares Here</summary>
+
+- **Mac Mini 2018** i3 128GB <small>(Home)</small>
+- **Macbook Pro 2018** 13" <small>(Office)</small>
+- **iPad Mini 5** WiFi 64GB
+- **iPhone SE (2016)** 128GB
+- Low End PC with Manjaro Linux i3 XFCE <small>(Experiments)</small>
+- **Dell E2216H** <small>22" rotatable monitor</small>
+
+</details>
 
 
 ## Software
 
 ### Development
 
-- **Neovim** <small>[init.vim][nvim]</small>
+- **Neovim** <small>[init.lua][nvim]</small>
 - **Z Shell** (zsh) <small>[.zshrc][zshrc]</small>
   <small>now macOS use this as default shell.</small>
 - **tmux** <small>on</small> **kitty** <small>[tmux.conf][tmux], [kitty.conf][kitty]</small>
 - **Sublime Text** and **Sublime Merge**
-- **nnn**, <small>n³ The missing terminal file manager for X.</small>
-- ~~lazygit <small>[my post about this, and related git commands][lazygit]</small>~~
 - I also have license for **Onivim 2** that I rarely use.
 
 ### Daily Applications
@@ -65,17 +71,11 @@ Some others satisfy my hobbies.
 - **Obsidian** <small>daily notes and trying to implement [zettelkasten][zettelkasten]</small>
 - **iA Writer** <small>[my post about it][iawriter]</small>
   <small>I write my Hugo post mostly with this app.</small>
-- **FSNotes** <small>[screencast on Twitter][video]
-  A very good note taking app.
-  If you are familiar with nvALT, FSNotes feels much better.</small>
-- **Ripcord** <small>chat client for Slack and Discord
-  The official **Slack** and **Discord** desktop client uses **Electron**, I don't like that.
-  [Ripcord][ripcord] is a shareware that is based on, I don't know, it looks like **GTK+**.</small>
 
 
 ### Services
 
-- **Private Email** <small>Temporary custom email domain. Waiting for iCloud+</small>
+- **Google Workspace** <small>¯\\\_(ツ)\_/¯</small>
 - **BitWarden** <small>Good free password manager.</small>
 - **GitHub** <small>Learning materials, hobby projects and this site's source code is in GH.</small>
 - **Hugo** <small>the main building block for this site.</small>
@@ -85,8 +85,20 @@ Some others satisfy my hobbies.
 
 <details><summary>Previously Used Apps Here</summary>
 
+- **Private Email** → **Google Workspace**
+  <small>Temporary custom email domain. Waiting for iCloud+</small>
 - **Fastmail** → **Private Email**
   <small>For custom domain email, and I like the service in general.</small>
+- **nnn**, <small>n³ The missing terminal file manager for X.</small>
+- lazygit <small>[my post about this, and related git commands][lazygit]</small>
+- **FSNotes** → **Drafts**
+  <small>[screencast on Twitter][screencast]
+  A very good note taking app.
+  If you are familiar with nvALT, FSNotes feels much better.</small>
+- **Ripcord** → The official apps
+  <small>chat client for Slack and Discord
+  The official **Slack** and **Discord** desktop client uses **Electron**, I don't like that.
+  [Ripcord][ripcord] is a shareware that is based on, I don't know, it looks like **GTK+**.</small>
 - **Canary mail** → Apple Mail
   <small>lightweight email client with configurable keyboard shortcuts, and PGP encryption</small>
 - **Reeder 4** → **NetNewsWire**
@@ -113,14 +125,13 @@ Some others satisfy my hobbies.
 [nuphy]: /posts/2020-04-nuphy-nutype-f1-keyboard-review/
 
 [ducky]: https://twitter.com/ybbond/status/1146845120618090497
-[video]: https://twitter.com/ybbond/status/1262066984763527168
+[screencast]: https://twitter.com/ybbond/status/1262066984763527168
 
-[kitty]: https://github.com/ybbond/dotfiles/tree/master/.config/kitty/kitty.conf.html
-[nvim]: https://github.com/ybbond/dotfiles/tree/master/.config/nvim/init.vim.html
-[tmux]: https://github.com/ybbond/dotfiles/tree/master/.tmux.conf.html
-[zshrc]: https://github.com/ybbond/dotfiles/tree/master/.zshrc.html
+[kitty]: https://github.com/ybbond/dotfiles/blob/master/.config/kitty/kitty-dark.conf
+[nvim]: https://github.com/ybbond/dotfiles/blob/master/.config/nvim/
+[tmux]: https://github.com/ybbond/dotfiles/blob/master/.tmux-dark.conf
+[zshrc]: https://github.com/ybbond/dotfiles/tree/master/.zshrc
 
 [zettelkasten]: https://zettelkasten.de/
 
-[xit]: https://github.com/Uncommon/Xit
 [ripcord]: https://cancel.fm/ripcord/
