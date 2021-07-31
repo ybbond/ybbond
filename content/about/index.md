@@ -4,7 +4,7 @@ menu: about
 description: "Hi, my name is Yohanes Bandung Bondowoso"
 ---
 
-People call me **Bandung**. ૮ ・ﻌ・ა
+People call me **Bandung**.
 
 ![photo by <a rel="nofollow noreferrer" title="Link to Soraya Azizah Instagram profile" href="https://www.instagram.com/bysorayaazizah/">Soraya Azizah</a>](bandung-mosh-on-tarintih.jpg "Photo of Bandung a moment before crowd-surfing on a band performance")
 
@@ -42,5 +42,6 @@ translating their abstract ideas to ready-to-print material.
 - from [Jakarta, Indonesia](https://www.openstreetmap.org/relation/6362934#map=11/-6.1767/106.8290)
 
 <br>
+ ૮ ・ﻌ・ა
 <br>
 <span id="down">See you sooner :D</span>
