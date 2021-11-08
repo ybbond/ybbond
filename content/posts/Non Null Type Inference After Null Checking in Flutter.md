@@ -5,7 +5,13 @@ author: Yohanes Bandung Bondowoso
 description: It is silly that Flutter cannot dictate from the null check not a moment ago, and infer that a variable is in fact non-nullable. There is only one possible control flow from that point on! Bang operator is risky because there's possibility of neglecting the operator in future refactoring. So I use this approach.
 tags:
   - flutter #flutter
+  - dart #dart
   - programming #programming
+  - tutorial #tutorial
+twitter:
+  link: https://twitter.com/ybbond/status/1457711316513091590
+mastodon:
+  link: https://indieweb.social/web/@ybbond/107241833365947452
 date: 2021-11-08T20:59:49+0700
 ID: 1636380000
 ---
