@@ -172,6 +172,6 @@ Is passing method parameter counts as declaring new variable? I honestly don’t
 
 ## References
 
-- https://github.com/dart-lang/language/issues/1472
-- https://groups.google.com/a/dartlang.org/g/misc/c/xYKOXNMiFpI
-- https://stackoverflow.com/questions/65456958/dart-null-safety-doesnt-work-with-class-fields/65457221#65457221
+- GitHub of [dart-lang issue #1472](https://github.com/dart-lang/language/issues/1472)
+- dartlang.org Google Group thread titled "[Non-null inference after null check with class fields](https://groups.google.com/a/dartlang.org/g/misc/c/xYKOXNMiFpI)"
+- StackOverflow accepted answer of question "[Dart null safety doesn't work with class fields](https://stackoverflow.com/questions/65456958/dart-null-safety-doesnt-work-with-class-fields/65457221#65457221)"
