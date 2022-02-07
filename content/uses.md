@@ -75,7 +75,7 @@ Some others satisfy my hobbies.
 
 ### Services
 
-- **Google Workspace** <small>¯\\\_(ツ)\_/¯</small>
+- **iCloud Mail** <small>I subscribed to cheap iCloud+, and got the privilege to use custom domain for free</small>
 - **BitWarden** <small>Good free password manager.</small>
 - **GitHub** <small>Learning materials, hobby projects and this site's source code is in GH.</small>
 - **Hugo** <small>the main building block for this site.</small>
@@ -85,6 +85,7 @@ Some others satisfy my hobbies.
 
 <details><summary>Previously Used Apps Here</summary>
 
+- **Google Workspace** <small>¯\\\_(ツ)\_/¯</small>
 - **Private Email** → **Google Workspace**
   <small>Temporary custom email domain. Waiting for iCloud+</small>
 - **Fastmail** → **Private Email**
