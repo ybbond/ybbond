@@ -59,6 +59,8 @@ Some others satisfy my hobbies.
 - **Neovim** <small>[init.lua][nvim]</small>
 - **Z Shell** (zsh) <small>[.zshrc][zshrc]</small>
   <small>now macOS use this as default shell.</small>
+- **WezTerm** <small>[wezterm.lua][wezterm]</small>
+  <small>slowly moving to this terminal from mentioned-below <code>kitty</code>.</small>
 - **tmux** <small>on</small> **kitty** <small>[tmux.conf][tmux], [kitty.conf][kitty]</small>
 - **Sublime Text** and **Sublime Merge**
 - I also have license for **Onivim 2** that I rarely use.
@@ -128,6 +130,7 @@ Some others satisfy my hobbies.
 [ducky]: https://twitter.com/ybbond/status/1146845120618090497
 [screencast]: https://twitter.com/ybbond/status/1262066984763527168
 
+[wezterm]: https://github.com/ybbond/dotfiles/blob/master/.config/wezterm/wezterm.lua
 [kitty]: https://github.com/ybbond/dotfiles/blob/master/.config/kitty/kitty-dark.conf
 [nvim]: https://github.com/ybbond/dotfiles/blob/master/.config/nvim/
 [tmux]: https://github.com/ybbond/dotfiles/blob/master/.tmux-dark.conf
