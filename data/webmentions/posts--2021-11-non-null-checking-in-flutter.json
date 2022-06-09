@@ -1,0 +1,23 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Anonymous",
+      "photo": "https://webmention.io/avatar/commentpara.de/ef200c8b639d79d1cfbc0abf0e25f42dcbc585b4398003dd90f5a56c9d56e3bf.svg",
+      "url": ""
+    },
+    "url": "https://commentpara.de/comment/1040.htm",
+    "published": null,
+    "wm-received": "2022-06-09T04:56:59Z",
+    "wm-id": 1411897,
+    "wm-source": "https://commentpara.de/comment/1040.htm",
+    "wm-target": "https://ybbond.id/posts/2021-11-non-null-checking-in-flutter/",
+    "content": {
+      "text": "Flutter youtube channel just published a similar video: https://www.youtube.com/watch?v=2Cl0C-9dK48"
+    },
+    "in-reply-to": "https://ybbond.id/posts/2021-11-non-null-checking-in-flutter/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  }
+]
