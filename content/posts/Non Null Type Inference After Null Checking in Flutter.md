@@ -65,7 +65,7 @@ After browsing the internet for a bit, I found that there **was** a mention in t
 
 which used to be [in this page of docs](https://dart.dev/null-safety), but currently not exists.
 
-From that documentation text, implied that non-null inference can be done in a local scope.So if we define new local variable and do null check on that var, Flutter will gladly say: “OK homie, peace out ✌️”.
+From that documentation text, implied that non-null inference can be done in a local scope. So if we define new local variable and do null check on that var, Flutter will gladly say: “OK homie, peace out ✌️”.
 
 ```diff
 diff --git a/lib/main.dart b/lib/main.dart
