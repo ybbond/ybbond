@@ -170,5 +170,27 @@
     "repost-of": "https://ybbond.id/",
     "wm-property": "repost-of",
     "wm-private": false
+  },
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "Yohanes Bandung Bondowoso",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/7ce3dc686022e41815bf6148c1a6a347650db9e77a5dbea5201b42940a3a74fe.png",
+      "url": "https://twitter.com/ybbond"
+    },
+    "url": "https://twitter.com/ybbond/status/1566746505955880960",
+    "published": "2022-09-05T11:14:10+00:00",
+    "wm-received": "2022-09-05T18:45:58Z",
+    "wm-id": 1511287,
+    "wm-source": "https://brid.gy/comment/twitter/ybbond/1566746505955880960/1566746505955880960",
+    "wm-target": "https://ybbond.id/",
+    "content": {
+      "html": "<a href=\"https://ybbond.id\">ybbond.id</a> :D\n<a class=\"u-mention\" href=\"https://twitter.com/dwinawan_\"></a>",
+      "text": "ybbond.id :D"
+    },
+    "in-reply-to": "https://ybbond.id/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
   }
 ]
