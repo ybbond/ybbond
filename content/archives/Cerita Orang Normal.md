@@ -25,7 +25,7 @@ berisi kasur tinggi dan peti tiga laci.
 dengar ?
 teriakan kolegaku di ruang sebelah?
 biasa saja. tidak spesial.
-vals tidak, merdu pun gak ada.
+_vals_ tidak, merdu pun gak ada.
 
 
 siapa itu di kaca pintu?
