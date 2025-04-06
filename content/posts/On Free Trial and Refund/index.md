@@ -41,7 +41,7 @@ The new Covid-19 pandemic that has been going more than half a year makes our li
 
 I have great understandings if a service's customer support got overwhelmed. But when I checked pinboard's [twitter account](https://twitter.com/pinboard), the account still actively tweets and replied at the same time I am waiting for their email reply. I even contacted Pinboard's twitter account by mentioning and Direct Message.
 
-{{< tweet 1273099013693280256 >}}
+{{< x user=ybbond id=1273099013693280256 >}}
 
 There is a chance my emails got detected as spam. I am well aware of that, so I write my refund requests as polite as possible:
 

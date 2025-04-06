@@ -10,7 +10,7 @@ tags:
 
 A few minutes ago, I opened twitter and scrolled the timeline. 
 
-{{< tweet 1254492579275526145 >}}
+{{< x user=ybbond id=1254492579275526145 >}}
 
 I laughed when I read that tweet. It brings back so much memories of my previous workplace.
 
