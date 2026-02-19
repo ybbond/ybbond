@@ -14,7 +14,9 @@ Currently **Senior Software Engineer** of [Pinhome.id](https://www.pinhome.id/) 
 
 ## Experiences
 
-- <time>2021 - now</time><br>**Senior Software Engineer** [@Pinhome](https://www.pinhome.id/)
+- <time>2025 - now</time><br>**Solutions Engineer Lead** [@Mekari](https://mekari.com/)
+Align with Engineers in Squad to ensure smooth execution of projects. Providing technical solutions and mitigate any blockers. I also plan the projects to be worked on. Day to day execution with Low Code platform or any supporting stacks.
+- <time>2021 - 2025</time><br>**Senior Software Engineer** [@Pinhome](https://www.pinhome.id/)
 Day-to-day tasks working on Web and Mobile applications.
 Led a project to migrate Firebase Dynamic Link to internal tooling.
 Improved the implementation of Dart build system speed.
